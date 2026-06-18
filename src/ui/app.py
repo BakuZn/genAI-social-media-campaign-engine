@@ -35,17 +35,17 @@ def main():
     with st.container():
         col1, col2 = st.columns(2)
         with col1:
-            event_name = st.text_input("Event Name", placeholder="e.g., Bayer Crop Science Summit 2024")
-            location = st.text_input("Location", placeholder="e.g., St. Louis, MO")
-            event_date = st.text_input("Date", placeholder="e.g., Oct 12-14, 2024")
-            target_audience = st.text_input("Target Audience", placeholder="e.g., Agronomists, Large-scale Farmers")
-            campaign_objective = st.text_input("Campaign Objective", placeholder="e.g., Drive event registrations")
+            event_name = st.text_input("Event Name")
+            location = st.text_input("Location")
+            event_date = st.text_input("Date")
+            target_audience = st.text_input("Target Audience")
+            campaign_objective = st.text_input("Campaign Objective")
         with col2:
-            state = st.text_input("State/Region", placeholder="e.g., Missouri")
-            crop = st.text_input("Primary Crop(s)", placeholder="e.g., Corn, Soybeans")
-            seed_product = st.text_input("Seed Products", placeholder="e.g., DEKALB®")
-            crop_protection = st.text_input("Crop Protection Products", placeholder="e.g., Roundup®")
-            key_messages = st.text_area("Key Messages", placeholder="e.g., Focus on yield potential and digital farming technology.")
+            state = st.text_input("State/Region")
+            crop = st.text_input("Primary Crop(s)")
+            seed_product = st.text_input("Seed Products")
+            crop_protection = st.text_input("Crop Protection Products")
+            key_messages = st.text_area("Key Messages")
 
     st.markdown("---")
     
