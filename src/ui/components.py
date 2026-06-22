@@ -62,18 +62,41 @@ def apply_bayer_theme():
         unsafe_allow_html=True
     )
 
-def render_post_preview_card(platform: str, post_content: str, lang: str):
+import urllib.parse
+
+def generate_platform_url(platform: str, content: str) -> str:
+    """Mock URL builder until url_utils.py is provided."""
+    plat_lower = platform.lower()
+    if "whatsapp" in plat_lower:
+        encoded_msg = urllib.parse.quote(content)
+        return f"https://wa.me/?text={encoded_msg}"
+    elif "linkedin" in plat_lower:
+        return "https://www.linkedin.com/feed/"
+    elif "facebook" in plat_lower:
+        return "https://www.facebook.com/"
+    elif "instagram" in plat_lower:
+        return "https://www.instagram.com/"
+    return "#"
+
+import base64
+
+def render_post_preview_card(platform: str, post_content: str, lang: str, image_bytes: bytes = None):
     """
     Renders an interactive, styled card matching the platform.
     """
     # Create the visually styled card
     st.markdown(f"""
     <div class="platform-box">
-        <div class="platform-header">{platform.capitalize()} · {lang}</div>
+        <div class="platform-header">{platform.title()} · {lang}</div>
         <div style="white-space: pre-wrap; margin-top: 15px; color: #2C3E50; line-height: 1.6;">{post_content}</div>
     </div>
     """, unsafe_allow_html=True)
     
-    # Provide a raw code block for easy copy-pasting
-    with st.expander(f"Copy Raw Text for {platform}"):
-        st.code(post_content, language="markdown")
+    # Action Row
+    col1, col2 = st.columns([1, 1])
+    with col1:
+        with st.popover("Copy Content"):
+            st.code(post_content, language="markdown")
+    with col2:
+        url = generate_platform_url(platform, post_content)
+        st.link_button(f"Open {platform.title()}", url, use_container_width=True)

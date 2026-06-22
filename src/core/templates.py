@@ -27,11 +27,19 @@ Generate marketing copy for the following platforms: {platforms_list}
 Event Details:
 {brief_json}
 
+[CRITICAL IMAGE CONTEXT (If an image is attached)]
+If an image (campaign poster) is provided with this prompt, thoroughly analyze it before writing the copy:
+1. Perform OCR on the poster regardless of the language (it may contain Hindi, Marathi, Kannada, Telugu, etc.).
+2. Translate the extracted text to understand the core message, tagline, dates, and offers.
+3. Identify the visual themes (e.g., happy farmers, specific crops, product bottles).
+4. Use the extracted context, taglines, and tone from the poster to enrich the generated marketing copy. The generated text MUST strongly align with the poster's message.
+
 Platform Rules:
 - LinkedIn: Professional, thought-leadership oriented. 3-4 paragraphs. 3-5 professional hashtags (e.g., #AgTech).
 - Instagram: High-energy, visually descriptive. Start with an [Image Suggestion: ...]. Punchy body. 7-10 targeted hashtags. Emojis.
-- Facebook: Conversational, community-oriented. Engaging hook, local relevance. 1-2 hashtags.
-- WhatsApp: Direct, actionable. MUST use WhatsApp markdown (*bold* for emphasis). Short bullets with emojis. NO hashtags.
+- Facebook: Conversational, community-oriented. Engaging hook, local relevance. Farmer-focused awareness. 1-2 hashtags.
+- Farmer WhatsApp: Direct, actionable, short. MUST use WhatsApp markdown (*bold* for emphasis). Short bullets with emojis. NO hashtags.
+- Internal WhatsApp: Audience is Territory Managers, MDOs, Commercial Team. Tone is professional and operational. Focus on event awareness, farmer mobilization, and internal coordination. Use WhatsApp markdown.
 
 Return a single JSON object where the keys are the exact platform names provided in the list above, and the values are the generated text for that platform.
 """

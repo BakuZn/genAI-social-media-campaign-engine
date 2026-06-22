@@ -15,7 +15,7 @@ class CampaignOrchestrator:
         self.llm_client = GeminiClient()
         self.translator = CampaignTranslator(self.llm_client)
 
-    def generate_campaign(self, event_data: dict, platforms: list, languages: list) -> dict:
+    def generate_campaign(self, event_data: dict, platforms: list, languages: list, image_bytes: bytes = None) -> dict:
         """
         Executes the Two-Stage Transcreation Workflow via Batch JSON.
         Returns a dictionary shaped: {language: {platform: generated_text}}
@@ -24,11 +24,11 @@ class CampaignOrchestrator:
         platforms_str = ", ".join(platforms)
         results = {}
         
-        # Stage 1: Generate English Master JSON for ALL platforms in 1 request
         prompt = BATCH_MASTER_PROMPT.format(platforms_list=platforms_str, brief_json=brief_json)
         english_master_text = self.llm_client.generate_campaign_post(
             prompt=prompt, 
-            system_instruction=BATCH_SYSTEM_PROMPT
+            system_instruction=BATCH_SYSTEM_PROMPT,
+            image_bytes=image_bytes
         )
         
         try:
@@ -36,7 +36,6 @@ class CampaignOrchestrator:
         except json.JSONDecodeError:
             english_master = {plat: "Error: LLM did not return valid JSON. Please try generating again." for plat in platforms}
         
-        # Stage 2: Localize/Transcreate to all target languages (1 request per language)
         for lang in languages:
             if lang.lower() in ["en", "english"]:
                 results[lang] = english_master

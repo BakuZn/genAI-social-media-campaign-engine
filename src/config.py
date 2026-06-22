@@ -5,7 +5,6 @@ Handles API keys, environment settings, and system-wide constants.
 import os
 from dotenv import load_dotenv
 
-# Load environment variables from the local .env file
 load_dotenv()
 
 def get_gemini_api_key() -> str:
@@ -14,5 +13,4 @@ def get_gemini_api_key() -> str:
     """
     return os.getenv("GEMINI_API_KEY")
 
-# Default model configuration
 DEFAULT_MODEL = "gemini-2.5-flash"
