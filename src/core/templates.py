@@ -24,15 +24,18 @@ Best Practices from High-Performing Examples:
 BATCH_MASTER_PROMPT = """
 Generate marketing copy for the following platforms: {platforms_list}
 
+CRITICAL LANGUAGE REQUIREMENT: This is the master generation step. ALL generated marketing copy MUST be 100% in ENGLISH. Even if the attached poster contains Kannada, Hindi, or Telugu text, you must translate it and output the final marketing copy strictly in English.
+
 Event Details:
 {brief_json}
 
 [CRITICAL IMAGE CONTEXT (If an image is attached)]
 If an image (campaign poster) is provided with this prompt, thoroughly analyze it before writing the copy:
-1. Perform OCR on the poster regardless of the language (it may contain Hindi, Marathi, Kannada, Telugu, etc.).
+1. Perform OCR on the poster regardless of the language.
 2. Translate the extracted text to understand the core message, tagline, dates, and offers.
 3. Identify the visual themes (e.g., happy farmers, specific crops, product bottles).
-4. Use the extracted context, taglines, and tone from the poster to enrich the generated marketing copy. The generated text MUST strongly align with the poster's message.
+4. Use the extracted context, taglines, and tone from the poster to enrich the generated English marketing copy. 
+5. If the Event Details above say "Custom Image Campaign" or are missing specific data like date/location, you MUST extract the missing details directly from the poster and use them.
 
 Platform Rules:
 - LinkedIn: Professional, thought-leadership oriented. 3-4 paragraphs. 3-5 professional hashtags (e.g., #AgTech).
@@ -41,5 +44,5 @@ Platform Rules:
 - Farmer WhatsApp: Direct, actionable, short. MUST use WhatsApp markdown (*bold* for emphasis). Short bullets with emojis. NO hashtags.
 - Internal WhatsApp: Audience is Territory Managers, MDOs, Commercial Team. Tone is professional and operational. Focus on event awareness, farmer mobilization, and internal coordination. Use WhatsApp markdown.
 
-Return a single JSON object where the keys are the exact platform names provided in the list above, and the values are the generated text for that platform.
+Return a single JSON object where the keys are the exact platform names provided in the list above, and the values are the generated English text for that platform.
 """

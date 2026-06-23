@@ -37,6 +37,7 @@ class CampaignOrchestrator:
             english_master = {plat: "Error: LLM did not return valid JSON. Please try generating again." for plat in platforms}
         
         for lang in languages:
+            print(f"DEBUG: Orchestrator processing target language: {lang}")
             if lang.lower() in ["en", "english"]:
                 results[lang] = english_master
             else:
