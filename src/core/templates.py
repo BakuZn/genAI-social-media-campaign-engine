@@ -39,8 +39,8 @@ If an image (campaign poster) is provided with this prompt, thoroughly analyze i
 
 Platform Rules:
 - LinkedIn: Professional, thought-leadership oriented. 3-4 paragraphs. 3-5 professional hashtags (e.g., #AgTech).
-- Instagram: High-energy, visually descriptive. Start with an [Image Suggestion: ...]. Punchy body. 7-10 targeted hashtags. Emojis.
-- Facebook: Conversational, community-oriented. Engaging hook, local relevance. Farmer-focused awareness. 1-2 hashtags.
+- Instagram: High-energy, visually descriptive. Start with an [Image Suggestion: ...]. Punchy body. Maximize reach with 15-20 highly targeted agricultural and trending hashtags. Emojis.
+- Facebook: Conversational, community-oriented. Engaging hook, local relevance. Farmer-focused awareness. Maximize reach with 10-15 highly targeted agricultural hashtags.
 - Farmer WhatsApp: Direct, actionable, short. MUST use WhatsApp markdown (*bold* for emphasis). Short bullets with emojis. NO hashtags.
 - Internal WhatsApp: Audience is Territory Managers, MDOs, Commercial Team. Tone is professional and operational. Focus on event awareness, farmer mobilization, and internal coordination. Use WhatsApp markdown.
 

@@ -1,0 +1,234 @@
+=== NESTED GEOGRAPHY (For MS Forms Branching) ===
+
+To implement 'nested' options in MS Forms, you must use Branching.
+Create a section for each State. If a user selects 'Maharashtra', branch them to the 'Maharashtra' section to choose Regions/Territories.
+
+STATE: Andhra Pradesh
+  └── REGION: Krishna
+      └── TERRITORY: Anantapur
+      └── TERRITORY: Guntur, Ananthapur
+      └── TERRITORY: Guntur,Anantapur
+      └── TERRITORY: Hyderabad
+      └── TERRITORY: Warangal,Hyderabad, Khammam
+
+STATE: Bihar
+  └── REGION: Bhagirathi
+      └── TERRITORY: Hazaribagh
+      └── TERRITORY: Patna,Bhagalpur
+      └── TERRITORY: Patna,Muzaffarpur,Darbhanga,Katihar,Bhagalpur
+      └── TERRITORY: Ranchi,Hazaribagh
+      └── TERRITORY: Ranchi,Katihar,Patna,Bhagalpur
+
+STATE: Chattisgarh
+  └── REGION: Narmada
+      └── TERRITORY: Chhindwara, Mahakaushal
+      └── TERRITORY: Chhindwara, Sagar, Shivpuri, Mahakaushal
+      └── TERRITORY: Raipur & Ambikapur
+      └── TERRITORY: Ratlam, Indore
+      └── TERRITORY: Shivpuri, Sagar, Chhindwara,Mahakaushal,Indore,Bhopal
+
+STATE: Gujarat
+  └── REGION: Sabarmati
+      └── TERRITORY: Jaipur, Alwar, Kota and Jodhpur
+      └── TERRITORY: Jodhpur
+      └── TERRITORY: Kota, Jaipur, Jodhpur & Alwar
+      └── TERRITORY: Saurashtra
+      └── TERRITORY: Saurashtra & Vadodara
+      └── TERRITORY: Saurashtra and  Vadodara
+      └── TERRITORY: Vadodara and Saurashtra
+
+STATE: Haryana
+  └── REGION: Raavee
+      └── TERRITORY: Jammu
+      └── TERRITORY: Karnal
+      └── TERRITORY: Karnal, Hisar
+      └── TERRITORY: Mandi, Solan
+      └── TERRITORY: Patiala
+      └── TERRITORY: Patiala, Jalandhar
+
+STATE: Himachal Pradesh
+  └── REGION: Raavee
+      └── TERRITORY: Jammu
+      └── TERRITORY: Karnal
+      └── TERRITORY: Karnal, Hisar
+      └── TERRITORY: Mandi, Solan
+      └── TERRITORY: Patiala
+      └── TERRITORY: Patiala, Jalandhar
+
+STATE: J & K
+  └── REGION: Raavee
+      └── TERRITORY: Jammu
+      └── TERRITORY: Karnal
+      └── TERRITORY: Karnal, Hisar
+      └── TERRITORY: Mandi, Solan
+      └── TERRITORY: Patiala
+      └── TERRITORY: Patiala, Jalandhar
+
+STATE: Jharkhand
+  └── REGION: Bhagirathi
+      └── TERRITORY: Hazaribagh
+      └── TERRITORY: Patna,Bhagalpur
+      └── TERRITORY: Patna,Muzaffarpur,Darbhanga,Katihar,Bhagalpur
+      └── TERRITORY: Ranchi,Hazaribagh
+      └── TERRITORY: Ranchi,Katihar,Patna,Bhagalpur
+
+STATE: Jharkhand/Bihar
+  └── REGION: Bhagirathi
+      └── TERRITORY: Hazaribagh
+      └── TERRITORY: Patna,Bhagalpur
+      └── TERRITORY: Patna,Muzaffarpur,Darbhanga,Katihar,Bhagalpur
+      └── TERRITORY: Ranchi,Hazaribagh
+      └── TERRITORY: Ranchi,Katihar,Patna,Bhagalpur
+
+STATE: Karnataka
+  └── REGION: Cauvery
+      └── TERRITORY: Banagalore, Hassan
+      └── TERRITORY: Banagalore, Mysore, Hassan
+      └── TERRITORY: Belgaum
+      └── TERRITORY: Davangere
+
+STATE: Madhya Pradesh
+  └── REGION: Narmada
+      └── TERRITORY: Chhindwara, Mahakaushal
+      └── TERRITORY: Chhindwara, Sagar, Shivpuri, Mahakaushal
+      └── TERRITORY: Raipur & Ambikapur
+      └── TERRITORY: Ratlam, Indore
+      └── TERRITORY: Shivpuri, Sagar, Chhindwara,Mahakaushal,Indore,Bhopal
+
+STATE: Maharashtra
+  └── REGION: Godavari
+      └── TERRITORY: Ahmednagar, Satara, Sangli, Solapur
+      └── TERRITORY: Aurangabad, Sangli, Palghar
+      └── TERRITORY: Nagpur
+      └── TERRITORY: Nashik, Palghar, Satara, Solapur, Aurangabad
+      └── TERRITORY: Sangli, Nashik, Ahmednagar, Solapur
+      └── TERRITORY: Satara, Ahmednagar
+
+STATE: Odisha
+  └── REGION: Brahmaputra
+      └── TERRITORY: Barasat, Durgapur, North Bengal
+      └── TERRITORY: Bhubaneswar, Bhawanipatna, Berhampore
+
+STATE: Punjab
+  └── REGION: Raavee
+      └── TERRITORY: Jammu
+      └── TERRITORY: Karnal
+      └── TERRITORY: Karnal, Hisar
+      └── TERRITORY: Mandi, Solan
+      └── TERRITORY: Patiala
+      └── TERRITORY: Patiala, Jalandhar
+
+STATE: Rajasthan
+  └── REGION: Sabarmati
+      └── TERRITORY: Jaipur, Alwar, Kota and Jodhpur
+      └── TERRITORY: Jodhpur
+      └── TERRITORY: Kota, Jaipur, Jodhpur & Alwar
+      └── TERRITORY: Saurashtra
+      └── TERRITORY: Saurashtra & Vadodara
+      └── TERRITORY: Saurashtra and  Vadodara
+      └── TERRITORY: Vadodara and Saurashtra
+
+STATE: Telangana
+  └── REGION: Krishna
+      └── TERRITORY: Anantapur
+      └── TERRITORY: Guntur, Ananthapur
+      └── TERRITORY: Guntur,Anantapur
+      └── TERRITORY: Hyderabad
+      └── TERRITORY: Warangal,Hyderabad, Khammam
+
+STATE: UP & UK
+  └── REGION: Ganga
+      └── TERRITORY: All
+      └── TERRITORY: Meerut, Aligarh, Bareilly, Varanasi, Kanpur, Dehradun
+      └── TERRITORY: Varanasi, Allahabad, Bareilly
+
+STATE: West Bengal
+  └── REGION: Brahmaputra
+      └── TERRITORY: Barasat, Durgapur, North Bengal
+      └── TERRITORY: Bhubaneswar, Bhawanipatna, Berhampore
+
+
+=========================================
+=== FLAT LISTS (For standard questions) ===
+=========================================
+
+=== ALL CROPS ===
+Cabbage
+Cauliflower
+Cucumber
+Hot Pepper
+Melon
+Sweet Pepper
+Tomato
+
+=== ALL SEED PRODUCTS (Varieties) ===
+ABHILASH
+Abhilash
+Adhiraaj
+Arunim
+Aryaman
+Dawn175
+Firestrom
+Green Challenger
+Hiranya
+Huntington
+Indu
+Kirtiman
+Megha/Barkha Combined
+Millenium 111
+Rohit2
+Royal Cross Plus
+Rudhira
+SV1865PB
+SV4051AC
+SVHA0786
+SVHA1049
+SVHA1452
+SVHA2222
+SVHA8913
+Tunga Byadgi
+Wonder Ball
+Wonder Hot
+Zoha
+
+=== ALL CP PRODUCTS ===
+ACKBAY
+Acerbo
+Alanto
+Aliette (drench)
+Ambition
+Antracol
+Antracol/Buenos
+Buenos / Nativo
+Camalus
+Decis
+EverGol Xtend
+Felujit (drench)
+Folicur (drench)
+Gaucho (drench)
+Infinite
+Infinito
+Jump
+Jump + Alanto
+Jump + Movento OD
+Lesenta (drench)
+Luna Experience
+Movento
+Nativo
+Nativo / Luna Experience
+Oberon
+Oberon / Movento E
+Other MoA (Competitor)
+Regent Ultra
+Rhapsody
+Rhapsody (drench)
+Sivanto / Solomon
+Solomon
+Spintor
+Trance
+Velum
+Velum Prime (drench)
+Velum prime
+Whipsuper
+Xivana Smart
+

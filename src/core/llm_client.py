@@ -3,10 +3,15 @@ LLM Client wrapper. Interfaces with the Google Gemini API
 and handles generation requests securely.
 """
 import io
+import time
+import logging
 from PIL import Image
 from google import genai
 from google.genai import types
+from google.genai.errors import APIError
 from config import get_gemini_api_key, DEFAULT_MODEL
+
+logger = logging.getLogger(__name__)
 
 class GeminiClient:
     def __init__(self, api_key: str = None):
@@ -35,17 +40,29 @@ class GeminiClient:
             response_mime_type="application/json"
         )
         
-        contents = [prompt]
-        if image_bytes:
+        max_retries = 5
+        for attempt in range(max_retries):
+            # Recreate contents (and Image stream) on every attempt to prevent EOF/hang bugs
+            contents = [prompt]
+            if image_bytes:
+                try:
+                    img = Image.open(io.BytesIO(image_bytes))
+                    contents.append(img)
+                except Exception as e:
+                    logger.error("Failed to load image: %s", e)
+            
             try:
-                img = Image.open(io.BytesIO(image_bytes))
-                contents.append(img)
-            except Exception as e:
-                print(f"Failed to load image: {e}")
-        
-        response = self.client.models.generate_content(
-            model=self.model_name,
-            contents=contents,
-            config=config
-        )
-        return response.text
+                response = self.client.models.generate_content(
+                    model=self.model_name,
+                    contents=contents,
+                    config=config
+                )
+                return response.text
+            except APIError as e:
+                # Catch specific API errors (like 503, 429) and apply exponential backoff
+                if attempt < max_retries - 1:
+                    wait_time = 2 ** attempt
+                    logger.warning("API Error encountered. Retrying in %s seconds... (Attempt %s/%s) - Error: %s", wait_time, attempt + 1, max_retries, e)
+                    time.sleep(wait_time)
+                else:
+                    raise e

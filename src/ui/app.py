@@ -18,40 +18,15 @@ from ui.components import (
     render_asset_card
 )
 from core.orchestrator import CampaignOrchestrator
+from data.parser import parse_csv_events
 
-def mock_parse_csv(df):
-    """Temporary mock parser until colleague's data_parser.py is ready."""
-    events = []
-    for _, row in df.iterrows():
-        event_name = row.get("Title", "Unknown Event")
-        date = row.get("Event Date", "Unknown Date")
-        territory = row.get("Territory", "Unknown Territory")
-        location_raw = row.get("Event Location", "Unknown Location")
-        
-        if pd.isna(location_raw):
-            location = "Unknown Location"
-        elif "DisplayName" in str(location_raw):
-            try:
-                import json
-                loc_dict = json.loads(location_raw)
-                location = loc_dict.get("DisplayName", "Unknown Location")
-            except:
-                location = str(location_raw)[:30]
-        else:
-            location = str(location_raw)
 
-        events.append({
-            "event_name": event_name,
-            "date": date,
-            "territory": territory,
-            "location": location,
-            "objective": row.get("Objective / Purpose", ""),
-            "estimated_farmers": row.get("Estimated Farmers", 0),
-            "product_focus": row.get("Product /Combo Focus", ""),
-            "participants": row.get("Participants from Commercial(CP + Seminis)", ""),
-            "group_lob": row.get("Group / LOB", "")
-        })
-    return events
+
+@st.cache_data(show_spinner=False)
+def generate_campaign_cached(selected_event, platforms, languages, image_bytes):
+    """Cached wrapper for the campaign generation orchestration."""
+    orchestrator = CampaignOrchestrator()
+    return orchestrator.generate_campaign(selected_event, platforms, languages, image_bytes=image_bytes)
 
 def main():
     st.set_page_config(
@@ -63,9 +38,6 @@ def main():
     # 1. Apply Corporate Theme & Fixed Header
     apply_bayer_theme()
     render_compact_header()
-    
-    # Hardcoded API Key as requested
-    os.environ["GEMINI_API_KEY"] = "AQ.Ab8RN6JFx9NS0qf6nd0SLvaiC375PG_RLhxv9f8KuuXOLncLHw"
 
     # Workspace Grid Layout
     left_col, right_col = st.columns([1, 2.5], gap="large")
@@ -74,7 +46,9 @@ def main():
     languages = []
     platforms = []
     image_bytes = None
-    generate_clicked = False
+    
+    if "generate_clicked" not in st.session_state:
+        st.session_state.generate_clicked = False
     
     # ================= LEFT COLUMN: OPERATIONS PANEL =================
     with left_col:
@@ -91,7 +65,7 @@ def main():
             if uploaded_file:
                 try:
                     df = pd.read_csv(uploaded_file)
-                    events = mock_parse_csv(df)
+                    events = parse_csv_events(df)
                 except Exception as e:
                     st.error(f"Data error: {e}")
 
@@ -141,11 +115,14 @@ def main():
                 is_disabled = (len(languages) == 0) or (len(platforms) == 0)
                 
                 # Dynamic Button State
-                btn_placeholder = st.empty()
-                if btn_placeholder.button("▶ Execute Campaign Generation", use_container_width=True, disabled=is_disabled):
-                    # Instantly swap button to disabled generating state
-                    btn_placeholder.button("⟳ Generating Campaign Assets...", use_container_width=True, disabled=True)
-                    generate_clicked = True
+                btn_col1, btn_col2 = st.columns([2.5, 1])
+                with btn_col1:
+                    if st.button("▶ Execute Campaign Generation", use_container_width=True, disabled=is_disabled):
+                        st.session_state.generate_clicked = True
+                with btn_col2:
+                    if st.button("🔄 Force Regenerate", help="Clears memory to generate fresh variations.", use_container_width=True, disabled=is_disabled):
+                        generate_campaign_cached.clear()
+                        st.session_state.generate_clicked = True
 
     # ================= RIGHT COLUMN: CONTEXT & INSIGHTS =================
     with right_col:
@@ -179,12 +156,12 @@ def main():
                     </div>
                     """, unsafe_allow_html=True)
 
-            if not generate_clicked and not is_disabled:
+            if not st.session_state.generate_clicked and not is_disabled:
                 st.markdown("<hr style='border: none; border-top: 1px solid #e2e8f0; margin: 30px 0;'>", unsafe_allow_html=True)
                 st.info("No campaign assets generated yet. Execute campaign generation to begin.")
 
             # Generate Action execution
-            if generate_clicked:
+            if st.session_state.generate_clicked:
                 st.markdown("<hr style='border: none; border-top: 1px solid #e2e8f0; margin: 30px 0;'>", unsafe_allow_html=True)
                 st.markdown("<h4 style='color: #0f172a; margin-bottom: 20px;'>Generated Marketing Assets</h4>", unsafe_allow_html=True)
                 
@@ -201,8 +178,9 @@ def main():
                         time.sleep(0.5)
                         
                         status.update(label="⟳ Generating Multilingual Content via Gemini...", state="running")
-                        orchestrator = CampaignOrchestrator()
-                        campaign_results = orchestrator.generate_campaign(selected_event, platforms, languages, image_bytes=image_bytes)
+                        
+                        # Call the cached function instead of orchestrator directly
+                        campaign_results = generate_campaign_cached(selected_event, platforms, languages, image_bytes)
                         
                         status.update(label="Campaign Assets Generated Successfully", state="complete", expanded=False)
                         
@@ -221,8 +199,13 @@ def main():
                                     st.markdown("<div style='height:20px;'></div>", unsafe_allow_html=True)
                     
                     except Exception as e:
-                        status.update(label=f"Error: {str(e)}", state="error")
-                        st.error(f"Error during API execution: {str(e)}")
+                        error_str = str(e).lower()
+                        if "503" in error_str or "429" in error_str or "unavailable" in error_str or "quota" in error_str:
+                            status.update(label="AI Service Experiencing High Demand", state="error")
+                            st.error("Google Gemini servers are currently overloaded. Background retries failed. Please wait a minute and try again.")
+                        else:
+                            status.update(label="Error Generating Campaign", state="error")
+                            st.error(f"Error during API execution: {str(e)}")
 
 if __name__ == "__main__":
     main()
