@@ -6,6 +6,7 @@ import json
 from core.llm_client import GeminiClient
 from core.templates import BATCH_SYSTEM_PROMPT, BATCH_MASTER_PROMPT
 from translators.translator import CampaignTranslator
+from core.rag import ProductKnowledgeRetriever
 
 class CampaignOrchestrator:
     def __init__(self):
@@ -14,6 +15,7 @@ class CampaignOrchestrator:
         """
         self.llm_client = GeminiClient()
         self.translator = CampaignTranslator(self.llm_client)
+        self.rag_retriever = ProductKnowledgeRetriever()
 
     def generate_campaign(self, event_data: dict, platforms: list, languages: list, image_bytes: bytes = None) -> dict:
         """
@@ -22,9 +24,20 @@ class CampaignOrchestrator:
         """
         brief_json = json.dumps(event_data, indent=2)
         platforms_str = ", ".join(platforms)
+        
+        # Retrieve RAG context based on product focus or objective
+        query = f"{event_data.get('product_focus', '')} {event_data.get('objective', '')}"
+        product_knowledge = self.rag_retriever.retrieve_context(query)
+        if not product_knowledge:
+            product_knowledge = "No specific product knowledge retrieved from the manual."
+
         results = {}
         
-        prompt = BATCH_MASTER_PROMPT.format(platforms_list=platforms_str, brief_json=brief_json)
+        prompt = BATCH_MASTER_PROMPT.format(
+            platforms_list=platforms_str, 
+            brief_json=brief_json,
+            product_knowledge=product_knowledge
+        )
         english_master_text = self.llm_client.generate_campaign_post(
             prompt=prompt, 
             system_instruction=BATCH_SYSTEM_PROMPT,

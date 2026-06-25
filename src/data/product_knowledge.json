@@ -1,0 +1,133 @@
+{
+    "Arize": {
+        "description": "Bayer introduced hybrid rice seed in India in 1995 under the brand name Arize with an objective to improve rice productivity, especially amongst smallholder farmers. Arize has been instrumental in increasing farm incomes of millions of farmers in India for 25+ years, thereby delivering on its promise of 'Better Rice, Better Life'. With its capabilities in breeding, development, production and marketing of high-quality, genetically superior hybrid rice seeds, Arize caters to multiple farmer requirements pertaining to graintype, duration, landtype etc. It continues to empower farmers across the country with a sense of control that it offers them with its consistent yield and reliable performance in the most challenging conditions.",
+        "features": [
+            "Leader brand in terms of yield (vs hybrids as well as inbred)",
+            "Better Adaptability in adverse agro-climatic conditions - less requirement of water.",
+            "Tolerance to pests & diseases.",
+            "High performance seeds with native traits, offering tolerance against Brown Plant Hopper (BPH) & Bacterial Leaf Blight (BLB).",
+            "Consistent yield",
+            "Reliable performance in the most challenging conditions."
+        ],
+        "target_audience": "Smallholder farmers, farmers looking to improve rice productivity, farmers dealing with challenges and uncertainties related to climate change, water, pests, diseases, farmers seeking consistent yield and ROI."
+    },
+    "Arize 6444 Gold": {
+        "description": "India's highest selling hybrid rice.",
+        "features": [
+            "Resistant to BLB",
+            "Consistently yielding 20-25% higher than popular inbred varieties",
+            "Medium duration (130-135 days)",
+            "Higher number of productive tillers per plant (13-15)",
+            "Wider adaptability",
+            "Suitable for Direct Seeded Rice (DSR) system",
+            "Notified by Government of India",
+            "Medium slender Grain",
+            "More grains per panicle (250-300)"
+        ],
+        "target_audience": ""
+    },
+    "Arize 6585 ST": {
+        "description": "",
+        "features": [
+            "Slender grain type",
+            "Early duration"
+        ],
+        "target_audience": ""
+    },
+    "Arize Taj Gold": {
+        "description": "",
+        "features": [
+            "Slender grain type",
+            "Mid Early duration"
+        ],
+        "target_audience": ""
+    },
+    "Arize 6741": {
+        "description": "",
+        "features": [
+            "Slender grain type",
+            "Medium duration"
+        ],
+        "target_audience": ""
+    },
+    "Arize 6201 Gold": {
+        "description": "",
+        "features": [
+            "Slender grain type",
+            "Medium duration"
+        ],
+        "target_audience": ""
+    },
+    "Arize 6129 Gold": {
+        "description": "",
+        "features": [
+            "Medium grain type",
+            "Medium duration"
+        ],
+        "target_audience": ""
+    },
+    "Arize 8433 DT": {
+        "description": "",
+        "features": [
+            "Medium grain type",
+            "Medium duration"
+        ],
+        "target_audience": ""
+    },
+    "Arize Dhani DT": {
+        "description": "",
+        "features": [
+            "Medium grain type",
+            "Medium duration"
+        ],
+        "target_audience": ""
+    },
+    "Arize Swift Gold": {
+        "description": "",
+        "features": [
+            "Slender grain type",
+            "Late duration"
+        ],
+        "target_audience": ""
+    },
+    "Arize 8455 DT": {
+        "description": "Slated for launch in 2024.",
+        "features": [
+            "Slender grain type",
+            "Late duration"
+        ],
+        "target_audience": ""
+    },
+    "Arize 6555 ST": {
+        "description": "Slated for launch in 2024.",
+        "features": [
+            "Medium grain type",
+            "Late duration"
+        ],
+        "target_audience": ""
+    },
+    "Arize Bold": {
+        "description": "",
+        "features": [
+            "Bold grain type",
+            "Short duration"
+        ],
+        "target_audience": ""
+    },
+    "Arize 6677 ST": {
+        "description": "Slated for launch in 2024.",
+        "features": [
+            "Slender grain type",
+            "Short duration",
+            "High Yield",
+            "Medium duration",
+            "Short Slender Grain",
+            "Long and Dense Panicle",
+            "Stable and high fertility",
+            "Resistant to BLB",
+            "Lodging tolerant",
+            "Good crop appeal"
+        ],
+        "target_audience": ""
+    }
+}

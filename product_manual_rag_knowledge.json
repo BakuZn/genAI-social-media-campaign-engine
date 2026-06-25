@@ -1,0 +1,831 @@
+{
+  "metadata": {
+    "source": "Product Manual 2023",
+    "page_range": "27-288",
+    "publisher": "Bayer Seminis",
+    "total_chunks": 117,
+    "seed_varieties": 71,
+    "crop_protection_products": 46
+  },
+  "chunks": [
+    {
+      "chunk_id": "seed_svtd8323",
+      "category": "seed",
+      "product_name": "SVTD8323",
+      "crop": "Tomato",
+      "text": "Product: SVTD8323\nCategory: Vegetable Seed Variety\nCrop: Tomato\nSegment: Rainy/Summer\nPlant Type: Strong and vigorous\nFruit Colour: Deep Red\nAverage Fruit Weight: 80-90 g\nFruit Shape: Round\nDays to 1st Harvest: 60-65 days after transplanting\nProminent green shoulder, high-quality fruits, high yield"
+    },
+    {
+      "chunk_id": "seed_saksham",
+      "category": "seed",
+      "product_name": "SAKSHAM",
+      "crop": "Tomato",
+      "text": "Product: SAKSHAM\nCategory: Vegetable Seed Variety\nCrop: Tomato\nSegment: Rainy/Summer\nPlant Type: Strong and vigorous\nFruit Colour: Deep red\nAverage Fruit Weight: 90-110 g\nDays to 1st Harvest: 65-70 days after transplanting\nHigh yield, best disease package, very attractive fruit"
+    },
+    {
+      "chunk_id": "seed_ashutosh",
+      "category": "seed",
+      "product_name": "Ashutosh",
+      "crop": "Tomato",
+      "text": "Product: Ashutosh\nCategory: Vegetable Seed Variety\nCrop: Tomato\nSegment: Rainy/Summer\nPlant Type: Strong and vigorous\nFruit Colour: Deep red\nAverage Fruit Weight: 80-100 g\nDays to 1st Harvest: 60-65 days after transplanting"
+    },
+    {
+      "chunk_id": "seed_kaushal",
+      "category": "seed",
+      "product_name": "Kaushal",
+      "crop": "Tomato",
+      "text": "Product: Kaushal\nCategory: Vegetable Seed Variety\nCrop: Tomato\nSegment: Rainy\nPlant Type: Strong\nFruit Colour: Attractive Red\nAverage Fruit Weight: 80-100 g\nDays to 1st Harvest: 65-70 days after transplanting\nBest round tomato for rainy season"
+    },
+    {
+      "chunk_id": "seed_shivang",
+      "category": "seed",
+      "product_name": "Shivang",
+      "crop": "Tomato",
+      "text": "Product: Shivang\nCategory: Vegetable Seed Variety\nCrop: Tomato\nSegment: Rainy/Summer\nPlant Type: Strong & vigorous\nFruit Colour: Attractive Red\nAverage Fruit Weight: 100-110 g\nFirmness & Shelf life: Excellent with high shelf life\nDays to 1st Harvest: 60-65 days after transplanting"
+    },
+    {
+      "chunk_id": "seed_agastya",
+      "category": "seed",
+      "product_name": "Agastya",
+      "crop": "Tomato",
+      "text": "Product: Agastya\nCategory: Vegetable Seed Variety\nCrop: Tomato\nSegment: Rainy/Summer\nPlant Type: Strong & vigorous\nFruit Colour: Attractive Red\nAverage Fruit Weight: 100-110 g\nDays to 1st Harvest: 60-65 days after transplanting"
+    },
+    {
+      "chunk_id": "seed_yoddha",
+      "category": "seed",
+      "product_name": "Yoddha",
+      "crop": "Tomato",
+      "text": "Product: Yoddha\nCategory: Vegetable Seed Variety\nCrop: Tomato\nSegment: FOS Rainy\nPlant Type: Strong and vigorous\nAvg Fruit Weight: 90-100 g\nFruit Shape: Square round\nFruit Firmness: Excellent\nDisease Tolerance: Excellent\nDays to 1st Harvest: 65-70 days after transplanting\nExcellent early blight and disease package; no size reduction over picking"
+    },
+    {
+      "chunk_id": "seed_kirtiman",
+      "category": "seed",
+      "product_name": "Kirtiman",
+      "crop": "Tomato",
+      "text": "Product: Kirtiman\nCategory: Vegetable Seed Variety\nCrop: Tomato\nSegment: FOS Rainy\nPlant Type: Strong and vigorous\nAvg Fruit Weight: 90-110 g\nFruit Firmness: Excellent\nDays to 1st Harvest: 65-70 days after transplanting"
+    },
+    {
+      "chunk_id": "seed_aryaman",
+      "category": "seed",
+      "product_name": "Aryaman",
+      "crop": "Tomato",
+      "text": "Product: Aryaman\nCategory: Vegetable Seed Variety\nCrop: Tomato\nSegment: FOS Summer\nPlant Type: Determinate\nFruit Colour: Attractive Red\nAverage Fruit Weight: 90-100 g\nDays to 1st Harvest: 55-60 days after transplanting"
+    },
+    {
+      "chunk_id": "seed_aditya",
+      "category": "seed",
+      "product_name": "Aditya",
+      "crop": "Tomato",
+      "text": "Product: Aditya\nCategory: Vegetable Seed Variety\nCrop: Tomato\nSegment: FOS Summer\nPlant Type: Strong & Robust\nFruit Colour: Deep Red\nAverage Fruit Weight: 80-90 g\nDays to 1st Harvest: 75-80 days after transplanting"
+    },
+    {
+      "chunk_id": "seed_ayushman",
+      "category": "seed",
+      "product_name": "Ayushman",
+      "crop": "Tomato",
+      "text": "Product: Ayushman\nCategory: Vegetable Seed Variety\nCrop: Tomato\nSegment: FOS Summer\nPlant Type: Strong & Vigorous\nFruit Colour: Attractive Red\nAverage Fruit Weight: 90-100 g\nDays to 1st Harvest: 60-65 days after transplanting"
+    },
+    {
+      "chunk_id": "seed_ansal",
+      "category": "seed",
+      "product_name": "ANSAL",
+      "crop": "Tomato",
+      "text": "Product: ANSAL\nCategory: Vegetable Seed Variety\nCrop: Tomato\nSegment: FOS Summer\nPlant Type: Indeterminate & Vigorous\nFruit Colour: Attractive Red\nAverage Fruit Weight: 90-100 g\nFruit Shape: Round\nDays to 1st Harvest: 60-65 days after transplanting\nBest round tomato for summer season; better disease package"
+    },
+    {
+      "chunk_id": "seed_mihir",
+      "category": "seed",
+      "product_name": "Mihir",
+      "crop": "Tomato",
+      "text": "Product: Mihir\nCategory: Vegetable Seed Variety\nCrop: Tomato\nSegment: FOS Summer\nPlant Type: Strong & Vigorous\nFruit Colour: Deep red\nAverage Fruit Weight: 90-110 g\nDays to 1st Harvest: 60-65 days after transplanting\nFirm fruit, high yield, good transportability"
+    },
+    {
+      "chunk_id": "seed_virang",
+      "category": "seed",
+      "product_name": "VIRANG",
+      "crop": "Tomato",
+      "text": "Product: VIRANG\nCategory: Vegetable Seed Variety\nCrop: Tomato\nSegment: FOS Summer\nPlant Type: Strong and vigorous\nFruit Colour: Deep red at maturity\nAverage Fruit Weight: 90-110 g\nDays to 1st Harvest: 60-65 days after transplanting"
+    },
+    {
+      "chunk_id": "seed_abhirang",
+      "category": "seed",
+      "product_name": "Abhirang",
+      "crop": "Tomato",
+      "text": "Product: Abhirang\nCategory: Vegetable Seed Variety\nCrop: Tomato\nSegment: FIR\nPlant Type: Strong\nFruit Colour: Attractive Deep Red\nAverage Fruit Weight: 90-100 g\nDays to 1st Harvest: 70-75 days after transplanting\nUltra-firm fruit"
+    },
+    {
+      "chunk_id": "seed_sv4224th",
+      "category": "seed",
+      "product_name": "SV4224TH",
+      "crop": "Tomato",
+      "text": "Product: SV4224TH\nCategory: Vegetable Seed Variety\nCrop: Tomato\nSegment: FIR\nPlant Type: Strong and Indeterminate\nFruit Colour: Deep Red\nAverage Fruit Weight: 150-220 g\nFruit Shape: High Round\nDays to 1st Harvest: 65-70 days after transplanting"
+    },
+    {
+      "chunk_id": "seed_atharva",
+      "category": "seed",
+      "product_name": "Atharva",
+      "crop": "Tomato",
+      "text": "Product: Atharva\nCategory: Vegetable Seed Variety\nCrop: Tomato\nSegment: Cherry Red Round\nPlant Type: Strong & vigorous\nFruit Colour: Deep Red\nAverage Fruit Weight: 90-110 g\nFirmness & Shelf life: Very good, 8-12 days\nDays to 1st Harvest: 65-70 days after transplanting"
+    },
+    {
+      "chunk_id": "seed_juanita",
+      "category": "seed",
+      "product_name": "JUANITA",
+      "crop": "Tomato",
+      "text": "Product: JUANITA\nCategory: Vegetable Seed Variety\nCrop: Tomato\nSegment: Cherry Red Round\nAverage Fruit Weight: 10-15 g\nBrix: 8-9%\nFruits per Cluster: 20-30\nHigh yield potential hybrid\nSuitable for truss/cluster and loose harvests\nExcellent taste with attractive red colour"
+    },
+    {
+      "chunk_id": "seed_tejal",
+      "category": "seed",
+      "product_name": "Tejal",
+      "crop": "Hot Pepper",
+      "text": "Product: Tejal\nCategory: Vegetable Seed Variety\nCrop: Hot Pepper\nPlant Type: Semi erect, strong plant\nFruit Colour: Dark green & shiny red\nDays to 1st Harvest: 110-115 days after transplanting\nPungency: <10K SHU"
+    },
+    {
+      "chunk_id": "seed_sitara",
+      "category": "seed",
+      "product_name": "Sitara",
+      "crop": "Hot Pepper",
+      "text": "Product: Sitara\nCategory: Vegetable Seed Variety\nCrop: Hot Pepper\nPlant Type: Semi Erect\nPungency: <10K SHU"
+    },
+    {
+      "chunk_id": "seed_guntur_hope",
+      "category": "seed",
+      "product_name": "Guntur Hope",
+      "crop": "Hot Pepper",
+      "text": "Product: Guntur Hope\nCategory: Vegetable Seed Variety\nCrop: Hot Pepper\nPlant Type: Strong\nPungency: High\nExcellent dry quality; preferred by processors"
+    },
+    {
+      "chunk_id": "seed_wonder_hot",
+      "category": "seed",
+      "product_name": "Wonder Hot",
+      "crop": "Hot Pepper",
+      "text": "Product: Wonder Hot\nCategory: Vegetable Seed Variety\nCrop: Hot Pepper\nPlant Type: Very strong with dark green foliage\nDays to 1st Harvest: 65-70 days after transplanting"
+    },
+    {
+      "chunk_id": "seed_svha0786",
+      "category": "seed",
+      "product_name": "SVHA0786",
+      "crop": "Hot Pepper",
+      "text": "Product: SVHA0786\nCategory: Vegetable Seed Variety\nCrop: Hot Pepper\nPlant Type: Semi Spreading\nFruit Length: 16-17 cm\nPungency: Medium (30-35K SHU)\nDisease Tolerance: CLCV tolerance\nDays to 1st Harvest: 62-65 days after transplanting\nFresh long medium pungency"
+    },
+    {
+      "chunk_id": "seed_svha1049",
+      "category": "seed",
+      "product_name": "SVHA1049",
+      "crop": "Hot Pepper",
+      "text": "Product: SVHA1049\nCategory: Vegetable Seed Variety\nCrop: Hot Pepper\nPlant Type: Semi-erect\nFruit Length: 14-17 cm\nPungency: Medium (40-50K SHU)\nDays to 1st Harvest: 55-60 days after transplanting"
+    },
+    {
+      "chunk_id": "seed_svha8913",
+      "category": "seed",
+      "product_name": "SVHA8913",
+      "crop": "Hot Pepper",
+      "text": "Product: SVHA8913\nCategory: Vegetable Seed Variety\nCrop: Hot Pepper\nFruit Length: 15-17 cm\nPungency: Low (<5K SHU)\nDays to 1st Harvest: 115-120 days (red dry)"
+    },
+    {
+      "chunk_id": "seed_svha9093",
+      "category": "seed",
+      "product_name": "SVHA9093",
+      "crop": "Hot Pepper",
+      "text": "Product: SVHA9093\nCategory: Vegetable Seed Variety\nCrop: Hot Pepper\nPungency: High (~100000 SHU)\nDays to 1st Harvest: 52-55 days after transplanting"
+    },
+    {
+      "chunk_id": "seed_shikha",
+      "category": "seed",
+      "product_name": "Shikha",
+      "crop": "Hot Pepper",
+      "text": "Product: Shikha\nCategory: Vegetable Seed Variety\nCrop: Hot Pepper\nFruit Colour: Dark Green\nFruit Length: 7-9 cm\nPungency: High (>80K SHU)\nVirus Tolerance: Excellent\nDays to 1st Harvest: 55-60 days after transplanting\nShiny dark green firm fruits; better disease package"
+    },
+    {
+      "chunk_id": "seed_jalapeno_sv3198hj",
+      "category": "seed",
+      "product_name": "Jalapeno (SV3198HJ)",
+      "crop": "Hot Pepper",
+      "text": "Product: Jalapeno (SV3198HJ)\nCategory: Vegetable Seed Variety\nCrop: Hot Pepper\nPlant Type: Strong and Semi Erect\nFruit Length: 10-12 cm\nPungency: 2000-3000 SHU\nDays to 1st Harvest: 60-65 days after transplanting"
+    },
+    {
+      "chunk_id": "seed_dawn_175",
+      "category": "seed",
+      "product_name": "Dawn 175",
+      "crop": "Cauliflower",
+      "text": "Product: Dawn 175\nCategory: Vegetable Seed Variety\nCrop: Cauliflower\nCurd Type: Semi-dome shaped & compact\nCurd Colour: White\nAverage Curd Weight: 1.25-1.5 kg\nMaturity: 65-70 days after transplanting\nGood heat tolerance, early harvest"
+    },
+    {
+      "chunk_id": "seed_megha",
+      "category": "seed",
+      "product_name": "Megha",
+      "crop": "Cauliflower",
+      "text": "Product: Megha\nCategory: Vegetable Seed Variety\nCrop: Cauliflower\nCurd Colour: Creamy White\nAverage Curd Weight: 400-600 g\nMaturity: 45-50 days after transplanting"
+    },
+    {
+      "chunk_id": "seed_barkha",
+      "category": "seed",
+      "product_name": "Barkha",
+      "crop": "Cauliflower",
+      "text": "Product: Barkha\nCategory: Vegetable Seed Variety\nCrop: Cauliflower\nCurd Colour: White\nAverage Curd Weight: 600-900 g\nMaturity: 50-55 days after transplanting\nEarly harvest, attractive curd, excellent rain tolerance"
+    },
+    {
+      "chunk_id": "seed_sv4051ac",
+      "category": "seed",
+      "product_name": "SV4051AC",
+      "crop": "Cauliflower",
+      "text": "Product: SV4051AC\nCategory: Vegetable Seed Variety\nCrop: Cauliflower\nCurd Colour: White\nAverage Curd Weight: 0.8-1.25 kg\nMaturity: 55-60 days after transplanting"
+    },
+    {
+      "chunk_id": "seed_koshi_hot",
+      "category": "seed",
+      "product_name": "Koshi Hot",
+      "crop": "Sweet Pepper",
+      "text": "Product: Koshi Hot\nCategory: Vegetable Seed Variety\nCrop: Sweet Pepper\nFruit Weight: 150-180 g\nFruit Shape: Blocky\nEarly Harvest: 55-65 days after transplanting\nDark green attractive fruit; high yield; suited for long-distance transport"
+    },
+    {
+      "chunk_id": "seed_chevalier",
+      "category": "seed",
+      "product_name": "Chevalier",
+      "crop": "Broccoli",
+      "text": "Product: Chevalier\nCategory: Vegetable Seed Variety\nCrop: Broccoli\nCurd Colour: Brilliant White\nAverage Curd Weight: 1.25-1.5 kg\nMaturity: 65-70 days after transplanting"
+    },
+    {
+      "chunk_id": "seed_svac6021",
+      "category": "seed",
+      "product_name": "SVAC6021",
+      "crop": "Cauliflower",
+      "text": "Product: SVAC6021\nCategory: Vegetable Seed Variety\nCrop: Cauliflower\nCurd Type: Dome shaped & compact\nCurd Colour: Milky white\nAverage Curd Weight: 1.0-1.5 kg\nMaturity: 70-75 days after transplanting\nEarly temperate cauliflower"
+    },
+    {
+      "chunk_id": "seed_svac7215",
+      "category": "seed",
+      "product_name": "SVAC7215",
+      "crop": "Cauliflower",
+      "text": "Product: SVAC7215\nCategory: Vegetable Seed Variety\nCrop: Cauliflower\nCurd Colour: Milky White\nAverage Curd Weight: 1.2-1.5 kg\nSelf Covering: Excellent\nMaturity: 80-85 days after transplanting\nTemperate cauliflower"
+    },
+    {
+      "chunk_id": "seed_svac7209",
+      "category": "seed",
+      "product_name": "SVAC7209",
+      "crop": "Cauliflower",
+      "text": "Product: SVAC7209\nCategory: Vegetable Seed Variety\nCrop: Cauliflower\nCurd Colour: Milky White\nAverage Curd Weight: 1.5-2.0 kg\nMaturity: 85-90 days after transplanting\nMilky white curd, very attractive quality, high yield potential"
+    },
+    {
+      "chunk_id": "seed_huntington",
+      "category": "seed",
+      "product_name": "Huntington",
+      "crop": "Cauliflower",
+      "text": "Product: Huntington\nCategory: Vegetable Seed Variety\nCrop: Cauliflower"
+    },
+    {
+      "chunk_id": "seed_wonder_ball",
+      "category": "seed",
+      "product_name": "Wonder Ball",
+      "crop": "Cabbage",
+      "text": "Product: Wonder Ball\nCategory: Vegetable Seed Variety\nCrop: Cabbage\nHead Weight: 1.5-2.0 kg\nHead Shape: Round\nMaturity: 80-85 days after transplanting\nBest suited for transportation; highly compact and attractive head"
+    },
+    {
+      "chunk_id": "seed_green_flash",
+      "category": "seed",
+      "product_name": "Green Flash",
+      "crop": "Cabbage",
+      "text": "Product: Green Flash\nCategory: Vegetable Seed Variety\nCrop: Cabbage\nHead Colour: Dark Green\nHead Weight: 1.5-1.8 kg\nMaturity: 75-80 days after transplanting"
+    },
+    {
+      "chunk_id": "seed_millenium_iii",
+      "category": "seed",
+      "product_name": "Millenium III",
+      "crop": "Cabbage",
+      "text": "Product: Millenium III\nCategory: Vegetable Seed Variety\nCrop: Cabbage\nHead Weight: 0.8-1.2 kg\nMaturity: 65-70 days after transplanting"
+    },
+    {
+      "chunk_id": "seed_omphalos",
+      "category": "seed",
+      "product_name": "Omphalos",
+      "crop": "Cabbage",
+      "text": "Product: Omphalos\nCategory: Vegetable Seed Variety\nCrop: Cabbage\nHead Weight: 1.4-1.5 kg\nMaturity: 53-57 days after transplanting"
+    },
+    {
+      "chunk_id": "seed_diamond",
+      "category": "seed",
+      "product_name": "Diamond",
+      "crop": "Cabbage",
+      "text": "Product: Diamond\nCategory: Vegetable Seed Variety\nCrop: Cabbage\nHead Weight: 1.5-2.0 kg\nField Holding: Excellent 25-30 days after maturity"
+    },
+    {
+      "chunk_id": "seed_prince",
+      "category": "seed",
+      "product_name": "Prince",
+      "crop": "Cabbage",
+      "text": "Product: Prince\nCategory: Vegetable Seed Variety\nCrop: Cabbage"
+    },
+    {
+      "chunk_id": "seed_zennith",
+      "category": "seed",
+      "product_name": "Zennith",
+      "crop": "Cabbage",
+      "text": "Product: Zennith\nCategory: Vegetable Seed Variety\nCrop: Cabbage"
+    },
+    {
+      "chunk_id": "seed_rapidion",
+      "category": "seed",
+      "product_name": "Rapidion",
+      "crop": "Lettuce",
+      "text": "Product: Rapidion\nCategory: Vegetable Seed Variety\nCrop: Lettuce\nHead Type: Vanguard type Iceberg\nAverage Head Weight: 400-500 g\nMaturity: 45-50 days after transplanting"
+    },
+    {
+      "chunk_id": "seed_raider_plus",
+      "category": "seed",
+      "product_name": "Raider Plus",
+      "crop": "Lettuce",
+      "text": "Product: Raider Plus\nCategory: Vegetable Seed Variety\nCrop: Lettuce\nSegment: Oriental"
+    },
+    {
+      "chunk_id": "seed_zoha",
+      "category": "seed",
+      "product_name": "ZOHA",
+      "crop": "Lettuce",
+      "text": "Product: ZOHA\nCategory: Vegetable Seed Variety\nCrop: Lettuce\nSegment: Oriental"
+    },
+    {
+      "chunk_id": "seed_bazelet",
+      "category": "seed",
+      "product_name": "Bazelet",
+      "crop": "Cucumber",
+      "text": "Product: Bazelet\nCategory: Vegetable Seed Variety\nCrop: Cucumber\nSegment: BAP Parthenocarpic Winter\nPlant Type: Strong with short internodes\nFruit Length: 14-16 cm\nFruit Weight: 110-120 g\nDays to 1st Harvest: 36-38 days after sowing\nParthenocarpic winter cucumber"
+    },
+    {
+      "chunk_id": "seed_rs03602833",
+      "category": "seed",
+      "product_name": "RS03602833",
+      "crop": "Cucumber",
+      "text": "Product: RS03602833\nCategory: Vegetable Seed Variety\nCrop: Cucumber\nStrong parthenocarpic hybrid; high yielding; attractive green fruits; high spine density"
+    },
+    {
+      "chunk_id": "seed_ps64",
+      "category": "seed",
+      "product_name": "PS64",
+      "crop": "Cucumber",
+      "text": "Product: PS64\nCategory: Vegetable Seed Variety\nCrop: Cucumber\nSegment: Pickling\nAverage Fruit Weight: 150-170 g\nExcellent uniformity in fruit length and better hot set"
+    },
+    {
+      "chunk_id": "seed_jamini",
+      "category": "seed",
+      "product_name": "Jamini",
+      "crop": "Cucumber",
+      "text": "Product: Jamini\nCategory: Vegetable Seed Variety\nCrop: Cucumber\nSegment: Sambhar\nBest product for Sambhar segment; strong disease package"
+    },
+    {
+      "chunk_id": "seed_hiranya",
+      "category": "seed",
+      "product_name": "Hiranya",
+      "crop": "Onion",
+      "text": "Product: Hiranya\nCategory: Vegetable Seed Variety\nCrop: Onion\nBulb Colour: Dark red\nBulb Weight: 120-150 g\nMaturity: 90-100 days after sowing\nBest winter onion with high storage capability"
+    },
+    {
+      "chunk_id": "seed_gulmohar",
+      "category": "seed",
+      "product_name": "Gulmohar",
+      "crop": "Beans",
+      "text": "Product: Gulmohar\nCategory: Vegetable Seed Variety\nCrop: Beans"
+    },
+    {
+      "chunk_id": "seed_bushy_beans",
+      "category": "seed",
+      "product_name": "BUSHY BEANS",
+      "crop": "Beans",
+      "text": "Product: BUSHY BEANS\nCategory: Vegetable Seed Variety\nCrop: Beans\nSegment: Bushy"
+    },
+    {
+      "chunk_id": "seed_svok1408",
+      "category": "seed",
+      "product_name": "SVOK1408",
+      "crop": "Okra",
+      "text": "Product: SVOK1408\nCategory: Vegetable Seed Variety\nCrop: Okra\nDays to First Harvest: 45-47 days\nMaturity: 40-45 days after sowing\nFruit Length: 12-14 cm\nTolerance to OELCV & YVMV: Good"
+    },
+    {
+      "chunk_id": "seed_svok1509",
+      "category": "seed",
+      "product_name": "SVOK1509",
+      "crop": "Okra",
+      "text": "Product: SVOK1509\nCategory: Vegetable Seed Variety\nCrop: Okra\nPlant Habit: Semi Dwarf\nMaturity: 45-50 days after sowing\nFruit Length: 12-14 cm"
+    },
+    {
+      "chunk_id": "seed_apoorva",
+      "category": "seed",
+      "product_name": "Apoorva",
+      "crop": "Watermelon",
+      "text": "Product: Apoorva\nCategory: Vegetable Seed Variety\nCrop: Watermelon\nBig watermelon with high productivity"
+    },
+    {
+      "chunk_id": "seed_sugarpack",
+      "category": "seed",
+      "product_name": "Sugarpack",
+      "crop": "Watermelon",
+      "text": "Product: Sugarpack\nCategory: Vegetable Seed Variety\nCrop: Watermelon\nDark red flesh with high sugar content"
+    },
+    {
+      "chunk_id": "seed_khaas",
+      "category": "seed",
+      "product_name": "Khaas",
+      "crop": "Watermelon",
+      "text": "Product: Khaas\nCategory: Vegetable Seed Variety\nCrop: Watermelon\nSegment: Ice Box"
+    },
+    {
+      "chunk_id": "seed_dilkash",
+      "category": "seed",
+      "product_name": "Dilkash",
+      "crop": "Watermelon",
+      "text": "Product: Dilkash\nCategory: Vegetable Seed Variety\nCrop: Watermelon\nSegment: Ice Box"
+    },
+    {
+      "chunk_id": "seed_jyan",
+      "category": "seed",
+      "product_name": "Jyan",
+      "crop": "Watermelon",
+      "text": "Product: Jyan\nCategory: Vegetable Seed Variety\nCrop: Watermelon\nSegment: Ice Box\nHigh yield, better disease package and fruit quality; good colour retention till last harvest"
+    },
+    {
+      "chunk_id": "seed_harihar",
+      "category": "seed",
+      "product_name": "Harihar",
+      "crop": "Eggplant",
+      "text": "Product: Harihar\nCategory: Vegetable Seed Variety\nCrop: Eggplant"
+    },
+    {
+      "chunk_id": "seed_manjari",
+      "category": "seed",
+      "product_name": "Manjari",
+      "crop": "Eggplant",
+      "text": "Product: Manjari\nCategory: Vegetable Seed Variety\nCrop: Eggplant"
+    },
+    {
+      "chunk_id": "seed_svkt0028",
+      "category": "seed",
+      "product_name": "SVKT0028",
+      "crop": "Eggplant",
+      "text": "Product: SVKT0028\nCategory: Vegetable Seed Variety\nCrop: Eggplant"
+    },
+    {
+      "chunk_id": "seed_jhalari",
+      "category": "seed",
+      "product_name": "Jhalari",
+      "crop": "Bitter Gourd",
+      "text": "Product: Jhalari\nCategory: Vegetable Seed Variety\nCrop: Bitter Gourd"
+    },
+    {
+      "chunk_id": "seed_abhishek",
+      "category": "seed",
+      "product_name": "Abhishek",
+      "crop": "Bitter Gourd",
+      "text": "Product: Abhishek\nCategory: Vegetable Seed Variety\nCrop: Bitter Gourd"
+    },
+    {
+      "chunk_id": "seed_sharada",
+      "category": "seed",
+      "product_name": "Sharada",
+      "crop": "Bottle Gourd",
+      "text": "Product: Sharada\nCategory: Vegetable Seed Variety\nCrop: Bottle Gourd"
+    },
+    {
+      "chunk_id": "seed_neela",
+      "category": "seed",
+      "product_name": "Neela",
+      "crop": "Ridge Gourd",
+      "text": "Product: Neela\nCategory: Vegetable Seed Variety\nCrop: Ridge Gourd"
+    },
+    {
+      "chunk_id": "seed_svkp5112",
+      "category": "seed",
+      "product_name": "SVKP5112",
+      "crop": "Sponge Gourd",
+      "text": "Product: SVKP5112\nCategory: Vegetable Seed Variety\nCrop: Sponge Gourd\nFruit Length: 30-35 cm\nFruit Weight: 150-180 g\nDays to 1st Harvest: 45-50 days after sowing\nVery good disease package; attractive marketable fruit quality"
+    },
+    {
+      "chunk_id": "seed_sv6881sn",
+      "category": "seed",
+      "product_name": "SV6881SN",
+      "crop": "Sweet Corn",
+      "text": "Product: SV6881SN\nCategory: Vegetable Seed Variety\nCrop: Sweet Corn\nPlant Height: 150-160 cm\nMaturity: 70-75 days after sowing\nCob Length: 18-20 cm\nTSS: 12-13%\nEarly maturity, more rows per cob, sweet taste"
+    },
+    {
+      "chunk_id": "cp_emesto_prime",
+      "category": "crop_protection",
+      "product_name": "Emesto Prime",
+      "crop": null,
+      "text": "Product: Emesto Prime\nCategory: Fungicide (Seed Treatment)\nActive Ingredient: Penflufen 240 FS (22.43% w/w)\nPurpose: Seed treatment for potato; controls black scurf (Rhizoctonia) and soil-borne pathogens.\nMode of Action: SDHI fungicide; inhibits succinate dehydrogenase in fungal mitochondria.\nMore marketable yield and better tuber quality\nExcellent protection against black scurf\nSpotless, shiny, even-sized potatoes"
+    },
+    {
+      "chunk_id": "cp_evergol_xtend",
+      "category": "crop_protection",
+      "product_name": "EverGol Xtend",
+      "crop": null,
+      "text": "Product: EverGol Xtend\nCategory: Fungicide (Seed Treatment)\nActive Ingredient: Penflufen 15.4% + Trifloxystrobin 15.4% FS\nPurpose: Fungicidal seed treatment against seed and seedling rot in groundnut, soybean, cotton, Bengal gram.\nMode of Action: Dual SDHI + QoI (strobilurin) action on fungal respiration.\nBroad spectrum disease control\nBetter emergence and crop stand\nImproved vigour and root system"
+    },
+    {
+      "chunk_id": "cp_gaucho",
+      "category": "crop_protection",
+      "product_name": "Gaucho",
+      "crop": null,
+      "text": "Product: Gaucho\nCategory: Insecticide (Seed Treatment)\nActive Ingredient: Imidacloprid 600 FS (48% w/w)\nPurpose: Seed treatment against early-season sucking pests (aphids, jassids, thrips, whiteflies, shoot fly, termites).\nMode of Action: Neonicotinoid; antagonist to nicotinic acetylcholine receptors.\n30-40 days protection from sowing\nIPM friendly; reduces foliar sprays\nBetter crop emergence and vigour"
+    },
+    {
+      "chunk_id": "cp_raxil_easy",
+      "category": "crop_protection",
+      "product_name": "Raxil Easy",
+      "crop": null,
+      "text": "Product: Raxil Easy\nCategory: Fungicide (Seed Treatment)\nActive Ingredient: Tebuconazole 0.60 FS (5.36% w/w)\nPurpose: Seed treatment for loose smut in wheat; Bakanae foot rot and brown leaf spot in rice.\nMode of Action: Triazole DMI fungicide; inhibits fungal sterol biosynthesis.\nEffective at very low dose\nProtects seed coat and internal grain\nSafe on germinating seeds"
+    },
+    {
+      "chunk_id": "cp_adora",
+      "category": "crop_protection",
+      "product_name": "Adora",
+      "crop": null,
+      "text": "Product: Adora\nCategory: Herbicide\nActive Ingredient: Bispyribac sodium 100 SC (9.5% w/w)\nPurpose: Broad spectrum post-emergent herbicide for rice (nursery and main field).\nMode of Action: Systemic ALS inhibitor; absorbed by foliage and roots.\nControls grasses, sedges and broadleaf weeds\nExcellent rice crop selectivity\nFlexible 15-20 day spray window; low dose (200-250 ml/ha)"
+    },
+    {
+      "chunk_id": "cp_alion_plus",
+      "category": "crop_protection",
+      "product_name": "Alion Plus",
+      "crop": null,
+      "text": "Product: Alion Plus\nCategory: Herbicide\nActive Ingredient: Indaziflam 1.65% + Glyphosate 44.63% w/w SC\nPurpose: Broad spectrum herbicide for long-term weed control in tea, grapes and horticulture/perennial crops.\nMode of Action: Indaziflam (pre-emergent) + Glyphosate (post-emergent systemic).\nFoliar and pre-emergence control\nLong-lasting weed-free fields\nEffective on resistant weeds"
+    },
+    {
+      "chunk_id": "cp_atlantis",
+      "category": "crop_protection",
+      "product_name": "Atlantis",
+      "crop": null,
+      "text": "Product: Atlantis\nCategory: Herbicide\nActive Ingredient: Mesosulfuron-methyl 3% + Iodosulfuron-methyl sodium 0.6% WG\nPurpose: Post-emergent herbicide for grasses, sedges and broadleaf weeds in wheat.\nMode of Action: Sulfonyl urea; inhibits AHAS enzyme.\nExcellent Phalaris minor control\nControls broadleaf weeds at 2-4 leaf stage\nFlexible application window; long-lasting performance"
+    },
+    {
+      "chunk_id": "cp_council_activ",
+      "category": "crop_protection",
+      "product_name": "Council Activ",
+      "crop": null,
+      "text": "Product: Council Activ\nCategory: Herbicide\nActive Ingredient: Triafamone 20% + Ethoxysulfuron 10% WG\nPurpose: Early post-emergence herbicide for grass, sedge and broadleaf weeds in transplanted and direct-seeded rice.\nMode of Action: Dual ALS inhibitors (Triafamone + Ethoxysulfuron).\nApplicable in transplanted and wet DSR rice\nControls weeds at 1-2 leaf stage\nWide weed spectrum"
+    },
+    {
+      "chunk_id": "cp_ghasa",
+      "category": "crop_protection",
+      "product_name": "Ghasa",
+      "crop": null,
+      "text": "Product: Ghasa\nCategory: Herbicide\nActive Ingredient: Pyrithiobac Sodium 6% + Quizalofop-ethyl 4% w/w MEC\nPurpose: Selective herbicide for broad spectrum weed control in cotton.\nMode of Action: ALS inhibitor + ACCase inhibitor for grasses and broadleaves.\nSuperior cotton crop safety\nLong duration control; one-shot application\nYellowing of weeds within 12 hours"
+    },
+    {
+      "chunk_id": "cp_guletta",
+      "category": "crop_protection",
+      "product_name": "Guletta",
+      "crop": null,
+      "text": "Product: Guletta\nCategory: Herbicide\nActive Ingredient: Carfentrazone Ethyl 40% OF (40% w/w)\nPurpose: Fast-acting post-emergent contact herbicide for broadleaf weeds and sedges in wheat and direct-seeded rice.\nMode of Action: Aryl triazolinone; destroys cell membranes.\nFast action on tough broadleaf weeds\nSelective in wheat and rice"
+    },
+    {
+      "chunk_id": "cp_laudis",
+      "category": "crop_protection",
+      "product_name": "Laudis",
+      "crop": null,
+      "text": "Product: Laudis\nCategory: Herbicide\nActive Ingredient: Tembotrione 420 SC (34.4% w/w)\nPurpose: Post-emergence herbicide for broadleaf and grassy weeds in maize/corn.\nMode of Action: HPPD inhibitor; causes chlorophyll bleaching.\nBroad spectrum weed control in maize\nFlexible early-to-late post-emergence window\nHigh crop safety; fast action and rain-fastness"
+    },
+    {
+      "chunk_id": "cp_momiji",
+      "category": "crop_protection",
+      "product_name": "Momiji",
+      "crop": null,
+      "text": "Product: Momiji\nCategory: Herbicide\nActive Ingredient: Pyroxasulfone 85% WG\nPurpose: Pre-emergence herbicide for wheat, maize and soybean.\nMode of Action: Isoxazoline; inhibits VLCFA biosynthesis.\nNew mode of action; works on resistant Phalaris minor\nSeason-long residual weed control\nExcellent crop safety"
+    },
+    {
+      "chunk_id": "cp_ricestar",
+      "category": "crop_protection",
+      "product_name": "Ricestar",
+      "crop": null,
+      "text": "Product: Ricestar\nCategory: Herbicide\nActive Ingredient: Fenoxaprop-p-ethyl 6.9 EC (6.7% w/w)\nPurpose: Selective post-emergent herbicide for grassy weeds (Echinochloa) in direct-seeded and transplanted rice.\nMode of Action: Inhibits fatty acid synthesis in grass meristem.\nEffective grass control\nTank-mix compatible with Sunrice for total weed control\nFlexible 3-5 leaf stage application"
+    },
+    {
+      "chunk_id": "cp_roundup",
+      "category": "crop_protection",
+      "product_name": "Roundup",
+      "crop": null,
+      "text": "Product: Roundup\nCategory: Herbicide\nActive Ingredient: Glyphosate IPA salt 41% SL\nPurpose: Non-selective systemic herbicide for tea, non-cropped areas and rice pre-plant.\nMode of Action: Inhibits EPSPS enzyme in aromatic amino acid pathway.\nBroad spectrum; kills roots and shoots\nEffective on hard-to-kill and resistant weeds\nLow mammalian toxicity"
+    },
+    {
+      "chunk_id": "cp_roundup_speed",
+      "category": "crop_protection",
+      "product_name": "Roundup Speed",
+      "crop": null,
+      "text": "Product: Roundup Speed\nCategory: Herbicide\nActive Ingredient: Glyphosate IPA salt 54% SL\nPurpose: High-efficacy glyphosate for annual grass and broadleaf weeds in non-cropped areas.\nMode of Action: Non-selective systemic EPSPS inhibitor.\nBroad spectrum post-emergent\nControls tough weeds\nSafer to soil"
+    },
+    {
+      "chunk_id": "cp_sencor",
+      "category": "crop_protection",
+      "product_name": "Sencor",
+      "crop": null,
+      "text": "Product: Sencor\nCategory: Herbicide\nActive Ingredient: Metribuzin 70% WP\nPurpose: Pre-emergent/early post herbicide for wheat, potato, soybean, tomato and sugarcane.\nMode of Action: Systemic; inhibits photosynthesis via root and leaf uptake.\nControls Phalaris minor including resistant biotypes\nBroad spectrum grasses and broadleaves\nEconomical low-dose application"
+    },
+    {
+      "chunk_id": "cp_sunrice",
+      "category": "crop_protection",
+      "product_name": "Sunrice",
+      "crop": null,
+      "text": "Product: Sunrice\nCategory: Herbicide\nActive Ingredient: Ethoxysulfuron 15% WG\nPurpose: Post-emergence herbicide for broadleaf and sedge weeds in rice.\nMode of Action: Sulfonyl urea ALS inhibitor.\nTank-mix with Ricestar for total rice weed control\nEffective on sedges and broadleaves"
+    },
+    {
+      "chunk_id": "cp_whip_super",
+      "category": "crop_protection",
+      "product_name": "Whip Super",
+      "crop": null,
+      "text": "Product: Whip Super\nCategory: Herbicide\nActive Ingredient: Fenoxaprop-p-ethyl 9% w/v EC (9.3% w/w)\nPurpose: Post-emergent herbicide for grassy weeds in soybean, cotton, blackgram, onion, groundnut and rice.\nMode of Action: ACCase inhibitor; absorbed by leaves.\nFlexible application window\nBroad grassy weed spectrum\nSafe to succeeding crops"
+    },
+    {
+      "chunk_id": "cp_admire",
+      "category": "crop_protection",
+      "product_name": "Admire",
+      "crop": null,
+      "text": "Product: Admire\nCategory: Insecticide\nActive Ingredient: Imidacloprid 70% WG\nPurpose: Systemic insecticide for sucking pests in cotton, rice, vegetables and other crops.\nMode of Action: Neonicotinoid; disrupts nervous signal transmission.\nWorld-leading neonicotinoid chemistry\nFast water solubility and uniform spray suspension\nBroad spectrum sucking pest control"
+    },
+    {
+      "chunk_id": "cp_alanto",
+      "category": "crop_protection",
+      "product_name": "Alanto",
+      "crop": null,
+      "text": "Product: Alanto\nCategory: Insecticide\nActive Ingredient: Thiacloprid 240 SC (21.7% w/w)\nPurpose: Neonicotinoid insecticide for broad spectrum pest control.\nMode of Action: Agonist on nicotinic acetylcholine receptors.\nRain-fast stability\nBroad spectrum pest control\nLow acute mammalian toxicity"
+    },
+    {
+      "chunk_id": "cp_belt_expert",
+      "category": "crop_protection",
+      "product_name": "Belt Expert",
+      "crop": null,
+      "text": "Product: Belt Expert\nCategory: Insecticide\nActive Ingredient: Flubendiamide 19.92% + Thiacloprid 19.92% w/w SC\nPurpose: Combination insecticide for chewing and sucking pests.\nMode of Action: Ryanodine receptor disruptor + neonicotinoid.\nDual mode of action\nBroad spectrum chewing and sucking pest control\nPlant growth enhancement effect"
+    },
+    {
+      "chunk_id": "cp_confidor",
+      "category": "crop_protection",
+      "product_name": "Confidor",
+      "crop": null,
+      "text": "Product: Confidor\nCategory: Insecticide\nActive Ingredient: Imidacloprid 200 SL (17.8% w/w)\nPurpose: Systemic neonicotinoid for aphids, jassids, thrips, whiteflies, hoppers and termites.\nMode of Action: Nicotinic acetylcholine receptor antagonist.\nExcellent systemic and residual activity\nLow toxicity to warm-blooded animals\nUsable as spray, soil drench or seed treatment"
+    },
+    {
+      "chunk_id": "cp_decis_100",
+      "category": "crop_protection",
+      "product_name": "Decis 100",
+      "crop": null,
+      "text": "Product: Decis 100\nCategory: Insecticide\nActive Ingredient: Deltamethrin 100 EC (11% w/w)\nPurpose: Synthetic pyrethroid for chewing and sucking insects.\nMode of Action: Modifies sodium channel kinetics in insect nerves.\nRemarkable knockdown effect\nGood residual activity and rain-fastness\nRepellent and anti-feeding properties"
+    },
+    {
+      "chunk_id": "cp_fame",
+      "category": "crop_protection",
+      "product_name": "Fame",
+      "crop": null,
+      "text": "Product: Fame\nCategory: Insecticide\nActive Ingredient: Flubendiamide 480 SC (39.35% w/w)\nPurpose: Diamide insecticide for Lepidoptera (fruit borer, stem borer, leaf folder, pod borer).\nMode of Action: Ryanodine receptor activation; disrupts muscle calcium.\nNovel mode of action for resistance management\nRapid cessation of feeding\nLow dose; long duration control of caterpillars"
+    },
+    {
+      "chunk_id": "cp_glamore",
+      "category": "crop_protection",
+      "product_name": "Glamore",
+      "crop": null,
+      "text": "Product: Glamore\nCategory: Insecticide\nActive Ingredient: Ethiprole 40% + Imidacloprid 40% WG\nPurpose: Combination insecticide for broad spectrum sucking insects.\nMode of Action: Dual mode: GABA-gated chloride channel blocker + neonicotinoid.\nProven dual-active combination\nEffective on chronic sucking pest problems"
+    },
+    {
+      "chunk_id": "cp_jump",
+      "category": "crop_protection",
+      "product_name": "Jump",
+      "crop": null,
+      "text": "Product: Jump\nCategory: Insecticide\nActive Ingredient: Fipronil 80% WG\nPurpose: Phenyl pyrazole insecticide for stem borer and leaf folder in rice.\nMode of Action: Blocks GABA-gated chloride channels.\nVery effective on rice stem borer and leaf folder\nMinimal environmental impact at recommended use"
+    },
+    {
+      "chunk_id": "cp_lesenta",
+      "category": "crop_protection",
+      "product_name": "Lesenta",
+      "crop": null,
+      "text": "Product: Lesenta\nCategory: Insecticide\nActive Ingredient: Imidacloprid 40% + Fipronil 40% WG\nPurpose: Dual-mode insecticide for chronic pest problems.\nMode of Action: Neonicotinoid + phenyl pyrazole combination.\nLow dose, highly effective dual action"
+    },
+    {
+      "chunk_id": "cp_movento",
+      "category": "crop_protection",
+      "product_name": "Movento",
+      "crop": null,
+      "text": "Product: Movento\nCategory: Insecticide\nActive Ingredient: Spirotetramat 150 OD (15.31% w/w)\nPurpose: Two-way systemic insecticide for hidden/sucking pests.\nMode of Action: Lipid biosynthesis inhibitor (tetramic acid).\nOnly modern 2-way systemic (xylem + phloem) insecticide\nLong duration control of hidden pests\nShoot-to-root protection"
+    },
+    {
+      "chunk_id": "cp_movento_energy",
+      "category": "crop_protection",
+      "product_name": "Movento Energy",
+      "crop": null,
+      "text": "Product: Movento Energy\nCategory: Insecticide\nActive Ingredient: Spirotetramat 11.01% + Imidacloprid 11.01% w/w SC\nPurpose: Mixed sucking pest management standard.\nMode of Action: Lipid biosynthesis inhibitor + neonicotinoid.\nTwo-way systemic plus broad sucking pest spectrum"
+    },
+    {
+      "chunk_id": "cp_oberon",
+      "category": "crop_protection",
+      "product_name": "Oberon",
+      "crop": null,
+      "text": "Product: Oberon\nCategory: Insecticide\nActive Ingredient: Spiromesifen 240 SC (22.9% w/w)\nPurpose: Contact insecticide/acaricide for mites and whitefly.\nMode of Action: Inhibits lipid biosynthesis in mites and whiteflies.\nActive against all developmental stages\nLong-lasting residual control on vegetables, fruits, cotton, tea"
+    },
+    {
+      "chunk_id": "cp_renkli",
+      "category": "crop_protection",
+      "product_name": "Renkli",
+      "crop": null,
+      "text": "Product: Renkli\nCategory: Insecticide\nActive Ingredient: Flonicamid 50% WG\nPurpose: Selective feeding blocker for sucking pests including jassids.\nMode of Action: Chordotonal organ TRPV channel modulator.\nImmediate protection from damaging sucking pests\nSelective on beneficial insects"
+    },
+    {
+      "chunk_id": "cp_solomon",
+      "category": "crop_protection",
+      "product_name": "Solomon",
+      "crop": null,
+      "text": "Product: Solomon\nCategory: Insecticide\nActive Ingredient: Beta-cyfluthrin 8.49% + Imidacloprid 19.81% w/w OD\nPurpose: Combination contact and systemic insecticide.\nMode of Action: Pyrethroid + neonicotinoid.\nQuick knockdown and anti-feeding effects\nBroad spectrum"
+    },
+    {
+      "chunk_id": "cp_vayego",
+      "category": "crop_protection",
+      "product_name": "Vayego",
+      "crop": null,
+      "text": "Product: Vayego\nCategory: Insecticide\nActive Ingredient: Tetraniliprole 200 SC (18.18% w/w)\nPurpose: Diamide insecticide for Lepidoptera.\nMode of Action: Ryanodine receptor modulator.\nEffective via ingestion and contact\nWide range of Lepidopteran control"
+    },
+    {
+      "chunk_id": "cp_curbix_pro",
+      "category": "crop_protection",
+      "product_name": "Curbix Pro",
+      "crop": null,
+      "text": "Product: Curbix Pro\nCategory: Insecticide\nActive Ingredient: Ethiprole 10.7% + Pymetrozine 40% w/w WG\nPurpose: Dual-mode hopper management in paddy.\nMode of Action: GABA blocker + feeding blocker combination.\nEffective broad spectrum hopper control\nEffective in all hopper instars"
+    },
+    {
+      "chunk_id": "cp_velum_prime",
+      "category": "crop_protection",
+      "product_name": "Velum Prime",
+      "crop": null,
+      "text": "Product: Velum Prime\nCategory: Fungicide/Nematicide\nActive Ingredient: Fluopyram 400 SC (34.48% w/w)\nPurpose: Soil and foliar treatment for nematodes and fungal diseases.\nMode of Action: SDHI fungicide/nematicide.\nBroad spectrum soil disease and nematode management"
+    },
+    {
+      "chunk_id": "cp_acerbo",
+      "category": "crop_protection",
+      "product_name": "Acerbo",
+      "crop": null,
+      "text": "Product: Acerbo\nCategory: Fungicide\nActive Ingredient: Fluopyram 21.37% + Trifloxystrobin 21.37% w/w SC\nPurpose: Systemic fungicide for leaf/neck blast in rice; powdery mildew and anthracnose in chilli; purple blotch in onion.\nMode of Action: SDHI + QoI combination.\nBroad spectrum foliar disease control"
+    },
+    {
+      "chunk_id": "cp_aliette",
+      "category": "crop_protection",
+      "product_name": "Aliette",
+      "crop": null,
+      "text": "Product: Aliette\nCategory: Fungicide\nActive Ingredient: Fosetyl-Al 80% WP\nPurpose: Systemic fungicide against Oomycetes (downy mildew).\nMode of Action: True systemic; multi-site action prevents resistance.\nBest prophylactic for downy mildew in grapes\nNo confirmed resistance despite decades of use\nRain-fast systemic absorption"
+    },
+    {
+      "chunk_id": "cp_antracol",
+      "category": "crop_protection",
+      "product_name": "Antracol",
+      "crop": null,
+      "text": "Product: Antracol\nCategory: Fungicide\nActive Ingredient: Propineb 70% WP\nPurpose: Contact fungicide for cereals, fruits and vegetables.\nMode of Action: Multi-site contact action on cell membranes.\nBroad spectrum disease control\nResistance management via multi-site action\nSuitable for IPM programs"
+    },
+    {
+      "chunk_id": "cp_buonos",
+      "category": "crop_protection",
+      "product_name": "Buonos",
+      "crop": null,
+      "text": "Product: Buonos\nCategory: Fungicide\nActive Ingredient: Tebuconazole 430 SC (38.39% w/w)\nPurpose: Systemic triazole fungicide with protective, curative and eradicative action.\nMode of Action: DMI fungicide; inhibits ergosterol biosynthesis.\nBroad spectrum disease control\nGreening effect on crop foliage"
+    },
+    {
+      "chunk_id": "cp_folicur",
+      "category": "crop_protection",
+      "product_name": "Folicur",
+      "crop": null,
+      "text": "Product: Folicur\nCategory: Fungicide\nActive Ingredient: Tebuconazole 250 EC (25.9% w/w)\nPurpose: Systemic triazole fungicide for many crops.\nMode of Action: DMI fungicide.\nBroad spectrum prophylactic, curative and eradicative action\nPlant growth enhancement effect"
+    },
+    {
+      "chunk_id": "cp_infinito",
+      "category": "crop_protection",
+      "product_name": "Infinito",
+      "crop": null,
+      "text": "Product: Infinito\nCategory: Fungicide\nActive Ingredient: Fluopicolide 5.56% + Propamocarb 55.6% w/w SC\nPurpose: Systemic fungicide for late blight in potato and downy mildew.\nMode of Action: Novel fluopicolide mode + propamocarb.\nStrong translaminar and anti-sporulant activity\nBuilt-in resistance management\nImproves potato tuber quality and yield"
+    },
+    {
+      "chunk_id": "cp_luna_experience",
+      "category": "crop_protection",
+      "product_name": "Luna Experience",
+      "crop": null,
+      "text": "Product: Luna Experience\nCategory: Fungicide\nActive Ingredient: Fluopyram 17.7% + Tebuconazole 17.7% w/w SC\nPurpose: Broad spectrum disease protection beyond standard fungicides.\nMode of Action: SDHI + DMI dual mode of action.\nTwo modes of action for resistance management\nHelps meet food chain quality and export requirements"
+    },
+    {
+      "chunk_id": "cp_melody_duo",
+      "category": "crop_protection",
+      "product_name": "Melody Duo",
+      "crop": null,
+      "text": "Product: Melody Duo\nCategory: Fungicide\nActive Ingredient: Iprovalicarb 5.5% + Propineb 61.25% WP\nPurpose: Fungicide for downy mildew in grapes and late blight in potato.\nMode of Action: Protective, curative and antisporulant combination.\nHighly effective against downy mildew and late blight\nProtects young leaves and shoots\nImproves quality and disease-free produce at harvest"
+    },
+    {
+      "chunk_id": "cp_nativo",
+      "category": "crop_protection",
+      "product_name": "Nativo",
+      "crop": null,
+      "text": "Product: Nativo\nCategory: Fungicide\nActive Ingredient: Tebuconazole 50% + Trifloxystrobin 25% WG\nPurpose: Systemic broad-spectrum fungicide with protective and curative action.\nMode of Action: DMI + QoI combination.\nBroad spectrum disease control\nImproves crop immunity and yield quality"
+    },
+    {
+      "chunk_id": "cp_profiler",
+      "category": "crop_protection",
+      "product_name": "Profiler",
+      "crop": null,
+      "text": "Product: Profiler\nCategory: Fungicide\nActive Ingredient: Fluopicolide 4.44% + Fosetyl-Al 66.67% WG\nPurpose: Downy mildew control in grapes.\nMode of Action: Novel fluopicolide + systemic fosetyl.\nLonger duration downy mildew control\nComplete systemic, contact and translaminar activity"
+    },
+    {
+      "chunk_id": "cp_rhapsody",
+      "category": "crop_protection",
+      "product_name": "Rhapsody",
+      "crop": null,
+      "text": "Product: Rhapsody\nCategory: Biological Fungicide\nActive Ingredient: Bacillus subtilis strain KTSB 1015 1.5% AS\nPurpose: Biological fungicide and bactericide; powdery mildew in grapes.\nMode of Action: Indigenous bio-agent colonizes plant surfaces and suppresses pathogens.\nEnvironment-friendly biological control\nSoil disease control and plant growth promotion\nFoliar and soil application"
+    }
+  ]
+}

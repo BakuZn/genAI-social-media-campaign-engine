@@ -29,6 +29,10 @@ CRITICAL LANGUAGE REQUIREMENT: This is the master generation step. ALL generated
 Event Details:
 {brief_json}
 
+[PRODUCT KNOWLEDGE CONTEXT]
+If specific products are mentioned in the event details above, here are their official specifications. You must strictly incorporate these details (e.g., color, days to harvest, yield, weight) into the copy when mentioning the product. Do not hallucinate product details; rely exclusively on this context:
+{product_knowledge}
+
 [CRITICAL IMAGE CONTEXT (If an image is attached)]
 If an image (campaign poster) is provided with this prompt, thoroughly analyze it before writing the copy:
 1. Perform OCR on the poster regardless of the language.
