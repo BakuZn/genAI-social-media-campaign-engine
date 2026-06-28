@@ -21,10 +21,9 @@ from core.orchestrator import CampaignOrchestrator
 from data.parser import parse_csv_events
 
 
-
-@st.cache_data(show_spinner=False)
+# Removed cache decorator to prevent stale responses during testing
 def generate_campaign_cached(selected_event, platforms, languages, image_bytes):
-    """Cached wrapper for the campaign generation orchestration."""
+    """Wrapper for the campaign generation orchestration."""
     orchestrator = CampaignOrchestrator()
     return orchestrator.generate_campaign(selected_event, platforms, languages, image_bytes=image_bytes)
 
@@ -92,6 +91,10 @@ def main():
                         "product_focus": "Derived from poster",
                         "group_lob": "Unknown"
                     }
+
+                custom_product = st.text_input("Additional Product Focus (Optional)", help="If you uploaded an image without a CSV, or want to force the AI to lookup a specific product, type it here (e.g. 'Camalus').")
+                if custom_product:
+                    selected_event["product_focus"] = custom_product
 
                 st.markdown("<br><div style='font-size: 13px; font-weight: 600; color: #64748B; margin-bottom: 8px;'>3. Target Languages</div>", unsafe_allow_html=True)
                 languages = st.multiselect(

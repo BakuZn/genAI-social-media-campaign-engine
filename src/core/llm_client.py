@@ -66,3 +66,28 @@ class GeminiClient:
                     time.sleep(wait_time)
                 else:
                     raise e
+
+    def extract_text_from_image(self, prompt: str, image_bytes: bytes) -> str:
+        """
+        Generates text using the Gemini model given an image and a prompt.
+        Useful for quick OCR tasks before the main generation step.
+        """
+        config = types.GenerateContentConfig(temperature=0.1)
+        contents = [prompt]
+        if image_bytes:
+            try:
+                img = Image.open(io.BytesIO(image_bytes))
+                contents.append(img)
+            except Exception as e:
+                logger.error("Failed to load image: %s", e)
+        
+        try:
+            response = self.client.models.generate_content(
+                model=self.model_name,
+                contents=contents,
+                config=config
+            )
+            return response.text
+        except Exception as e:
+            logger.error("Failed image text extraction: %s", e)
+            return ""

@@ -27,6 +27,15 @@ class CampaignOrchestrator:
         
         # Retrieve RAG context based on product focus or objective
         query = f"{event_data.get('product_focus', '')} {event_data.get('objective', '')}"
+        
+        # If relying purely on a poster, automatically extract product names to feed into RAG!
+        if image_bytes and ("Derived from poster" in event_data.get('product_focus', '') or not event_data.get('product_focus')):
+            extraction_prompt = "Analyze this agricultural campaign poster. Extract ONLY the names of any Bayer crop protection products or seed varieties mentioned (e.g. Camalus, Seminis Adhik, Nativo). Return them as a comma separated list. If none, return 'None'."
+            extracted = self.llm_client.extract_text_from_image(extraction_prompt, image_bytes)
+            if extracted and "none" not in extracted.lower():
+                print(f"DEBUG: Auto-extracted products from poster for RAG: {extracted}")
+                query += " " + extracted
+
         product_knowledge = self.rag_retriever.retrieve_context(query)
         if not product_knowledge:
             product_knowledge = "No specific product knowledge retrieved from the manual."

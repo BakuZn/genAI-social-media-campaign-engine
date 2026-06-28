@@ -1,11 +1,12 @@
 {
   "metadata": {
-    "source": "Product Manual 2023",
+    "source": "Product Manual 2023 and Crop Calendar Ver 3.0 June 2026 and Crop Calendar Ver 3.0 June 2026",
     "page_range": "27-288",
     "publisher": "Bayer Seminis",
-    "total_chunks": 117,
+    "total_chunks": 213,
     "seed_varieties": 71,
-    "crop_protection_products": 46
+    "crop_protection_products": 46,
+    "dosage_products_added": 48
   },
   "chunks": [
     {
@@ -826,6 +827,4198 @@
       "product_name": "Rhapsody",
       "crop": null,
       "text": "Product: Rhapsody\nCategory: Biological Fungicide\nActive Ingredient: Bacillus subtilis strain KTSB 1015 1.5% AS\nPurpose: Biological fungicide and bactericide; powdery mildew in grapes.\nMode of Action: Indigenous bio-agent colonizes plant surfaces and suppresses pathogens.\nEnvironment-friendly biological control\nSoil disease control and plant growth promotion\nFoliar and soil application"
+    },
+    {
+      "chunk_id": "dosage_emesto_prime",
+      "product_name": "Emesto Prime",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Potato",
+          "target": "Black Scurf (Rhizoctonia solani)",
+          "method": "Seed Treatment (dip tubers for 10 min, dry in shade)",
+          "formulation_dose": "83 ml in 100 litres water per 800 kg seed tubers",
+          "ai_dose": "0.02% a.i. concentration",
+          "waiting_period_days": null
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Potato",
+          "stage": "0 DAP (planting)",
+          "dose_per_acre": "100 ml/1000 kg tuber",
+          "application": "Seed treatment"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_evergol_xtend",
+      "product_name": "EverGol Xtend",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Groundnut",
+          "target": "Seed and seedling rot",
+          "method": "Seed Treatment (mix in polythene bag, max 8 ml slurry/kg seed)",
+          "formulation_dose": "80\u2013100 ml/100 kg seed",
+          "ai_dose": "12.32+12.32 g a.i./100 kg seed",
+          "waiting_period_days": null
+        },
+        {
+          "crop": "Soybean",
+          "target": "Seed and seedling rot",
+          "method": "Seed Treatment (max 6 ml slurry/kg seed)",
+          "formulation_dose": "80\u2013100 ml/100 kg seed",
+          "ai_dose": "12.32+12.32 g a.i./100 kg seed",
+          "waiting_period_days": null
+        },
+        {
+          "crop": "Cotton",
+          "target": "Seed and seedling rot",
+          "method": "Seed Treatment (max 15 ml slurry/kg seed)",
+          "formulation_dose": "300 ml/100 kg seed",
+          "ai_dose": "46.2+46.2 g a.i./100 kg seed",
+          "waiting_period_days": null
+        },
+        {
+          "crop": "Bengal gram",
+          "target": "Seed and seedling rot",
+          "method": "Seed Treatment (max 12 ml slurry/kg seed)",
+          "formulation_dose": "80\u2013100 ml/100 kg seed",
+          "ai_dose": "12.32+12.32 g a.i./100 kg seed",
+          "waiting_period_days": null
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "Nursery (\u221215 DAS)",
+          "dose_per_acre": "150 ml/ac",
+          "application": "Seed/seedling treatment"
+        },
+        {
+          "crop": "Onion",
+          "stage": "Nursery (\u221215 DAS)",
+          "dose_per_acre": "100 ml/ac",
+          "application": "Seed treatment"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_gaucho",
+      "product_name": "Gaucho",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Cotton",
+          "target": "Aphids, Whiteflies, Jassids, Thrips",
+          "formulation_dose": "500\u2013900 ml/100 kg seed",
+          "ai_dose": "300\u2013540 g a.i./100 kg seed"
+        },
+        {
+          "crop": "Okra",
+          "target": "Jassids, Aphids",
+          "formulation_dose": "500\u2013900 ml/100 kg seed",
+          "ai_dose": "300\u2013540 g a.i./100 kg seed"
+        },
+        {
+          "crop": "Sunflower",
+          "target": "Jassids, Whiteflies",
+          "formulation_dose": "500\u2013900 ml/100 kg seed",
+          "ai_dose": "300\u2013540 g a.i./100 kg seed"
+        },
+        {
+          "crop": "Sorghum",
+          "target": "Shoot Fly",
+          "formulation_dose": "1200 ml/100 kg seed",
+          "ai_dose": "720 g a.i./100 kg seed"
+        },
+        {
+          "crop": "Pearl Millet",
+          "target": "Shoot Fly/Termites",
+          "formulation_dose": "1200 ml/100 kg seed",
+          "ai_dose": "720 g a.i./100 kg seed"
+        },
+        {
+          "crop": "Soybean",
+          "target": "Jassids",
+          "formulation_dose": "125 ml/100 kg seed",
+          "ai_dose": "75 g a.i./100 kg seed"
+        },
+        {
+          "crop": "Rice",
+          "target": "Thrips",
+          "formulation_dose": "250 ml/100 kg seed",
+          "ai_dose": "150 g a.i./100 kg seed"
+        },
+        {
+          "crop": "Maize",
+          "target": "Shoot Fly",
+          "formulation_dose": "1000 ml/100 kg seed",
+          "ai_dose": "600 g a.i./100 kg seed"
+        },
+        {
+          "crop": "Potato",
+          "target": "Aphids, Jassids",
+          "formulation_dose": "17.5 ml/100 kg seed",
+          "ai_dose": "10.5 g a.i./100 kg seed"
+        },
+        {
+          "crop": "Wheat",
+          "target": "Aphids, Termite",
+          "formulation_dose": "350 ml/100 kg seed",
+          "ai_dose": "210 g a.i./100 kg seed"
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "Nursery (\u221215 DAS)",
+          "dose_per_acre": "100 ml/ac (drench)"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "Nursery (\u221215 DAS) & 0\u201310 DAT",
+          "dose_per_acre": "100 ml/ac (drench)"
+        },
+        {
+          "crop": "Potato",
+          "stage": "0 DAP",
+          "dose_per_acre": "125 ml/1000 kg tuber (optional)"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_raxil_easy",
+      "product_name": "Raxil Easy",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Wheat",
+          "target": "Loose Smut",
+          "formulation_dose": "3.33 ml/10 kg seed",
+          "ai_dose": "0.2 g a.i./10 kg seed",
+          "method": "Slurry 10\u201312 ml/kg seed"
+        },
+        {
+          "crop": "Rice",
+          "target": "Bakanae Foot rot, Brown leaf spot",
+          "formulation_dose": "10\u201312.5 ml/10 kg seed",
+          "ai_dose": "0.6\u20130.75 g a.i./10 kg seed",
+          "method": "Slurry 14 ml/kg seed"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_adora",
+      "product_name": "Adora",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Rice (Nursery)",
+          "target": "Echinochloa spp., broadleaf weeds",
+          "formulation_dose": "200 ml/ha",
+          "ai_dose": "20 g a.i./ha",
+          "water_volume": "300 L/ha"
+        },
+        {
+          "crop": "Rice (Transplanted)",
+          "target": "Grasses, sedges, broadleaf",
+          "formulation_dose": "200\u2013250 ml/ha",
+          "ai_dose": "20\u201325 g a.i./ha",
+          "water_volume": "300 L/ha"
+        },
+        {
+          "crop": "Rice (Direct Seeded)",
+          "target": "Grasses, sedges, broadleaf",
+          "formulation_dose": "200\u2013250 ml/ha",
+          "ai_dose": "20\u201325 g a.i./ha",
+          "water_volume": "300 L/ha"
+        }
+      ],
+      "application_note": "Drain water before spray; refill within 2\u20133 days; maintain 3\u20134 cm standing water for 10 days. 80\u2013100 ml per acre."
+    },
+    {
+      "chunk_id": "dosage_alion_plus",
+      "product_name": "Alion Plus",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Tea",
+          "target": "Ageratum, Borreria, Eleusine indica",
+          "formulation_dose": "2500\u20133500 ml/ha",
+          "ai_dose": "50+1000 to 70+1400 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 7
+        },
+        {
+          "crop": "Grape",
+          "target": "Parthenium, Cynodon, Cyperus, Amaranthus",
+          "formulation_dose": "1875\u20132125 ml/ha",
+          "ai_dose": "37.5+750 to 42.5+850 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 108
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_atlantis",
+      "product_name": "Atlantis",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Wheat",
+          "target": "Phalaris minor, Chenopodium, Melilotus, broadleaves",
+          "formulation_dose": "400 g/ha",
+          "ai_dose": "12+2.4 g a.i./ha",
+          "water_volume": "400\u2013500 L/ha",
+          "waiting_period_days": 96,
+          "timing": "2\u20134 leaf stage, 30\u201335 days old wheat"
+        }
+      ],
+      "application_note": "Use with surfactant Alkyl ether sulphate Na salt (GenaPol LRO fluid) @500 ml/ha. ~160 g/acre."
+    },
+    {
+      "chunk_id": "dosage_council_activ",
+      "product_name": "Council Activ",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Rice (Transplanted)",
+          "target": "Echinochloa, Cyperus, Fimbristylis, Marsilea",
+          "formulation_dose": "225 g/ha",
+          "ai_dose": "45+22.5 g a.i./ha",
+          "water_volume": "300 L/ha",
+          "waiting_period_days": 83
+        },
+        {
+          "crop": "Rice (Direct Seeded/Wet DSR)",
+          "target": "Echinochloa, Cyperus, Digera, Commelina",
+          "formulation_dose": "225 g/ha",
+          "ai_dose": "45+22.5 g a.i./ha",
+          "water_volume": "300 L/ha",
+          "waiting_period_days": 83
+        }
+      ],
+      "application_note": "Apply at 1\u20132 leaf stage of weeds. ~90 g/acre."
+    },
+    {
+      "chunk_id": "dosage_ghasa",
+      "product_name": "Ghasa",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Cotton",
+          "target": "Trianthema, Digera, Celosia, Dinebra, Digitaria",
+          "formulation_dose": "1.0\u20131.25 L/ha",
+          "ai_dose": "60+40 to 75+50 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 160
+        }
+      ],
+      "application_note": "450 ml/acre in 150 litres water. Apply 0\u20133 days after sowing (rainfed) or 0\u20133 days after 1st irrigation (irrigated)."
+    },
+    {
+      "chunk_id": "dosage_guletta",
+      "product_name": "Guletta",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Wheat",
+          "target": "Chenopodium, Melilotus, Medicago, Lathyrus, broadleaves",
+          "formulation_dose": "50 g/ha",
+          "ai_dose": "20 g a.i./ha",
+          "water_volume": "400 L/ha",
+          "waiting_period_days": 80,
+          "timing": "25\u201335 DAS, 2\u20133 leaf BLW stage"
+        },
+        {
+          "crop": "Rice (Direct Seeded)",
+          "target": "Ludwigia, Digera, Phyllanthus, Eclipta, Cyperus",
+          "formulation_dose": "62.5 g/ha",
+          "ai_dose": "25 g a.i./ha",
+          "water_volume": "300 L/ha",
+          "waiting_period_days": 102,
+          "timing": "10\u201315 DAS, 2\u20133 leaf BLW stage"
+        }
+      ],
+      "application_note": "25 g/acre (rice). Drain water before spraying. 120 L spray volume per acre."
+    },
+    {
+      "chunk_id": "dosage_laudis",
+      "product_name": "Laudis",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Maize",
+          "target": "Echinochloa, Trianthema, Brachiaria",
+          "formulation_dose": "286 ml/ha",
+          "ai_dose": "120 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 55
+        }
+      ],
+      "application_note": "Use with surfactant @1000 ml/ha. ~115 ml/acre."
+    },
+    {
+      "chunk_id": "dosage_momiji",
+      "product_name": "Momiji",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Wheat",
+          "target": "Phalaris minor",
+          "formulation_dose": "150 g/ha",
+          "ai_dose": "127.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 131
+        },
+        {
+          "crop": "Maize",
+          "target": "Echinochloa, Eleusine, Phyllanthus",
+          "formulation_dose": "150 g/ha",
+          "ai_dose": "127.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 103
+        },
+        {
+          "crop": "Soybean",
+          "target": "Echinochloa, Celosia, Trianthema, Amaranthus, Digera",
+          "formulation_dose": "150 g/ha",
+          "ai_dose": "127.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 94
+        }
+      ],
+      "application_note": "Pre-emergence. 60 g/acre."
+    },
+    {
+      "chunk_id": "dosage_ricestar",
+      "product_name": "Ricestar",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Rice (Transplanted & Direct Seeded)",
+          "target": "Echinochloa spp. (Barnyard grass)",
+          "formulation_dose": "812.5\u2013875 ml/ha",
+          "ai_dose": "56\u201360.4 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 61,
+          "timing": "20\u201325 DAS/DAT at 3\u20135 leaf weed stage"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_roundup",
+      "product_name": "Roundup",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Tea",
+          "target": "Axonopus, Cynodon, Imperata, Paspalum",
+          "formulation_dose": "2.0\u20133.0 L/ha",
+          "ai_dose": "820\u20131230 g a.i./ha",
+          "water_volume": "450 L/ha",
+          "waiting_period_days": 21
+        },
+        {
+          "crop": "Non-cropped Area",
+          "target": "Sorghum halepense, dicot & monocot weeds",
+          "formulation_dose": "2.0\u20133.0 L/ha",
+          "ai_dose": "820\u20131230 g a.i./ha",
+          "water_volume": "500 L/ha"
+        },
+        {
+          "crop": "Rice (Pre-plant)",
+          "target": "Echinochloa, Cyperus, Eclipta, Marsilea",
+          "formulation_dose": "1.0\u20132.5 L/ha",
+          "ai_dose": "800\u20131000 g a.i./ha",
+          "water_volume": "400\u2013500 L/ha"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_roundup_speed",
+      "product_name": "Roundup Speed",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Non-cropped areas",
+          "target": "Datura, Parthenium, Ageratum, Alternanthera, Echinochloa, Commelina, Cyperus",
+          "formulation_dose": "3.33 L/ha",
+          "ai_dose": "1800 g a.i./ha",
+          "water_volume": "400\u2013500 L/ha"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_sencor",
+      "product_name": "Sencor",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Sugarcane",
+          "target": "Cyperus, Cynodon, broadleaves",
+          "formulation_dose": "1.5\u20132.0 kg/ha (pre) or 1.5\u20132.0 kg/ha (post)",
+          "ai_dose": "1.05\u20131.4 kg a.i./ha",
+          "water_volume": "750\u20131000 L/ha",
+          "waiting_period_days": 60
+        },
+        {
+          "crop": "Potato",
+          "target": "Chenopodium, Trianthema, Parthenium, Phalaris minor",
+          "formulation_dose": "0.75 kg/ha",
+          "ai_dose": "0.525 kg a.i./ha",
+          "water_volume": "750\u20131000 L/ha",
+          "waiting_period_days": 30
+        },
+        {
+          "crop": "Tomato",
+          "target": "Trianthema, Amaranthus, broadleaves, grasses",
+          "formulation_dose": "0.75 kg/ha",
+          "ai_dose": "0.525 kg a.i./ha",
+          "water_volume": "750\u20131000 L/ha",
+          "waiting_period_days": 30
+        },
+        {
+          "crop": "Wheat",
+          "target": "Phalaris minor, Chenopodium, Melilotus",
+          "formulation_dose": "0.25\u20130.30 kg/ha",
+          "ai_dose": "0.175\u20130.21 kg a.i./ha",
+          "water_volume": "500\u2013750 L/ha",
+          "waiting_period_days": 120
+        },
+        {
+          "crop": "Soybean",
+          "target": "Digitaria, Cyperus, Trianthema, Celosia",
+          "formulation_dose": "0.50\u20130.75 kg/ha",
+          "ai_dose": "0.35\u20130.525 kg a.i./ha",
+          "water_volume": "750\u20131000 L/ha",
+          "waiting_period_days": 30
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_sunrice",
+      "product_name": "Sunrice",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Rice (Transplanted)",
+          "target": "Fimbristylis, Cyperus, Scirpus, Eclipta, Monochoria, Marsilea",
+          "formulation_dose": "83.3\u2013100 g/ha",
+          "ai_dose": "12.5\u201315 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 110,
+          "timing": "5\u201310 DAT"
+        },
+        {
+          "crop": "Sugarcane",
+          "target": "Cyperus rotundus",
+          "formulation_dose": "400 ml/ha",
+          "ai_dose": "60 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 205
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_whip_super",
+      "product_name": "Whip Super",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Soybean",
+          "target": "Echinochloa, Digitaria, Eleusine, Setaria, Brachiaria",
+          "formulation_dose": "1111 ml/ha",
+          "ai_dose": "100 g a.i./ha",
+          "water_volume": "250\u2013300 L/ha",
+          "waiting_period_days": 100
+        },
+        {
+          "crop": "Rice",
+          "target": "Echinochloa spp.",
+          "formulation_dose": "625 ml/ha",
+          "ai_dose": "56.25 g a.i./ha",
+          "water_volume": "300\u2013375 L/ha",
+          "waiting_period_days": 70
+        },
+        {
+          "crop": "Cotton",
+          "target": "Echinochloa, Eleusine, Dactyloctenium",
+          "formulation_dose": "750 ml/ha",
+          "ai_dose": "67.5 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 87
+        },
+        {
+          "crop": "Groundnut",
+          "target": "Echinochloa spp.",
+          "formulation_dose": "875 ml/ha",
+          "ai_dose": "78.75 g a.i./ha",
+          "water_volume": "375 L/ha",
+          "waiting_period_days": 89
+        },
+        {
+          "crop": "Blackgram",
+          "target": "Echinochloa, Digitaria, Dactyloctenium",
+          "formulation_dose": "625\u2013750 ml/ha",
+          "ai_dose": "56.25\u201367.5 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 43
+        },
+        {
+          "crop": "Onion",
+          "target": "Echinochloa, Dactyloctenium",
+          "formulation_dose": "875 ml/ha",
+          "ai_dose": "78.75 g a.i./ha",
+          "water_volume": "375 L/ha",
+          "waiting_period_days": 10
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "Nursery (\u221215 DAS)",
+          "dose_per_acre": "250 ml/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_admire",
+      "product_name": "Admire",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Cotton",
+          "target": "Jassids, Aphids, Thrips",
+          "formulation_dose": "30\u201335 g/ha",
+          "ai_dose": "21\u201324.5 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 7
+        },
+        {
+          "crop": "Rice",
+          "target": "BPH, WBPH",
+          "formulation_dose": "30\u201335 g/ha",
+          "ai_dose": "21\u201324.5 g a.i./ha",
+          "water_volume": "300\u2013375 L/ha",
+          "waiting_period_days": 7
+        },
+        {
+          "crop": "Okra",
+          "target": "Jassids, Aphids, Thrips",
+          "formulation_dose": "30\u201335 g/ha",
+          "ai_dose": "21\u201324.5 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 3
+        },
+        {
+          "crop": "Cucumber",
+          "target": "Jassids, Aphids",
+          "formulation_dose": "35 g/ha",
+          "ai_dose": "24.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Tomato",
+          "target": "Thrips, Whiteflies",
+          "formulation_dose": "50 g/ha",
+          "ai_dose": "35 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Potato",
+          "target": "Aphids, Whiteflies",
+          "formulation_dose": "90 g/ha",
+          "ai_dose": "63 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 30
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_alanto",
+      "product_name": "Alanto",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Cotton",
+          "target": "Aphid, Jassid, Thrips",
+          "formulation_dose": "100\u2013125 ml/ha",
+          "ai_dose": "24\u201330 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 52
+        },
+        {
+          "crop": "Cotton (Whitefly)",
+          "target": "Whitefly",
+          "formulation_dose": "500\u2013600 ml/ha",
+          "ai_dose": "120\u2013144 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 52
+        },
+        {
+          "crop": "Paddy",
+          "target": "Stem Borer",
+          "formulation_dose": "500 ml/ha",
+          "ai_dose": "120 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 30
+        },
+        {
+          "crop": "Chilli",
+          "target": "Thrips",
+          "formulation_dose": "225\u2013300 ml/ha",
+          "ai_dose": "54\u201372 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Brinjal",
+          "target": "Shoot & Fruit Borer",
+          "formulation_dose": "750 ml/ha",
+          "ai_dose": "180 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Tea",
+          "target": "Mosquito bug",
+          "formulation_dose": "375 ml/ha",
+          "ai_dose": "90 g a.i./ha",
+          "water_volume": "400 L/ha",
+          "waiting_period_days": 7
+        },
+        {
+          "crop": "Soybean",
+          "target": "Girdle beetle",
+          "formulation_dose": "750 ml/ha",
+          "ai_dose": "180 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 17
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Chilli",
+          "stage": "60\u201370 DAT & 70\u201380 DAT",
+          "dose_per_acre": "250 ml/ac"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "80\u2013120 DAT",
+          "dose_per_acre": "250 ml/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_belt_expert",
+      "product_name": "Belt Expert",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Chilli",
+          "target": "Thrips and Fruit Borer",
+          "formulation_dose": "200\u2013250 ml/ha",
+          "ai_dose": "48+48 to 60+60 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Rice",
+          "target": "Yellow Stem Borer & Leaf Folder",
+          "formulation_dose": "250 ml/ha",
+          "ai_dose": "60+60 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 33
+        },
+        {
+          "crop": "Tea",
+          "target": "Mosquito bug and Semilooper",
+          "formulation_dose": "250 ml/ha",
+          "ai_dose": "60+60 g a.i./ha",
+          "water_volume": "400 L/ha",
+          "waiting_period_days": 7
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_confidor",
+      "product_name": "Confidor",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Cotton",
+          "target": "Aphid, Jassid, Thrips, Whitefly",
+          "formulation_dose": "100\u2013125 ml/ha",
+          "ai_dose": "20\u201325 g a.i./ha",
+          "water_volume": "500\u2013700 L/ha",
+          "waiting_period_days": 40
+        },
+        {
+          "crop": "Rice",
+          "target": "BPH, WBPH, GLH",
+          "formulation_dose": "100\u2013125 ml/ha",
+          "ai_dose": "20\u201325 g a.i./ha",
+          "water_volume": "500\u2013700 L/ha",
+          "waiting_period_days": 40
+        },
+        {
+          "crop": "Chillies",
+          "target": "Aphid, Jassid, Thrips",
+          "formulation_dose": "125\u2013250 ml/ha",
+          "ai_dose": "25\u201350 g a.i./ha",
+          "water_volume": "500\u2013700 L/ha",
+          "waiting_period_days": 40
+        },
+        {
+          "crop": "Sugarcane",
+          "target": "Termite",
+          "formulation_dose": "1875 ml/ha (soil)",
+          "ai_dose": "350 g a.i./ha",
+          "waiting_period_days": 45
+        },
+        {
+          "crop": "Okra",
+          "target": "Aphid, Thrips, Jassid",
+          "formulation_dose": "100 ml/ha",
+          "ai_dose": "20 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 3
+        },
+        {
+          "crop": "Tomato",
+          "target": "Whitefly",
+          "formulation_dose": "150\u2013175 ml/ha",
+          "ai_dose": "30\u201335 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 3
+        },
+        {
+          "crop": "Grapes",
+          "target": "Red beetle",
+          "formulation_dose": "300\u2013400 ml/ha",
+          "ai_dose": "60\u201380 g a.i./ha",
+          "water_volume": "1000 L/ha",
+          "waiting_period_days": 32
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_decis_100",
+      "product_name": "Decis 100",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Cotton",
+          "target": "Bollworms",
+          "formulation_dose": "125 ml/ha",
+          "ai_dose": "12.5 g a.i./ha",
+          "water_volume": "400\u2013600 L/ha",
+          "waiting_period_days": 30
+        },
+        {
+          "crop": "Tomato",
+          "target": "Fruit Borer",
+          "formulation_dose": "100\u2013125 ml/ha",
+          "ai_dose": "10\u201312.5 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 3
+        },
+        {
+          "crop": "Okra",
+          "target": "Fruit Borer",
+          "formulation_dose": "100\u2013125 ml/ha",
+          "ai_dose": "10\u201312.5 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 3
+        },
+        {
+          "crop": "Rice",
+          "target": "Leaf Folder, Stem Borer, GLH",
+          "formulation_dose": "150\u2013187.5 ml/ha",
+          "ai_dose": "15\u201318.75 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 13
+        },
+        {
+          "crop": "Chilli",
+          "target": "Fruit Borer",
+          "formulation_dose": "175 ml/ha",
+          "ai_dose": "17.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Onion",
+          "target": "Thrips",
+          "formulation_dose": "150 ml/ha",
+          "ai_dose": "15 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Cucurbits",
+          "stage": "50\u201360 DAT",
+          "dose_per_acre": "100 ml/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_fame",
+      "product_name": "Fame",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Cotton",
+          "target": "Bollworms (American & Spotted)",
+          "formulation_dose": "100\u2013125 ml/ha",
+          "ai_dose": "48\u201360 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 25
+        },
+        {
+          "crop": "Rice",
+          "target": "Stem Borer & Leaf Folder",
+          "formulation_dose": "50 ml/ha",
+          "ai_dose": "24 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 40
+        },
+        {
+          "crop": "Tomato",
+          "target": "Fruit Borer",
+          "formulation_dose": "100 ml/ha",
+          "ai_dose": "48 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Cabbage",
+          "target": "Diamond Back Moth",
+          "formulation_dose": "37.5\u201350 ml/ha",
+          "ai_dose": "18\u201324 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 7
+        },
+        {
+          "crop": "Chilli",
+          "target": "Fruit Borer (Helicoverpa, Spodoptera)",
+          "formulation_dose": "100\u2013125 ml/ha",
+          "ai_dose": "48\u201360 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 7
+        },
+        {
+          "crop": "Brinjal",
+          "target": "Shoot & Fruit Borer",
+          "formulation_dose": "150\u2013187.5 ml/ha",
+          "ai_dose": "72\u201390 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Okra",
+          "target": "Shoot and Fruit Borer",
+          "formulation_dose": "100\u2013125 ml/ha",
+          "ai_dose": "48\u201360 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 3
+        },
+        {
+          "crop": "Soybean",
+          "target": "Defoliators (Helicoverpa, Spodoptera, Semilooper)",
+          "formulation_dose": "150 ml/ha",
+          "ai_dose": "72 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 17
+        },
+        {
+          "crop": "Maize",
+          "target": "Stem Borer",
+          "formulation_dose": "3 ml/L water",
+          "ai_dose": "1.44 g a.i./L",
+          "waiting_period_days": 14
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_glamore",
+      "product_name": "Glamore",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Rice",
+          "target": "BPH & WBPH",
+          "formulation_dose": "93.75\u2013125 g/ha",
+          "ai_dose": "37.5+37.5 to 50+50 g a.i./ha",
+          "water_volume": "375 L/ha",
+          "waiting_period_days": 15
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_jump",
+      "product_name": "Jump",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Cotton",
+          "target": "Thrips",
+          "formulation_dose": "60 g/ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 14
+        },
+        {
+          "crop": "Chilli",
+          "target": "Thrips",
+          "formulation_dose": "50\u201362.5 g/ha",
+          "ai_dose": "40\u201350 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Cabbage",
+          "target": "Diamond Back Moth",
+          "formulation_dose": "75 g/ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 15
+        },
+        {
+          "crop": "Onion",
+          "target": "Thrips",
+          "formulation_dose": "75 g/ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 15
+        },
+        {
+          "crop": "Rice",
+          "target": "Stem Borer, Leaf Folder",
+          "formulation_dose": "93.75 g/ha",
+          "ai_dose": "50\u201362.5 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 15
+        },
+        {
+          "crop": "Grape",
+          "target": "Thrips",
+          "formulation_dose": "75 g/ha",
+          "water_volume": "750\u20131000 L/ha",
+          "waiting_period_days": 14
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "25 g/ac (solo) or 40 g + Movento OD 200 ml/ac (combo)"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "20\u201330 DAT onwards",
+          "dose_per_acre": "40 g/ac + Movento OD 200 ml/ac or + Alanto 250 ml/ac"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "40 g/ac"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "40 g/ac + Movento OD 200 ml/ac (combo in later stages)"
+        },
+        {
+          "crop": "Onion",
+          "stage": "30\u201340 DAT & 50\u201360 DAT",
+          "dose_per_acre": "40 g/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_lesenta",
+      "product_name": "Lesenta",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Sugarcane",
+          "target": "White grubs",
+          "formulation_dose": "437.5\u2013500 g/ha",
+          "ai_dose": "175+175 to 200+200 g a.i./ha",
+          "water_volume": "1000\u20131250 L/ha",
+          "waiting_period_days": 296
+        },
+        {
+          "crop": "Groundnut",
+          "target": "White grubs",
+          "formulation_dose": "250\u2013300 g/ha",
+          "ai_dose": "100+100 to 120+120 g a.i./ha",
+          "water_volume": "1000 L/ha",
+          "waiting_period_days": 106
+        },
+        {
+          "crop": "Cotton",
+          "target": "Jassids and Thrips",
+          "formulation_dose": "125 g/ha",
+          "ai_dose": "50+50 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 36
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "100 g/ac (drench)"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_movento",
+      "product_name": "Movento",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Chilli",
+          "target": "Thrips, Aphids",
+          "formulation_dose": "400 ml/ha",
+          "ai_dose": "60 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Grapes",
+          "target": "Mealybug, Mites",
+          "formulation_dose": "700 ml/ha",
+          "ai_dose": "105 g a.i./ha",
+          "water_volume": "500\u20131000 L/ha",
+          "waiting_period_days": 60
+        },
+        {
+          "crop": "Okra",
+          "target": "Aphids, Whiteflies, Mites",
+          "formulation_dose": "600 ml/ha",
+          "ai_dose": "90 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 3
+        },
+        {
+          "crop": "Cotton",
+          "target": "Aphids, Whiteflies, Thrips",
+          "formulation_dose": "700 ml/ha",
+          "ai_dose": "105 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 52
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "20\u201330 & 30\u201340 DAT",
+          "dose_per_acre": "200 ml/ac (combo with Jump 40 g/ac)"
+        },
+        {
+          "crop": "Cole Crops",
+          "stage": "30\u201340 DAT",
+          "dose_per_acre": "200 ml/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_movento_energy",
+      "product_name": "Movento Energy",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Brinjal",
+          "target": "Red Spider Mite, Whiteflies",
+          "formulation_dose": "500 ml/ha",
+          "ai_dose": "60+60 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Okra",
+          "target": "Red Spider Mite",
+          "formulation_dose": "500 ml/ha",
+          "ai_dose": "60+60 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 3
+        },
+        {
+          "crop": "Grape",
+          "target": "Thrips, Mites, Mealybug",
+          "formulation_dose": "750 ml/ha",
+          "ai_dose": "90+90 g a.i./ha",
+          "water_volume": "1000 L/ha",
+          "waiting_period_days": 60
+        },
+        {
+          "crop": "Cotton",
+          "target": "Mealybug",
+          "formulation_dose": "625 ml/ha",
+          "ai_dose": "75+75 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 22
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Chilli",
+          "stage": "40\u201350 DAT",
+          "dose_per_acre": "250 ml/ac"
+        },
+        {
+          "crop": "Potato",
+          "stage": "35\u201345 DAP & 60\u201370 DAP",
+          "dose_per_acre": "250 ml/ac"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "60\u201370 DAT",
+          "dose_per_acre": "250 ml/ac (+ Oberon 200 ml/ac)"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_oberon",
+      "product_name": "Oberon",
+      "category": "dosage",
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "40\u201350 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "30\u201340 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "30\u201340 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "50\u201360 DAT (solo) or 60\u201370 DAT (combo)",
+          "dose_per_acre": "200 ml/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_renkli",
+      "product_name": "Renkli",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Brinjal",
+          "target": "Aphids, Jassids, Whitefly",
+          "formulation_dose": "150 g/ha",
+          "ai_dose": "75 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 25
+        },
+        {
+          "crop": "Okra",
+          "target": "Aphids, Jassids, Whitefly",
+          "formulation_dose": "150 g/ha",
+          "ai_dose": "75 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 10
+        },
+        {
+          "crop": "Cotton",
+          "target": "Aphid, Jassids, Thrips, Whitefly",
+          "formulation_dose": "200 g/ha",
+          "ai_dose": "100 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 15
+        },
+        {
+          "crop": "Rice",
+          "target": "BPH, WBPH, GLH",
+          "formulation_dose": "200 g/ha",
+          "ai_dose": "100 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 36
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_solomon",
+      "product_name": "Solomon",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Brinjal",
+          "target": "Aphids, Jassids, Shoot & Fruit Borer",
+          "formulation_dose": "175\u2013200 ml/ha",
+          "ai_dose": "15.75+36.75 to 18+42 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 7
+        },
+        {
+          "crop": "Soybean",
+          "target": "Girdle beetle & Semilooper",
+          "formulation_dose": "350 ml/ha",
+          "ai_dose": "31.5+73.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 17
+        },
+        {
+          "crop": "Cotton",
+          "target": "Jassids and Whitefly",
+          "formulation_dose": "200 ml/ha",
+          "ai_dose": "18+42 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 21
+        },
+        {
+          "crop": "Chilli",
+          "target": "Thrips, Aphids, Whitefly",
+          "formulation_dose": "310 ml/ha",
+          "ai_dose": "27.9+65.1 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "30\u201340 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "10\u201320 DAT & 50\u201360 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "20\u201330 DAT & 70\u201380 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Onion",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Cole Crops",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Potato",
+          "stage": "25\u201335 DAP",
+          "dose_per_acre": "200 ml/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_vayego",
+      "product_name": "Vayego",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Rice",
+          "target": "Yellow Stem Borer, Leaf Folder",
+          "formulation_dose": "250\u2013300 ml/ha",
+          "ai_dose": "50\u201360 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 43
+        },
+        {
+          "crop": "Soybean",
+          "target": "Girdle beetle, Spodoptera, Semilooper",
+          "formulation_dose": "250\u2013300 ml/ha",
+          "ai_dose": "50\u201360 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 35
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_curbix_pro",
+      "product_name": "Curbix Pro",
+      "category": "dosage",
+      "application_note": "Effective broad spectrum hopper control in paddy across all instars. Refer to label for per-hectare dosage."
+    },
+    {
+      "chunk_id": "dosage_velum_prime",
+      "product_name": "Velum Prime",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Tomato",
+          "target": "Root knot nematode (Meloidogyne incognita)",
+          "formulation_dose": "625 ml/ha \u00d7 2 applications OR 1250 ml/ha single application",
+          "ai_dose": "250 g \u00d7 2 OR 500 g single a.i./ha",
+          "water_volume": "1000 L/ha",
+          "waiting_period_days": 5,
+          "method": "Soil drench"
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "0\u20135 DAT (full 500 ml or split 250 ml) + 21 DAA (split 250 ml)",
+          "dose_per_acre": "500 ml full dose or 250 ml split per application"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "0\u20135 DAT (full 500 ml or split 250 ml) + 21 DAA (split 250 ml)",
+          "dose_per_acre": "500 ml full dose or 250 ml split per application"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "0\u20135 DAT (250 ml split) + 21 DAA (250 ml split)",
+          "dose_per_acre": "250 ml/ac per drench"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "0\u20135 DAT (full 500 ml or split 250 ml) + 21 DAA (split 250 ml)",
+          "dose_per_acre": "500 ml full dose or 250 ml split per application"
+        },
+        {
+          "crop": "Cole Crops",
+          "stage": "0\u201310 DAT",
+          "dose_per_acre": "500 ml/ac (drench)"
+        },
+        {
+          "crop": "Potato",
+          "stage": "0\u201310 DAP",
+          "dose_per_acre": "500 ml/ac (drench)"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_acerbo",
+      "product_name": "Acerbo",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Rice",
+          "target": "Sheath Blight, Leaf and Neck Blast",
+          "formulation_dose": "500\u2013600 ml/ha",
+          "ai_dose": "125+125 to 150+150 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 32
+        },
+        {
+          "crop": "Chilli",
+          "target": "Powdery Mildew and Anthracnose",
+          "formulation_dose": "500\u2013600 ml/ha",
+          "ai_dose": "125+125 to 150+150 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Onion",
+          "target": "Purple blotch",
+          "formulation_dose": "500\u2013600 ml/ha",
+          "ai_dose": "125+125 to 150+150 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 30
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "20\u201330 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "40\u201350 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Onion",
+          "stage": "60\u201365 DAT",
+          "dose_per_acre": "200 ml/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_aliette",
+      "product_name": "Aliette",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Grapes",
+          "target": "Downy Mildew",
+          "formulation_dose": "1400\u20132000 g/ha (spray)",
+          "ai_dose": "1120\u20131600 g a.i./ha",
+          "water_volume": "750\u20131000 L/ha",
+          "waiting_period_days": 30,
+          "timing": "Spray at 3\u20135 leaf stage after pruning"
+        },
+        {
+          "crop": "Cardamom",
+          "target": "Azhukal disease, Damping off",
+          "formulation_dose": "2250\u20133000 g/ha",
+          "ai_dose": "1800\u20132400 g a.i./ha",
+          "water_volume": "750\u20131000 L/ha",
+          "waiting_period_days": 90
+        },
+        {
+          "crop": "Tomato",
+          "target": "Damping off",
+          "formulation_dose": "2.5\u20133.0 g/L (soil drench)",
+          "ai_dose": "2.0\u20132.4 g a.i./L",
+          "method": "1 L/sq.m drench at 7 days after emergence + 14 days later"
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "Nursery (\u221215 DAS) & 0\u201310 DAT",
+          "dose_per_acre": "3 g/L (600 ml/ac) drench \u2014 solo application"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "Nursery (\u221215 DAS)",
+          "dose_per_acre": "3 g/L (600 ml/ac) drench"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "Nursery (\u221215 DAS) & 0\u201310 DAT",
+          "dose_per_acre": "3 g/L (600 ml/ac) drench"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "Nursery (\u221215 DAS) & 0\u201310 DAT",
+          "dose_per_acre": "3 g/L (600 ml/ac) drench"
+        },
+        {
+          "crop": "Onion",
+          "stage": "0\u20133 DAT",
+          "dose_per_acre": "3 g/L drench"
+        },
+        {
+          "crop": "Cole Crops",
+          "stage": "Nursery (\u221215 DAS)",
+          "dose_per_acre": "3 g/L (600 ml/ac) drench"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_antracol",
+      "product_name": "Antracol",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Apple",
+          "target": "Scab",
+          "formulation_dose": "300 g/100 L water (0.30%)",
+          "waiting_period_days": 30
+        },
+        {
+          "crop": "Pomegranate",
+          "target": "Leaf and Fruit Spot",
+          "formulation_dose": "300 g/100 L water (0.30%)",
+          "waiting_period_days": 10
+        },
+        {
+          "crop": "Potato",
+          "target": "Early & Late Blight",
+          "formulation_dose": "300 g/100 L water (0.30%)",
+          "waiting_period_days": 15
+        },
+        {
+          "crop": "Chilli",
+          "target": "Dieback",
+          "formulation_dose": "500 g/100 L water (0.50%)",
+          "waiting_period_days": 10
+        },
+        {
+          "crop": "Tomato",
+          "target": "Buckeye rot",
+          "formulation_dose": "300 g/100 L water (0.30%)",
+          "waiting_period_days": 10
+        },
+        {
+          "crop": "Grapes",
+          "target": "Downy Mildew",
+          "formulation_dose": "300 g/100 L water (0.30%)",
+          "waiting_period_days": 40
+        },
+        {
+          "crop": "Rice",
+          "target": "Brown leaf spot, Alternaria leaf spot, Narrow leaf spot",
+          "formulation_dose": "1500\u20132000 g/ha",
+          "ai_dose": "1050\u20131400 g a.i./ha",
+          "water_volume": "500 L/ha"
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "500 g/ac"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "500 g/ac"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "500 g/ac"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "500 ml/ac"
+        },
+        {
+          "crop": "Onion",
+          "stage": "20\u201330 DAT",
+          "dose_per_acre": "600 g/ac"
+        },
+        {
+          "crop": "Cole Crops",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "500 g/ac"
+        },
+        {
+          "crop": "Potato",
+          "stage": "10\u201325 DAP",
+          "dose_per_acre": "600 g/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_buonos",
+      "product_name": "Buonos",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Wheat",
+          "target": "Yellow Rust and Powdery Mildew",
+          "formulation_dose": "600 ml/ha",
+          "ai_dose": "258 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Rice",
+          "target": "Sheath Blight",
+          "formulation_dose": "436\u2013500 ml/ha",
+          "ai_dose": "187.5\u2013215 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 35
+        },
+        {
+          "crop": "Tomato",
+          "target": "Early blight and Anthracnose",
+          "formulation_dose": "625 ml/ha",
+          "ai_dose": "268.75 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Chilli",
+          "target": "Powdery Mildew and Cercospora leaf spots",
+          "formulation_dose": "440\u2013500 ml/ha",
+          "ai_dose": "189.2\u2013215 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Grape",
+          "target": "Powdery Mildew",
+          "formulation_dose": "500\u2013550 ml/ha",
+          "ai_dose": "215\u2013236.5 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 60
+        },
+        {
+          "crop": "Onion",
+          "target": "Purple blotch, Stemphylium blight",
+          "formulation_dose": "440\u2013500 ml/ha",
+          "ai_dose": "189.2\u2013215 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 43
+        },
+        {
+          "crop": "Soybean",
+          "target": "Leaf spots (Alternaria, Cercospora, Myrothecium)",
+          "formulation_dose": "600 ml/ha",
+          "ai_dose": "258 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 28
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Chilli",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "20\u201330 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "20\u201330 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Onion",
+          "stage": "20\u201330 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Cole Crops",
+          "stage": "20\u201330 DAT",
+          "dose_per_acre": "200 ml/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_folicur",
+      "product_name": "Folicur",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Rice",
+          "target": "Blast, Sheath Blight",
+          "formulation_dose": "750 ml/ha",
+          "ai_dose": "187.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 10
+        },
+        {
+          "crop": "Chilli",
+          "target": "Powdery Mildew, Fruit Rot",
+          "formulation_dose": "500\u2013750 ml/ha",
+          "ai_dose": "125\u2013187.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Groundnut",
+          "target": "Tikka and Rust",
+          "formulation_dose": "500\u2013750 ml/ha",
+          "ai_dose": "125\u2013187.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 49
+        },
+        {
+          "crop": "Onion",
+          "target": "Purple blotch",
+          "formulation_dose": "625\u2013750 ml/ha",
+          "ai_dose": "156.3\u2013187.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 21
+        },
+        {
+          "crop": "Soybean",
+          "target": "Anthracnose (Pod blight)",
+          "formulation_dose": "625 ml/ha",
+          "ai_dose": "156.3 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 14
+        },
+        {
+          "crop": "Blackgram",
+          "target": "Leaf spots (Cercospora and Anthracnose)",
+          "formulation_dose": "750 ml/ha",
+          "ai_dose": "187.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 17
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Chilli",
+          "stage": "Fusarium Wilt treatment",
+          "dose_per_acre": "1 ml/L (drench)"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "Fusarium Wilt treatment",
+          "dose_per_acre": "2 ml/L (drench)"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_infinito",
+      "product_name": "Infinito",
+      "category": "dosage",
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "30\u201340 DAT & 50\u201360 DAT",
+          "dose_per_acre": "600 ml/ac"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "30\u201340 DAT",
+          "dose_per_acre": "600 ml/ac"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "20\u201330 DAT & 40\u201350 DAT",
+          "dose_per_acre": "600 ml/ac"
+        },
+        {
+          "crop": "Onion",
+          "stage": "40\u201350 DAT",
+          "dose_per_acre": "600 ml/ac"
+        },
+        {
+          "crop": "Cole Crops",
+          "stage": "30\u201340 DAT & 50\u201360 DAT",
+          "dose_per_acre": "600 g/ac"
+        },
+        {
+          "crop": "Potato",
+          "stage": "25\u201335 DAP",
+          "dose_per_acre": "600 ml/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_luna_experience",
+      "product_name": "Luna Experience",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Grape",
+          "target": "Powdery Mildew, Anthracnose",
+          "formulation_dose": "562.5 ml/ha",
+          "ai_dose": "112.5+112.5 g a.i./ha",
+          "water_volume": "750\u20131000 L/ha",
+          "waiting_period_days": 10
+        },
+        {
+          "crop": "Chilli",
+          "target": "Powdery Mildew, Anthracnose",
+          "formulation_dose": "500 ml/ha",
+          "ai_dose": "100+100 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Rice",
+          "target": "False smut, Dirty Panicle",
+          "formulation_dose": "550 ml/ha",
+          "ai_dose": "110+110 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 22
+        },
+        {
+          "crop": "Onion",
+          "target": "Post-harvest diseases (Black mold, Neck rot)",
+          "formulation_dose": "375 ml/ha",
+          "ai_dose": "75+75 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 30
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "30\u201340 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "50\u201360 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "50\u201360 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "50\u201360 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Onion",
+          "stage": "80\u201385 DAT",
+          "dose_per_acre": "150 ml/ac"
+        },
+        {
+          "crop": "Cole Crops",
+          "stage": "40\u201350 DAT",
+          "dose_per_acre": "200 ml/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_melody_duo",
+      "product_name": "Melody Duo",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Potato",
+          "target": "Late blight",
+          "formulation_dose": "2000 g/ha",
+          "ai_dose": "110+1225 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 26
+        },
+        {
+          "crop": "Grapes",
+          "target": "Downy Mildew",
+          "formulation_dose": "2250 g/ha (0.3%)",
+          "ai_dose": "123.75+1378.13 g a.i./ha",
+          "water_volume": "750 L/ha",
+          "waiting_period_days": 55
+        },
+        {
+          "crop": "Tomato",
+          "target": "Early and Late blight",
+          "formulation_dose": "2250\u20132500 g/ha",
+          "ai_dose": "123.75\u2013137.5 + 1378.13\u20131531.25 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_nativo",
+      "product_name": "Nativo",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Rice",
+          "target": "Sheath blight, Leaf/Neck blast, Dirty panicle",
+          "formulation_dose": "200 g/ha (early) or 350\u2013400 g/ha (late)",
+          "ai_dose": "100+50 to 200+100 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": "21\u201335"
+        },
+        {
+          "crop": "Tomato",
+          "target": "Early blight",
+          "formulation_dose": "350 g/ha",
+          "ai_dose": "175+87.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 3
+        },
+        {
+          "crop": "Grape",
+          "target": "Powdery Mildew",
+          "formulation_dose": "175 g/ha",
+          "ai_dose": "87.5+43.75 g a.i./ha",
+          "water_volume": "1000 L/ha",
+          "waiting_period_days": 34
+        },
+        {
+          "crop": "Chilli",
+          "target": "Powdery Mildew, Anthracnose, Alternaria leaf spot",
+          "formulation_dose": "250 g/ha",
+          "ai_dose": "125+62.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Wheat",
+          "target": "Yellow rust, Powdery Mildew",
+          "formulation_dose": "300 g/ha",
+          "ai_dose": "150+75 g a.i./ha",
+          "water_volume": "300\u2013500 L/ha",
+          "waiting_period_days": 40
+        },
+        {
+          "crop": "Onion",
+          "target": "Purple blotch",
+          "formulation_dose": "300 g/ha",
+          "ai_dose": "150+75 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 29
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "40\u201350 DAT",
+          "dose_per_acre": "140 g/ac (or Luna Experience 200 ml/ac)"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "20\u201330 DAT",
+          "dose_per_acre": "100 g/ac"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "20\u201330 DAT",
+          "dose_per_acre": "120 g/ac"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "30\u201340 DAT",
+          "dose_per_acre": "120 g/ac"
+        },
+        {
+          "crop": "Onion",
+          "stage": "30\u201340 DAT",
+          "dose_per_acre": "120 g/ac"
+        },
+        {
+          "crop": "Cole Crops",
+          "stage": "20\u201330 DAT",
+          "dose_per_acre": "120 g/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_profiler",
+      "product_name": "Profiler",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Grape",
+          "target": "Downy Mildew",
+          "formulation_dose": "2250\u20132500 g/ha",
+          "ai_dose": "99.9+1500 to 111+1667 g a.i./ha",
+          "water_volume": "750 L/ha",
+          "waiting_period_days": 32,
+          "timing": "From 3\u20134 leaf stage after pruning, repeat 1\u20132 times at 10\u201315 day intervals"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_rhapsody",
+      "product_name": "Rhapsody",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Grapes",
+          "target": "Powdery Mildew (Erysiphe necator)",
+          "formulation_dose": "1000 ml in 500 L water/ha (foliar spray, 8\u201310 times) + 1000 ml in 500 L (soil drench, twice)",
+          "method": "Foliar: bud break to harvest; Soil: pruning to harvest, 30-day interval",
+          "waiting_period_days": 0
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "10\u201320 DAT & 20\u201330 DAT",
+          "dose_per_acre": "500 ml/ac (foliar) or 1000 ml/ac (drench)"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "20\u201330 DAT",
+          "dose_per_acre": "500 ml/ac"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "50\u201360 DAT",
+          "dose_per_acre": "500 ml/ac"
+        },
+        {
+          "crop": "Cole Crops",
+          "stage": "40\u201350 DAT",
+          "dose_per_acre": "500 ml/ac"
+        },
+        {
+          "crop": "All crops (Root Health)",
+          "stage": "0\u201310 DAT & 20\u201330 DAT",
+          "dose_per_acre": "1000 ml/ac (drench)"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_camalus",
+      "product_name": "Camalus",
+      "category": "dosage",
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "20\u201330 DAT, 40\u201350 DAT, 50\u201360 DAT, 60\u201370 DAT",
+          "dose_per_acre": "150 ml/ac",
+          "target": "Leaf Miner (Tuta/Serpentine), Fruit Borer/Spodoptera"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "30\u201340 DAT, 50\u201360 DAT, 70\u201380 DAT",
+          "dose_per_acre": "150 ml/ac",
+          "target": "Thrips, Fruit Borer/Spodoptera"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "20\u201330 DAT, 40\u201350 DAT",
+          "dose_per_acre": "150 ml/ac",
+          "target": "Aphids/WF, Leaf Miner/Semilooper"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "20\u201330 DAT, 40\u201350 DAT, 60\u201370 DAT, 80\u2013120 DAT",
+          "dose_per_acre": "150 ml/ac",
+          "target": "Shoot and Fruit Borer, Jassids/WF/Mites"
+        },
+        {
+          "crop": "Onion",
+          "stage": "40\u201350 DAT",
+          "dose_per_acre": "150 ml/ac",
+          "target": "Thrips"
+        },
+        {
+          "crop": "Cole Crops",
+          "stage": "20\u201330 DAT, 40\u201350 DAT, 60\u201370 DAT, 80\u2013120 DAT",
+          "dose_per_acre": "150 ml/ac",
+          "target": "DBM/Spodoptera/Aphids"
+        }
+      ],
+      "application_note": "Camalus appears only in the Crop Calendar (no Product Manual label page). Dosage is consistently 150 ml/ac across all vegetable crops."
+    },
+    {
+      "chunk_id": "dosage_spintor",
+      "product_name": "Spintor",
+      "category": "dosage",
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "20\u201330 DAT",
+          "dose_per_acre": "75 ml/ac",
+          "target": "Leaf Miner"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "40\u201350 DAT",
+          "dose_per_acre": "75 ml/ac",
+          "target": "Fruit Borer"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "40\u201350 DAT",
+          "dose_per_acre": "75 ml/ac",
+          "target": "Leaf Miner/Semilooper/FB"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "10\u201320 DAT & 40\u201350 DAT",
+          "dose_per_acre": "75 ml/ac",
+          "target": "Shoot and Fruit Borer"
+        },
+        {
+          "crop": "Onion",
+          "stage": "50\u201360 DAT",
+          "dose_per_acre": "75 ml/ac",
+          "target": "Leaf Miner"
+        }
+      ],
+      "application_note": "Spintor (Spinosad) appears only in the Crop Calendar. Consistent 75 ml/ac dosage."
+    },
+    {
+      "chunk_id": "dosage_emesto_prime",
+      "product_name": "Emesto Prime",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Potato",
+          "target": "Black Scurf (Rhizoctonia solani)",
+          "method": "Seed Treatment (dip tubers for 10 min, dry in shade)",
+          "formulation_dose": "83 ml in 100 litres water per 800 kg seed tubers",
+          "ai_dose": "0.02% a.i. concentration",
+          "waiting_period_days": null
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Potato",
+          "stage": "0 DAP (planting)",
+          "dose_per_acre": "100 ml/1000 kg tuber",
+          "application": "Seed treatment"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_evergol_xtend",
+      "product_name": "EverGol Xtend",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Groundnut",
+          "target": "Seed and seedling rot",
+          "method": "Seed Treatment (mix in polythene bag, max 8 ml slurry/kg seed)",
+          "formulation_dose": "80\u2013100 ml/100 kg seed",
+          "ai_dose": "12.32+12.32 g a.i./100 kg seed",
+          "waiting_period_days": null
+        },
+        {
+          "crop": "Soybean",
+          "target": "Seed and seedling rot",
+          "method": "Seed Treatment (max 6 ml slurry/kg seed)",
+          "formulation_dose": "80\u2013100 ml/100 kg seed",
+          "ai_dose": "12.32+12.32 g a.i./100 kg seed",
+          "waiting_period_days": null
+        },
+        {
+          "crop": "Cotton",
+          "target": "Seed and seedling rot",
+          "method": "Seed Treatment (max 15 ml slurry/kg seed)",
+          "formulation_dose": "300 ml/100 kg seed",
+          "ai_dose": "46.2+46.2 g a.i./100 kg seed",
+          "waiting_period_days": null
+        },
+        {
+          "crop": "Bengal gram",
+          "target": "Seed and seedling rot",
+          "method": "Seed Treatment (max 12 ml slurry/kg seed)",
+          "formulation_dose": "80\u2013100 ml/100 kg seed",
+          "ai_dose": "12.32+12.32 g a.i./100 kg seed",
+          "waiting_period_days": null
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "Nursery (\u221215 DAS)",
+          "dose_per_acre": "150 ml/ac",
+          "application": "Seed/seedling treatment"
+        },
+        {
+          "crop": "Onion",
+          "stage": "Nursery (\u221215 DAS)",
+          "dose_per_acre": "100 ml/ac",
+          "application": "Seed treatment"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_gaucho",
+      "product_name": "Gaucho",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Cotton",
+          "target": "Aphids, Whiteflies, Jassids, Thrips",
+          "formulation_dose": "500\u2013900 ml/100 kg seed",
+          "ai_dose": "300\u2013540 g a.i./100 kg seed"
+        },
+        {
+          "crop": "Okra",
+          "target": "Jassids, Aphids",
+          "formulation_dose": "500\u2013900 ml/100 kg seed",
+          "ai_dose": "300\u2013540 g a.i./100 kg seed"
+        },
+        {
+          "crop": "Sunflower",
+          "target": "Jassids, Whiteflies",
+          "formulation_dose": "500\u2013900 ml/100 kg seed",
+          "ai_dose": "300\u2013540 g a.i./100 kg seed"
+        },
+        {
+          "crop": "Sorghum",
+          "target": "Shoot Fly",
+          "formulation_dose": "1200 ml/100 kg seed",
+          "ai_dose": "720 g a.i./100 kg seed"
+        },
+        {
+          "crop": "Pearl Millet",
+          "target": "Shoot Fly/Termites",
+          "formulation_dose": "1200 ml/100 kg seed",
+          "ai_dose": "720 g a.i./100 kg seed"
+        },
+        {
+          "crop": "Soybean",
+          "target": "Jassids",
+          "formulation_dose": "125 ml/100 kg seed",
+          "ai_dose": "75 g a.i./100 kg seed"
+        },
+        {
+          "crop": "Rice",
+          "target": "Thrips",
+          "formulation_dose": "250 ml/100 kg seed",
+          "ai_dose": "150 g a.i./100 kg seed"
+        },
+        {
+          "crop": "Maize",
+          "target": "Shoot Fly",
+          "formulation_dose": "1000 ml/100 kg seed",
+          "ai_dose": "600 g a.i./100 kg seed"
+        },
+        {
+          "crop": "Potato",
+          "target": "Aphids, Jassids",
+          "formulation_dose": "17.5 ml/100 kg seed",
+          "ai_dose": "10.5 g a.i./100 kg seed"
+        },
+        {
+          "crop": "Wheat",
+          "target": "Aphids, Termite",
+          "formulation_dose": "350 ml/100 kg seed",
+          "ai_dose": "210 g a.i./100 kg seed"
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "Nursery (\u221215 DAS)",
+          "dose_per_acre": "100 ml/ac (drench)"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "Nursery (\u221215 DAS) & 0\u201310 DAT",
+          "dose_per_acre": "100 ml/ac (drench)"
+        },
+        {
+          "crop": "Potato",
+          "stage": "0 DAP",
+          "dose_per_acre": "125 ml/1000 kg tuber (optional)"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_raxil_easy",
+      "product_name": "Raxil Easy",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Wheat",
+          "target": "Loose Smut",
+          "formulation_dose": "3.33 ml/10 kg seed",
+          "ai_dose": "0.2 g a.i./10 kg seed",
+          "method": "Slurry 10\u201312 ml/kg seed"
+        },
+        {
+          "crop": "Rice",
+          "target": "Bakanae Foot rot, Brown leaf spot",
+          "formulation_dose": "10\u201312.5 ml/10 kg seed",
+          "ai_dose": "0.6\u20130.75 g a.i./10 kg seed",
+          "method": "Slurry 14 ml/kg seed"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_adora",
+      "product_name": "Adora",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Rice (Nursery)",
+          "target": "Echinochloa spp., broadleaf weeds",
+          "formulation_dose": "200 ml/ha",
+          "ai_dose": "20 g a.i./ha",
+          "water_volume": "300 L/ha"
+        },
+        {
+          "crop": "Rice (Transplanted)",
+          "target": "Grasses, sedges, broadleaf",
+          "formulation_dose": "200\u2013250 ml/ha",
+          "ai_dose": "20\u201325 g a.i./ha",
+          "water_volume": "300 L/ha"
+        },
+        {
+          "crop": "Rice (Direct Seeded)",
+          "target": "Grasses, sedges, broadleaf",
+          "formulation_dose": "200\u2013250 ml/ha",
+          "ai_dose": "20\u201325 g a.i./ha",
+          "water_volume": "300 L/ha"
+        }
+      ],
+      "application_note": "Drain water before spray; refill within 2\u20133 days; maintain 3\u20134 cm standing water for 10 days. 80\u2013100 ml per acre."
+    },
+    {
+      "chunk_id": "dosage_alion_plus",
+      "product_name": "Alion Plus",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Tea",
+          "target": "Ageratum, Borreria, Eleusine indica",
+          "formulation_dose": "2500\u20133500 ml/ha",
+          "ai_dose": "50+1000 to 70+1400 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 7
+        },
+        {
+          "crop": "Grape",
+          "target": "Parthenium, Cynodon, Cyperus, Amaranthus",
+          "formulation_dose": "1875\u20132125 ml/ha",
+          "ai_dose": "37.5+750 to 42.5+850 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 108
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_atlantis",
+      "product_name": "Atlantis",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Wheat",
+          "target": "Phalaris minor, Chenopodium, Melilotus, broadleaves",
+          "formulation_dose": "400 g/ha",
+          "ai_dose": "12+2.4 g a.i./ha",
+          "water_volume": "400\u2013500 L/ha",
+          "waiting_period_days": 96,
+          "timing": "2\u20134 leaf stage, 30\u201335 days old wheat"
+        }
+      ],
+      "application_note": "Use with surfactant Alkyl ether sulphate Na salt (GenaPol LRO fluid) @500 ml/ha. ~160 g/acre."
+    },
+    {
+      "chunk_id": "dosage_council_activ",
+      "product_name": "Council Activ",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Rice (Transplanted)",
+          "target": "Echinochloa, Cyperus, Fimbristylis, Marsilea",
+          "formulation_dose": "225 g/ha",
+          "ai_dose": "45+22.5 g a.i./ha",
+          "water_volume": "300 L/ha",
+          "waiting_period_days": 83
+        },
+        {
+          "crop": "Rice (Direct Seeded/Wet DSR)",
+          "target": "Echinochloa, Cyperus, Digera, Commelina",
+          "formulation_dose": "225 g/ha",
+          "ai_dose": "45+22.5 g a.i./ha",
+          "water_volume": "300 L/ha",
+          "waiting_period_days": 83
+        }
+      ],
+      "application_note": "Apply at 1\u20132 leaf stage of weeds. ~90 g/acre."
+    },
+    {
+      "chunk_id": "dosage_ghasa",
+      "product_name": "Ghasa",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Cotton",
+          "target": "Trianthema, Digera, Celosia, Dinebra, Digitaria",
+          "formulation_dose": "1.0\u20131.25 L/ha",
+          "ai_dose": "60+40 to 75+50 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 160
+        }
+      ],
+      "application_note": "450 ml/acre in 150 litres water. Apply 0\u20133 days after sowing (rainfed) or 0\u20133 days after 1st irrigation (irrigated)."
+    },
+    {
+      "chunk_id": "dosage_guletta",
+      "product_name": "Guletta",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Wheat",
+          "target": "Chenopodium, Melilotus, Medicago, Lathyrus, broadleaves",
+          "formulation_dose": "50 g/ha",
+          "ai_dose": "20 g a.i./ha",
+          "water_volume": "400 L/ha",
+          "waiting_period_days": 80,
+          "timing": "25\u201335 DAS, 2\u20133 leaf BLW stage"
+        },
+        {
+          "crop": "Rice (Direct Seeded)",
+          "target": "Ludwigia, Digera, Phyllanthus, Eclipta, Cyperus",
+          "formulation_dose": "62.5 g/ha",
+          "ai_dose": "25 g a.i./ha",
+          "water_volume": "300 L/ha",
+          "waiting_period_days": 102,
+          "timing": "10\u201315 DAS, 2\u20133 leaf BLW stage"
+        }
+      ],
+      "application_note": "25 g/acre (rice). Drain water before spraying. 120 L spray volume per acre."
+    },
+    {
+      "chunk_id": "dosage_laudis",
+      "product_name": "Laudis",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Maize",
+          "target": "Echinochloa, Trianthema, Brachiaria",
+          "formulation_dose": "286 ml/ha",
+          "ai_dose": "120 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 55
+        }
+      ],
+      "application_note": "Use with surfactant @1000 ml/ha. ~115 ml/acre."
+    },
+    {
+      "chunk_id": "dosage_momiji",
+      "product_name": "Momiji",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Wheat",
+          "target": "Phalaris minor",
+          "formulation_dose": "150 g/ha",
+          "ai_dose": "127.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 131
+        },
+        {
+          "crop": "Maize",
+          "target": "Echinochloa, Eleusine, Phyllanthus",
+          "formulation_dose": "150 g/ha",
+          "ai_dose": "127.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 103
+        },
+        {
+          "crop": "Soybean",
+          "target": "Echinochloa, Celosia, Trianthema, Amaranthus, Digera",
+          "formulation_dose": "150 g/ha",
+          "ai_dose": "127.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 94
+        }
+      ],
+      "application_note": "Pre-emergence. 60 g/acre."
+    },
+    {
+      "chunk_id": "dosage_ricestar",
+      "product_name": "Ricestar",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Rice (Transplanted & Direct Seeded)",
+          "target": "Echinochloa spp. (Barnyard grass)",
+          "formulation_dose": "812.5\u2013875 ml/ha",
+          "ai_dose": "56\u201360.4 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 61,
+          "timing": "20\u201325 DAS/DAT at 3\u20135 leaf weed stage"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_roundup",
+      "product_name": "Roundup",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Tea",
+          "target": "Axonopus, Cynodon, Imperata, Paspalum",
+          "formulation_dose": "2.0\u20133.0 L/ha",
+          "ai_dose": "820\u20131230 g a.i./ha",
+          "water_volume": "450 L/ha",
+          "waiting_period_days": 21
+        },
+        {
+          "crop": "Non-cropped Area",
+          "target": "Sorghum halepense, dicot & monocot weeds",
+          "formulation_dose": "2.0\u20133.0 L/ha",
+          "ai_dose": "820\u20131230 g a.i./ha",
+          "water_volume": "500 L/ha"
+        },
+        {
+          "crop": "Rice (Pre-plant)",
+          "target": "Echinochloa, Cyperus, Eclipta, Marsilea",
+          "formulation_dose": "1.0\u20132.5 L/ha",
+          "ai_dose": "800\u20131000 g a.i./ha",
+          "water_volume": "400\u2013500 L/ha"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_roundup_speed",
+      "product_name": "Roundup Speed",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Non-cropped areas",
+          "target": "Datura, Parthenium, Ageratum, Alternanthera, Echinochloa, Commelina, Cyperus",
+          "formulation_dose": "3.33 L/ha",
+          "ai_dose": "1800 g a.i./ha",
+          "water_volume": "400\u2013500 L/ha"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_sencor",
+      "product_name": "Sencor",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Sugarcane",
+          "target": "Cyperus, Cynodon, broadleaves",
+          "formulation_dose": "1.5\u20132.0 kg/ha (pre) or 1.5\u20132.0 kg/ha (post)",
+          "ai_dose": "1.05\u20131.4 kg a.i./ha",
+          "water_volume": "750\u20131000 L/ha",
+          "waiting_period_days": 60
+        },
+        {
+          "crop": "Potato",
+          "target": "Chenopodium, Trianthema, Parthenium, Phalaris minor",
+          "formulation_dose": "0.75 kg/ha",
+          "ai_dose": "0.525 kg a.i./ha",
+          "water_volume": "750\u20131000 L/ha",
+          "waiting_period_days": 30
+        },
+        {
+          "crop": "Tomato",
+          "target": "Trianthema, Amaranthus, broadleaves, grasses",
+          "formulation_dose": "0.75 kg/ha",
+          "ai_dose": "0.525 kg a.i./ha",
+          "water_volume": "750\u20131000 L/ha",
+          "waiting_period_days": 30
+        },
+        {
+          "crop": "Wheat",
+          "target": "Phalaris minor, Chenopodium, Melilotus",
+          "formulation_dose": "0.25\u20130.30 kg/ha",
+          "ai_dose": "0.175\u20130.21 kg a.i./ha",
+          "water_volume": "500\u2013750 L/ha",
+          "waiting_period_days": 120
+        },
+        {
+          "crop": "Soybean",
+          "target": "Digitaria, Cyperus, Trianthema, Celosia",
+          "formulation_dose": "0.50\u20130.75 kg/ha",
+          "ai_dose": "0.35\u20130.525 kg a.i./ha",
+          "water_volume": "750\u20131000 L/ha",
+          "waiting_period_days": 30
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_sunrice",
+      "product_name": "Sunrice",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Rice (Transplanted)",
+          "target": "Fimbristylis, Cyperus, Scirpus, Eclipta, Monochoria, Marsilea",
+          "formulation_dose": "83.3\u2013100 g/ha",
+          "ai_dose": "12.5\u201315 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 110,
+          "timing": "5\u201310 DAT"
+        },
+        {
+          "crop": "Sugarcane",
+          "target": "Cyperus rotundus",
+          "formulation_dose": "400 ml/ha",
+          "ai_dose": "60 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 205
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_whip_super",
+      "product_name": "Whip Super",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Soybean",
+          "target": "Echinochloa, Digitaria, Eleusine, Setaria, Brachiaria",
+          "formulation_dose": "1111 ml/ha",
+          "ai_dose": "100 g a.i./ha",
+          "water_volume": "250\u2013300 L/ha",
+          "waiting_period_days": 100
+        },
+        {
+          "crop": "Rice",
+          "target": "Echinochloa spp.",
+          "formulation_dose": "625 ml/ha",
+          "ai_dose": "56.25 g a.i./ha",
+          "water_volume": "300\u2013375 L/ha",
+          "waiting_period_days": 70
+        },
+        {
+          "crop": "Cotton",
+          "target": "Echinochloa, Eleusine, Dactyloctenium",
+          "formulation_dose": "750 ml/ha",
+          "ai_dose": "67.5 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 87
+        },
+        {
+          "crop": "Groundnut",
+          "target": "Echinochloa spp.",
+          "formulation_dose": "875 ml/ha",
+          "ai_dose": "78.75 g a.i./ha",
+          "water_volume": "375 L/ha",
+          "waiting_period_days": 89
+        },
+        {
+          "crop": "Blackgram",
+          "target": "Echinochloa, Digitaria, Dactyloctenium",
+          "formulation_dose": "625\u2013750 ml/ha",
+          "ai_dose": "56.25\u201367.5 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 43
+        },
+        {
+          "crop": "Onion",
+          "target": "Echinochloa, Dactyloctenium",
+          "formulation_dose": "875 ml/ha",
+          "ai_dose": "78.75 g a.i./ha",
+          "water_volume": "375 L/ha",
+          "waiting_period_days": 10
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "Nursery (\u221215 DAS)",
+          "dose_per_acre": "250 ml/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_admire",
+      "product_name": "Admire",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Cotton",
+          "target": "Jassids, Aphids, Thrips",
+          "formulation_dose": "30\u201335 g/ha",
+          "ai_dose": "21\u201324.5 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 7
+        },
+        {
+          "crop": "Rice",
+          "target": "BPH, WBPH",
+          "formulation_dose": "30\u201335 g/ha",
+          "ai_dose": "21\u201324.5 g a.i./ha",
+          "water_volume": "300\u2013375 L/ha",
+          "waiting_period_days": 7
+        },
+        {
+          "crop": "Okra",
+          "target": "Jassids, Aphids, Thrips",
+          "formulation_dose": "30\u201335 g/ha",
+          "ai_dose": "21\u201324.5 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 3
+        },
+        {
+          "crop": "Cucumber",
+          "target": "Jassids, Aphids",
+          "formulation_dose": "35 g/ha",
+          "ai_dose": "24.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Tomato",
+          "target": "Thrips, Whiteflies",
+          "formulation_dose": "50 g/ha",
+          "ai_dose": "35 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Potato",
+          "target": "Aphids, Whiteflies",
+          "formulation_dose": "90 g/ha",
+          "ai_dose": "63 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 30
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_alanto",
+      "product_name": "Alanto",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Cotton",
+          "target": "Aphid, Jassid, Thrips",
+          "formulation_dose": "100\u2013125 ml/ha",
+          "ai_dose": "24\u201330 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 52
+        },
+        {
+          "crop": "Cotton (Whitefly)",
+          "target": "Whitefly",
+          "formulation_dose": "500\u2013600 ml/ha",
+          "ai_dose": "120\u2013144 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 52
+        },
+        {
+          "crop": "Paddy",
+          "target": "Stem Borer",
+          "formulation_dose": "500 ml/ha",
+          "ai_dose": "120 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 30
+        },
+        {
+          "crop": "Chilli",
+          "target": "Thrips",
+          "formulation_dose": "225\u2013300 ml/ha",
+          "ai_dose": "54\u201372 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Brinjal",
+          "target": "Shoot & Fruit Borer",
+          "formulation_dose": "750 ml/ha",
+          "ai_dose": "180 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Tea",
+          "target": "Mosquito bug",
+          "formulation_dose": "375 ml/ha",
+          "ai_dose": "90 g a.i./ha",
+          "water_volume": "400 L/ha",
+          "waiting_period_days": 7
+        },
+        {
+          "crop": "Soybean",
+          "target": "Girdle beetle",
+          "formulation_dose": "750 ml/ha",
+          "ai_dose": "180 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 17
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Chilli",
+          "stage": "60\u201370 DAT & 70\u201380 DAT",
+          "dose_per_acre": "250 ml/ac"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "80\u2013120 DAT",
+          "dose_per_acre": "250 ml/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_belt_expert",
+      "product_name": "Belt Expert",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Chilli",
+          "target": "Thrips and Fruit Borer",
+          "formulation_dose": "200\u2013250 ml/ha",
+          "ai_dose": "48+48 to 60+60 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Rice",
+          "target": "Yellow Stem Borer & Leaf Folder",
+          "formulation_dose": "250 ml/ha",
+          "ai_dose": "60+60 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 33
+        },
+        {
+          "crop": "Tea",
+          "target": "Mosquito bug and Semilooper",
+          "formulation_dose": "250 ml/ha",
+          "ai_dose": "60+60 g a.i./ha",
+          "water_volume": "400 L/ha",
+          "waiting_period_days": 7
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_confidor",
+      "product_name": "Confidor",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Cotton",
+          "target": "Aphid, Jassid, Thrips, Whitefly",
+          "formulation_dose": "100\u2013125 ml/ha",
+          "ai_dose": "20\u201325 g a.i./ha",
+          "water_volume": "500\u2013700 L/ha",
+          "waiting_period_days": 40
+        },
+        {
+          "crop": "Rice",
+          "target": "BPH, WBPH, GLH",
+          "formulation_dose": "100\u2013125 ml/ha",
+          "ai_dose": "20\u201325 g a.i./ha",
+          "water_volume": "500\u2013700 L/ha",
+          "waiting_period_days": 40
+        },
+        {
+          "crop": "Chillies",
+          "target": "Aphid, Jassid, Thrips",
+          "formulation_dose": "125\u2013250 ml/ha",
+          "ai_dose": "25\u201350 g a.i./ha",
+          "water_volume": "500\u2013700 L/ha",
+          "waiting_period_days": 40
+        },
+        {
+          "crop": "Sugarcane",
+          "target": "Termite",
+          "formulation_dose": "1875 ml/ha (soil)",
+          "ai_dose": "350 g a.i./ha",
+          "waiting_period_days": 45
+        },
+        {
+          "crop": "Okra",
+          "target": "Aphid, Thrips, Jassid",
+          "formulation_dose": "100 ml/ha",
+          "ai_dose": "20 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 3
+        },
+        {
+          "crop": "Tomato",
+          "target": "Whitefly",
+          "formulation_dose": "150\u2013175 ml/ha",
+          "ai_dose": "30\u201335 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 3
+        },
+        {
+          "crop": "Grapes",
+          "target": "Red beetle",
+          "formulation_dose": "300\u2013400 ml/ha",
+          "ai_dose": "60\u201380 g a.i./ha",
+          "water_volume": "1000 L/ha",
+          "waiting_period_days": 32
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_decis_100",
+      "product_name": "Decis 100",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Cotton",
+          "target": "Bollworms",
+          "formulation_dose": "125 ml/ha",
+          "ai_dose": "12.5 g a.i./ha",
+          "water_volume": "400\u2013600 L/ha",
+          "waiting_period_days": 30
+        },
+        {
+          "crop": "Tomato",
+          "target": "Fruit Borer",
+          "formulation_dose": "100\u2013125 ml/ha",
+          "ai_dose": "10\u201312.5 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 3
+        },
+        {
+          "crop": "Okra",
+          "target": "Fruit Borer",
+          "formulation_dose": "100\u2013125 ml/ha",
+          "ai_dose": "10\u201312.5 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 3
+        },
+        {
+          "crop": "Rice",
+          "target": "Leaf Folder, Stem Borer, GLH",
+          "formulation_dose": "150\u2013187.5 ml/ha",
+          "ai_dose": "15\u201318.75 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 13
+        },
+        {
+          "crop": "Chilli",
+          "target": "Fruit Borer",
+          "formulation_dose": "175 ml/ha",
+          "ai_dose": "17.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Onion",
+          "target": "Thrips",
+          "formulation_dose": "150 ml/ha",
+          "ai_dose": "15 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Cucurbits",
+          "stage": "50\u201360 DAT",
+          "dose_per_acre": "100 ml/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_fame",
+      "product_name": "Fame",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Cotton",
+          "target": "Bollworms (American & Spotted)",
+          "formulation_dose": "100\u2013125 ml/ha",
+          "ai_dose": "48\u201360 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 25
+        },
+        {
+          "crop": "Rice",
+          "target": "Stem Borer & Leaf Folder",
+          "formulation_dose": "50 ml/ha",
+          "ai_dose": "24 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 40
+        },
+        {
+          "crop": "Tomato",
+          "target": "Fruit Borer",
+          "formulation_dose": "100 ml/ha",
+          "ai_dose": "48 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Cabbage",
+          "target": "Diamond Back Moth",
+          "formulation_dose": "37.5\u201350 ml/ha",
+          "ai_dose": "18\u201324 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 7
+        },
+        {
+          "crop": "Chilli",
+          "target": "Fruit Borer (Helicoverpa, Spodoptera)",
+          "formulation_dose": "100\u2013125 ml/ha",
+          "ai_dose": "48\u201360 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 7
+        },
+        {
+          "crop": "Brinjal",
+          "target": "Shoot & Fruit Borer",
+          "formulation_dose": "150\u2013187.5 ml/ha",
+          "ai_dose": "72\u201390 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Okra",
+          "target": "Shoot and Fruit Borer",
+          "formulation_dose": "100\u2013125 ml/ha",
+          "ai_dose": "48\u201360 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 3
+        },
+        {
+          "crop": "Soybean",
+          "target": "Defoliators (Helicoverpa, Spodoptera, Semilooper)",
+          "formulation_dose": "150 ml/ha",
+          "ai_dose": "72 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 17
+        },
+        {
+          "crop": "Maize",
+          "target": "Stem Borer",
+          "formulation_dose": "3 ml/L water",
+          "ai_dose": "1.44 g a.i./L",
+          "waiting_period_days": 14
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_glamore",
+      "product_name": "Glamore",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Rice",
+          "target": "BPH & WBPH",
+          "formulation_dose": "93.75\u2013125 g/ha",
+          "ai_dose": "37.5+37.5 to 50+50 g a.i./ha",
+          "water_volume": "375 L/ha",
+          "waiting_period_days": 15
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_jump",
+      "product_name": "Jump",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Cotton",
+          "target": "Thrips",
+          "formulation_dose": "60 g/ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 14
+        },
+        {
+          "crop": "Chilli",
+          "target": "Thrips",
+          "formulation_dose": "50\u201362.5 g/ha",
+          "ai_dose": "40\u201350 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Cabbage",
+          "target": "Diamond Back Moth",
+          "formulation_dose": "75 g/ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 15
+        },
+        {
+          "crop": "Onion",
+          "target": "Thrips",
+          "formulation_dose": "75 g/ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 15
+        },
+        {
+          "crop": "Rice",
+          "target": "Stem Borer, Leaf Folder",
+          "formulation_dose": "93.75 g/ha",
+          "ai_dose": "50\u201362.5 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 15
+        },
+        {
+          "crop": "Grape",
+          "target": "Thrips",
+          "formulation_dose": "75 g/ha",
+          "water_volume": "750\u20131000 L/ha",
+          "waiting_period_days": 14
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "25 g/ac (solo) or 40 g + Movento OD 200 ml/ac (combo)"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "20\u201330 DAT onwards",
+          "dose_per_acre": "40 g/ac + Movento OD 200 ml/ac or + Alanto 250 ml/ac"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "40 g/ac"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "40 g/ac + Movento OD 200 ml/ac (combo in later stages)"
+        },
+        {
+          "crop": "Onion",
+          "stage": "30\u201340 DAT & 50\u201360 DAT",
+          "dose_per_acre": "40 g/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_lesenta",
+      "product_name": "Lesenta",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Sugarcane",
+          "target": "White grubs",
+          "formulation_dose": "437.5\u2013500 g/ha",
+          "ai_dose": "175+175 to 200+200 g a.i./ha",
+          "water_volume": "1000\u20131250 L/ha",
+          "waiting_period_days": 296
+        },
+        {
+          "crop": "Groundnut",
+          "target": "White grubs",
+          "formulation_dose": "250\u2013300 g/ha",
+          "ai_dose": "100+100 to 120+120 g a.i./ha",
+          "water_volume": "1000 L/ha",
+          "waiting_period_days": 106
+        },
+        {
+          "crop": "Cotton",
+          "target": "Jassids and Thrips",
+          "formulation_dose": "125 g/ha",
+          "ai_dose": "50+50 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 36
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "100 g/ac (drench)"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_movento",
+      "product_name": "Movento",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Chilli",
+          "target": "Thrips, Aphids",
+          "formulation_dose": "400 ml/ha",
+          "ai_dose": "60 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Grapes",
+          "target": "Mealybug, Mites",
+          "formulation_dose": "700 ml/ha",
+          "ai_dose": "105 g a.i./ha",
+          "water_volume": "500\u20131000 L/ha",
+          "waiting_period_days": 60
+        },
+        {
+          "crop": "Okra",
+          "target": "Aphids, Whiteflies, Mites",
+          "formulation_dose": "600 ml/ha",
+          "ai_dose": "90 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 3
+        },
+        {
+          "crop": "Cotton",
+          "target": "Aphids, Whiteflies, Thrips",
+          "formulation_dose": "700 ml/ha",
+          "ai_dose": "105 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 52
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "20\u201330 & 30\u201340 DAT",
+          "dose_per_acre": "200 ml/ac (combo with Jump 40 g/ac)"
+        },
+        {
+          "crop": "Cole Crops",
+          "stage": "30\u201340 DAT",
+          "dose_per_acre": "200 ml/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_movento_energy",
+      "product_name": "Movento Energy",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Brinjal",
+          "target": "Red Spider Mite, Whiteflies",
+          "formulation_dose": "500 ml/ha",
+          "ai_dose": "60+60 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Okra",
+          "target": "Red Spider Mite",
+          "formulation_dose": "500 ml/ha",
+          "ai_dose": "60+60 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 3
+        },
+        {
+          "crop": "Grape",
+          "target": "Thrips, Mites, Mealybug",
+          "formulation_dose": "750 ml/ha",
+          "ai_dose": "90+90 g a.i./ha",
+          "water_volume": "1000 L/ha",
+          "waiting_period_days": 60
+        },
+        {
+          "crop": "Cotton",
+          "target": "Mealybug",
+          "formulation_dose": "625 ml/ha",
+          "ai_dose": "75+75 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 22
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Chilli",
+          "stage": "40\u201350 DAT",
+          "dose_per_acre": "250 ml/ac"
+        },
+        {
+          "crop": "Potato",
+          "stage": "35\u201345 DAP & 60\u201370 DAP",
+          "dose_per_acre": "250 ml/ac"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "60\u201370 DAT",
+          "dose_per_acre": "250 ml/ac (+ Oberon 200 ml/ac)"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_oberon",
+      "product_name": "Oberon",
+      "category": "dosage",
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "40\u201350 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "30\u201340 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "30\u201340 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "50\u201360 DAT (solo) or 60\u201370 DAT (combo)",
+          "dose_per_acre": "200 ml/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_renkli",
+      "product_name": "Renkli",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Brinjal",
+          "target": "Aphids, Jassids, Whitefly",
+          "formulation_dose": "150 g/ha",
+          "ai_dose": "75 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 25
+        },
+        {
+          "crop": "Okra",
+          "target": "Aphids, Jassids, Whitefly",
+          "formulation_dose": "150 g/ha",
+          "ai_dose": "75 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 10
+        },
+        {
+          "crop": "Cotton",
+          "target": "Aphid, Jassids, Thrips, Whitefly",
+          "formulation_dose": "200 g/ha",
+          "ai_dose": "100 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 15
+        },
+        {
+          "crop": "Rice",
+          "target": "BPH, WBPH, GLH",
+          "formulation_dose": "200 g/ha",
+          "ai_dose": "100 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 36
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_solomon",
+      "product_name": "Solomon",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Brinjal",
+          "target": "Aphids, Jassids, Shoot & Fruit Borer",
+          "formulation_dose": "175\u2013200 ml/ha",
+          "ai_dose": "15.75+36.75 to 18+42 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 7
+        },
+        {
+          "crop": "Soybean",
+          "target": "Girdle beetle & Semilooper",
+          "formulation_dose": "350 ml/ha",
+          "ai_dose": "31.5+73.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 17
+        },
+        {
+          "crop": "Cotton",
+          "target": "Jassids and Whitefly",
+          "formulation_dose": "200 ml/ha",
+          "ai_dose": "18+42 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 21
+        },
+        {
+          "crop": "Chilli",
+          "target": "Thrips, Aphids, Whitefly",
+          "formulation_dose": "310 ml/ha",
+          "ai_dose": "27.9+65.1 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "30\u201340 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "10\u201320 DAT & 50\u201360 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "20\u201330 DAT & 70\u201380 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Onion",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Cole Crops",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Potato",
+          "stage": "25\u201335 DAP",
+          "dose_per_acre": "200 ml/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_vayego",
+      "product_name": "Vayego",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Rice",
+          "target": "Yellow Stem Borer, Leaf Folder",
+          "formulation_dose": "250\u2013300 ml/ha",
+          "ai_dose": "50\u201360 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 43
+        },
+        {
+          "crop": "Soybean",
+          "target": "Girdle beetle, Spodoptera, Semilooper",
+          "formulation_dose": "250\u2013300 ml/ha",
+          "ai_dose": "50\u201360 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 35
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_curbix_pro",
+      "product_name": "Curbix Pro",
+      "category": "dosage",
+      "application_note": "Effective broad spectrum hopper control in paddy across all instars. Refer to label for per-hectare dosage."
+    },
+    {
+      "chunk_id": "dosage_velum_prime",
+      "product_name": "Velum Prime",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Tomato",
+          "target": "Root knot nematode (Meloidogyne incognita)",
+          "formulation_dose": "625 ml/ha \u00d7 2 applications OR 1250 ml/ha single application",
+          "ai_dose": "250 g \u00d7 2 OR 500 g single a.i./ha",
+          "water_volume": "1000 L/ha",
+          "waiting_period_days": 5,
+          "method": "Soil drench"
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "0\u20135 DAT (full 500 ml or split 250 ml) + 21 DAA (split 250 ml)",
+          "dose_per_acre": "500 ml full dose or 250 ml split per application"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "0\u20135 DAT (full 500 ml or split 250 ml) + 21 DAA (split 250 ml)",
+          "dose_per_acre": "500 ml full dose or 250 ml split per application"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "0\u20135 DAT (250 ml split) + 21 DAA (250 ml split)",
+          "dose_per_acre": "250 ml/ac per drench"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "0\u20135 DAT (full 500 ml or split 250 ml) + 21 DAA (split 250 ml)",
+          "dose_per_acre": "500 ml full dose or 250 ml split per application"
+        },
+        {
+          "crop": "Cole Crops",
+          "stage": "0\u201310 DAT",
+          "dose_per_acre": "500 ml/ac (drench)"
+        },
+        {
+          "crop": "Potato",
+          "stage": "0\u201310 DAP",
+          "dose_per_acre": "500 ml/ac (drench)"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_acerbo",
+      "product_name": "Acerbo",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Rice",
+          "target": "Sheath Blight, Leaf and Neck Blast",
+          "formulation_dose": "500\u2013600 ml/ha",
+          "ai_dose": "125+125 to 150+150 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 32
+        },
+        {
+          "crop": "Chilli",
+          "target": "Powdery Mildew and Anthracnose",
+          "formulation_dose": "500\u2013600 ml/ha",
+          "ai_dose": "125+125 to 150+150 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Onion",
+          "target": "Purple blotch",
+          "formulation_dose": "500\u2013600 ml/ha",
+          "ai_dose": "125+125 to 150+150 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 30
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "20\u201330 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "40\u201350 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Onion",
+          "stage": "60\u201365 DAT",
+          "dose_per_acre": "200 ml/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_aliette",
+      "product_name": "Aliette",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Grapes",
+          "target": "Downy Mildew",
+          "formulation_dose": "1400\u20132000 g/ha (spray)",
+          "ai_dose": "1120\u20131600 g a.i./ha",
+          "water_volume": "750\u20131000 L/ha",
+          "waiting_period_days": 30,
+          "timing": "Spray at 3\u20135 leaf stage after pruning"
+        },
+        {
+          "crop": "Cardamom",
+          "target": "Azhukal disease, Damping off",
+          "formulation_dose": "2250\u20133000 g/ha",
+          "ai_dose": "1800\u20132400 g a.i./ha",
+          "water_volume": "750\u20131000 L/ha",
+          "waiting_period_days": 90
+        },
+        {
+          "crop": "Tomato",
+          "target": "Damping off",
+          "formulation_dose": "2.5\u20133.0 g/L (soil drench)",
+          "ai_dose": "2.0\u20132.4 g a.i./L",
+          "method": "1 L/sq.m drench at 7 days after emergence + 14 days later"
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "Nursery (\u221215 DAS) & 0\u201310 DAT",
+          "dose_per_acre": "3 g/L (600 ml/ac) drench \u2014 solo application"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "Nursery (\u221215 DAS)",
+          "dose_per_acre": "3 g/L (600 ml/ac) drench"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "Nursery (\u221215 DAS) & 0\u201310 DAT",
+          "dose_per_acre": "3 g/L (600 ml/ac) drench"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "Nursery (\u221215 DAS) & 0\u201310 DAT",
+          "dose_per_acre": "3 g/L (600 ml/ac) drench"
+        },
+        {
+          "crop": "Onion",
+          "stage": "0\u20133 DAT",
+          "dose_per_acre": "3 g/L drench"
+        },
+        {
+          "crop": "Cole Crops",
+          "stage": "Nursery (\u221215 DAS)",
+          "dose_per_acre": "3 g/L (600 ml/ac) drench"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_antracol",
+      "product_name": "Antracol",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Apple",
+          "target": "Scab",
+          "formulation_dose": "300 g/100 L water (0.30%)",
+          "waiting_period_days": 30
+        },
+        {
+          "crop": "Pomegranate",
+          "target": "Leaf and Fruit Spot",
+          "formulation_dose": "300 g/100 L water (0.30%)",
+          "waiting_period_days": 10
+        },
+        {
+          "crop": "Potato",
+          "target": "Early & Late Blight",
+          "formulation_dose": "300 g/100 L water (0.30%)",
+          "waiting_period_days": 15
+        },
+        {
+          "crop": "Chilli",
+          "target": "Dieback",
+          "formulation_dose": "500 g/100 L water (0.50%)",
+          "waiting_period_days": 10
+        },
+        {
+          "crop": "Tomato",
+          "target": "Buckeye rot",
+          "formulation_dose": "300 g/100 L water (0.30%)",
+          "waiting_period_days": 10
+        },
+        {
+          "crop": "Grapes",
+          "target": "Downy Mildew",
+          "formulation_dose": "300 g/100 L water (0.30%)",
+          "waiting_period_days": 40
+        },
+        {
+          "crop": "Rice",
+          "target": "Brown leaf spot, Alternaria leaf spot, Narrow leaf spot",
+          "formulation_dose": "1500\u20132000 g/ha",
+          "ai_dose": "1050\u20131400 g a.i./ha",
+          "water_volume": "500 L/ha"
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "500 g/ac"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "500 g/ac"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "500 g/ac"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "500 ml/ac"
+        },
+        {
+          "crop": "Onion",
+          "stage": "20\u201330 DAT",
+          "dose_per_acre": "600 g/ac"
+        },
+        {
+          "crop": "Cole Crops",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "500 g/ac"
+        },
+        {
+          "crop": "Potato",
+          "stage": "10\u201325 DAP",
+          "dose_per_acre": "600 g/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_buonos",
+      "product_name": "Buonos",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Wheat",
+          "target": "Yellow Rust and Powdery Mildew",
+          "formulation_dose": "600 ml/ha",
+          "ai_dose": "258 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Rice",
+          "target": "Sheath Blight",
+          "formulation_dose": "436\u2013500 ml/ha",
+          "ai_dose": "187.5\u2013215 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 35
+        },
+        {
+          "crop": "Tomato",
+          "target": "Early blight and Anthracnose",
+          "formulation_dose": "625 ml/ha",
+          "ai_dose": "268.75 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Chilli",
+          "target": "Powdery Mildew and Cercospora leaf spots",
+          "formulation_dose": "440\u2013500 ml/ha",
+          "ai_dose": "189.2\u2013215 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Grape",
+          "target": "Powdery Mildew",
+          "formulation_dose": "500\u2013550 ml/ha",
+          "ai_dose": "215\u2013236.5 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 60
+        },
+        {
+          "crop": "Onion",
+          "target": "Purple blotch, Stemphylium blight",
+          "formulation_dose": "440\u2013500 ml/ha",
+          "ai_dose": "189.2\u2013215 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": 43
+        },
+        {
+          "crop": "Soybean",
+          "target": "Leaf spots (Alternaria, Cercospora, Myrothecium)",
+          "formulation_dose": "600 ml/ha",
+          "ai_dose": "258 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 28
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Chilli",
+          "stage": "10\u201320 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "20\u201330 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "20\u201330 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Onion",
+          "stage": "20\u201330 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Cole Crops",
+          "stage": "20\u201330 DAT",
+          "dose_per_acre": "200 ml/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_folicur",
+      "product_name": "Folicur",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Rice",
+          "target": "Blast, Sheath Blight",
+          "formulation_dose": "750 ml/ha",
+          "ai_dose": "187.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 10
+        },
+        {
+          "crop": "Chilli",
+          "target": "Powdery Mildew, Fruit Rot",
+          "formulation_dose": "500\u2013750 ml/ha",
+          "ai_dose": "125\u2013187.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Groundnut",
+          "target": "Tikka and Rust",
+          "formulation_dose": "500\u2013750 ml/ha",
+          "ai_dose": "125\u2013187.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 49
+        },
+        {
+          "crop": "Onion",
+          "target": "Purple blotch",
+          "formulation_dose": "625\u2013750 ml/ha",
+          "ai_dose": "156.3\u2013187.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 21
+        },
+        {
+          "crop": "Soybean",
+          "target": "Anthracnose (Pod blight)",
+          "formulation_dose": "625 ml/ha",
+          "ai_dose": "156.3 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 14
+        },
+        {
+          "crop": "Blackgram",
+          "target": "Leaf spots (Cercospora and Anthracnose)",
+          "formulation_dose": "750 ml/ha",
+          "ai_dose": "187.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 17
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Chilli",
+          "stage": "Fusarium Wilt treatment",
+          "dose_per_acre": "1 ml/L (drench)"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "Fusarium Wilt treatment",
+          "dose_per_acre": "2 ml/L (drench)"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_infinito",
+      "product_name": "Infinito",
+      "category": "dosage",
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "30\u201340 DAT & 50\u201360 DAT",
+          "dose_per_acre": "600 ml/ac"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "30\u201340 DAT",
+          "dose_per_acre": "600 ml/ac"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "20\u201330 DAT & 40\u201350 DAT",
+          "dose_per_acre": "600 ml/ac"
+        },
+        {
+          "crop": "Onion",
+          "stage": "40\u201350 DAT",
+          "dose_per_acre": "600 ml/ac"
+        },
+        {
+          "crop": "Cole Crops",
+          "stage": "30\u201340 DAT & 50\u201360 DAT",
+          "dose_per_acre": "600 g/ac"
+        },
+        {
+          "crop": "Potato",
+          "stage": "25\u201335 DAP",
+          "dose_per_acre": "600 ml/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_luna_experience",
+      "product_name": "Luna Experience",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Grape",
+          "target": "Powdery Mildew, Anthracnose",
+          "formulation_dose": "562.5 ml/ha",
+          "ai_dose": "112.5+112.5 g a.i./ha",
+          "water_volume": "750\u20131000 L/ha",
+          "waiting_period_days": 10
+        },
+        {
+          "crop": "Chilli",
+          "target": "Powdery Mildew, Anthracnose",
+          "formulation_dose": "500 ml/ha",
+          "ai_dose": "100+100 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Rice",
+          "target": "False smut, Dirty Panicle",
+          "formulation_dose": "550 ml/ha",
+          "ai_dose": "110+110 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 22
+        },
+        {
+          "crop": "Onion",
+          "target": "Post-harvest diseases (Black mold, Neck rot)",
+          "formulation_dose": "375 ml/ha",
+          "ai_dose": "75+75 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 30
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "30\u201340 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "50\u201360 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "50\u201360 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "50\u201360 DAT",
+          "dose_per_acre": "200 ml/ac"
+        },
+        {
+          "crop": "Onion",
+          "stage": "80\u201385 DAT",
+          "dose_per_acre": "150 ml/ac"
+        },
+        {
+          "crop": "Cole Crops",
+          "stage": "40\u201350 DAT",
+          "dose_per_acre": "200 ml/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_melody_duo",
+      "product_name": "Melody Duo",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Potato",
+          "target": "Late blight",
+          "formulation_dose": "2000 g/ha",
+          "ai_dose": "110+1225 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 26
+        },
+        {
+          "crop": "Grapes",
+          "target": "Downy Mildew",
+          "formulation_dose": "2250 g/ha (0.3%)",
+          "ai_dose": "123.75+1378.13 g a.i./ha",
+          "water_volume": "750 L/ha",
+          "waiting_period_days": 55
+        },
+        {
+          "crop": "Tomato",
+          "target": "Early and Late blight",
+          "formulation_dose": "2250\u20132500 g/ha",
+          "ai_dose": "123.75\u2013137.5 + 1378.13\u20131531.25 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_nativo",
+      "product_name": "Nativo",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Rice",
+          "target": "Sheath blight, Leaf/Neck blast, Dirty panicle",
+          "formulation_dose": "200 g/ha (early) or 350\u2013400 g/ha (late)",
+          "ai_dose": "100+50 to 200+100 g a.i./ha",
+          "water_volume": "375\u2013500 L/ha",
+          "waiting_period_days": "21\u201335"
+        },
+        {
+          "crop": "Tomato",
+          "target": "Early blight",
+          "formulation_dose": "350 g/ha",
+          "ai_dose": "175+87.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 3
+        },
+        {
+          "crop": "Grape",
+          "target": "Powdery Mildew",
+          "formulation_dose": "175 g/ha",
+          "ai_dose": "87.5+43.75 g a.i./ha",
+          "water_volume": "1000 L/ha",
+          "waiting_period_days": 34
+        },
+        {
+          "crop": "Chilli",
+          "target": "Powdery Mildew, Anthracnose, Alternaria leaf spot",
+          "formulation_dose": "250 g/ha",
+          "ai_dose": "125+62.5 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 5
+        },
+        {
+          "crop": "Wheat",
+          "target": "Yellow rust, Powdery Mildew",
+          "formulation_dose": "300 g/ha",
+          "ai_dose": "150+75 g a.i./ha",
+          "water_volume": "300\u2013500 L/ha",
+          "waiting_period_days": 40
+        },
+        {
+          "crop": "Onion",
+          "target": "Purple blotch",
+          "formulation_dose": "300 g/ha",
+          "ai_dose": "150+75 g a.i./ha",
+          "water_volume": "500 L/ha",
+          "waiting_period_days": 29
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "40\u201350 DAT",
+          "dose_per_acre": "140 g/ac (or Luna Experience 200 ml/ac)"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "20\u201330 DAT",
+          "dose_per_acre": "100 g/ac"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "20\u201330 DAT",
+          "dose_per_acre": "120 g/ac"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "30\u201340 DAT",
+          "dose_per_acre": "120 g/ac"
+        },
+        {
+          "crop": "Onion",
+          "stage": "30\u201340 DAT",
+          "dose_per_acre": "120 g/ac"
+        },
+        {
+          "crop": "Cole Crops",
+          "stage": "20\u201330 DAT",
+          "dose_per_acre": "120 g/ac"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_profiler",
+      "product_name": "Profiler",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Grape",
+          "target": "Downy Mildew",
+          "formulation_dose": "2250\u20132500 g/ha",
+          "ai_dose": "99.9+1500 to 111+1667 g a.i./ha",
+          "water_volume": "750 L/ha",
+          "waiting_period_days": 32,
+          "timing": "From 3\u20134 leaf stage after pruning, repeat 1\u20132 times at 10\u201315 day intervals"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_rhapsody",
+      "product_name": "Rhapsody",
+      "category": "dosage",
+      "dosages": [
+        {
+          "crop": "Grapes",
+          "target": "Powdery Mildew (Erysiphe necator)",
+          "formulation_dose": "1000 ml in 500 L water/ha (foliar spray, 8\u201310 times) + 1000 ml in 500 L (soil drench, twice)",
+          "method": "Foliar: bud break to harvest; Soil: pruning to harvest, 30-day interval",
+          "waiting_period_days": 0
+        }
+      ],
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "10\u201320 DAT & 20\u201330 DAT",
+          "dose_per_acre": "500 ml/ac (foliar) or 1000 ml/ac (drench)"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "20\u201330 DAT",
+          "dose_per_acre": "500 ml/ac"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "50\u201360 DAT",
+          "dose_per_acre": "500 ml/ac"
+        },
+        {
+          "crop": "Cole Crops",
+          "stage": "40\u201350 DAT",
+          "dose_per_acre": "500 ml/ac"
+        },
+        {
+          "crop": "All crops (Root Health)",
+          "stage": "0\u201310 DAT & 20\u201330 DAT",
+          "dose_per_acre": "1000 ml/ac (drench)"
+        }
+      ]
+    },
+    {
+      "chunk_id": "dosage_camalus",
+      "product_name": "Camalus",
+      "category": "dosage",
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "20\u201330 DAT, 40\u201350 DAT, 50\u201360 DAT, 60\u201370 DAT",
+          "dose_per_acre": "150 ml/ac",
+          "target": "Leaf Miner (Tuta/Serpentine), Fruit Borer/Spodoptera"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "30\u201340 DAT, 50\u201360 DAT, 70\u201380 DAT",
+          "dose_per_acre": "150 ml/ac",
+          "target": "Thrips, Fruit Borer/Spodoptera"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "20\u201330 DAT, 40\u201350 DAT",
+          "dose_per_acre": "150 ml/ac",
+          "target": "Aphids/WF, Leaf Miner/Semilooper"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "20\u201330 DAT, 40\u201350 DAT, 60\u201370 DAT, 80\u2013120 DAT",
+          "dose_per_acre": "150 ml/ac",
+          "target": "Shoot and Fruit Borer, Jassids/WF/Mites"
+        },
+        {
+          "crop": "Onion",
+          "stage": "40\u201350 DAT",
+          "dose_per_acre": "150 ml/ac",
+          "target": "Thrips"
+        },
+        {
+          "crop": "Cole Crops",
+          "stage": "20\u201330 DAT, 40\u201350 DAT, 60\u201370 DAT, 80\u2013120 DAT",
+          "dose_per_acre": "150 ml/ac",
+          "target": "DBM/Spodoptera/Aphids"
+        }
+      ],
+      "application_note": "Camalus appears only in the Crop Calendar (no Product Manual label page). Dosage is consistently 150 ml/ac across all vegetable crops."
+    },
+    {
+      "chunk_id": "dosage_spintor",
+      "product_name": "Spintor",
+      "category": "dosage",
+      "crop_calendar": [
+        {
+          "crop": "Tomato",
+          "stage": "20\u201330 DAT",
+          "dose_per_acre": "75 ml/ac",
+          "target": "Leaf Miner"
+        },
+        {
+          "crop": "Chilli",
+          "stage": "40\u201350 DAT",
+          "dose_per_acre": "75 ml/ac",
+          "target": "Fruit Borer"
+        },
+        {
+          "crop": "Cucurbits",
+          "stage": "40\u201350 DAT",
+          "dose_per_acre": "75 ml/ac",
+          "target": "Leaf Miner/Semilooper/FB"
+        },
+        {
+          "crop": "Brinjal",
+          "stage": "10\u201320 DAT & 40\u201350 DAT",
+          "dose_per_acre": "75 ml/ac",
+          "target": "Shoot and Fruit Borer"
+        },
+        {
+          "crop": "Onion",
+          "stage": "50\u201360 DAT",
+          "dose_per_acre": "75 ml/ac",
+          "target": "Leaf Miner"
+        }
+      ],
+      "application_note": "Spintor (Spinosad) appears only in the Crop Calendar. Consistent 75 ml/ac dosage."
     }
   ]
 }

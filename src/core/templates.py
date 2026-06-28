@@ -30,7 +30,7 @@ Event Details:
 {brief_json}
 
 [PRODUCT KNOWLEDGE CONTEXT]
-If specific products are mentioned in the event details above, here are their official specifications. You must strictly incorporate these details (e.g., color, days to harvest, yield, weight) into the copy when mentioning the product. Do not hallucinate product details; rely exclusively on this context:
+If specific products are mentioned in the event details above, here are their official specifications. You must strictly incorporate these details (e.g., dosage instructions like ml/acre, target pests/diseases, crop stages, color, days to harvest, yield, weight) into the copy when mentioning the product. Do not hallucinate product details; rely exclusively on this context:
 {product_knowledge}
 
 [CRITICAL IMAGE CONTEXT (If an image is attached)]
