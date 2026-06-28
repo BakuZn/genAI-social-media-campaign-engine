@@ -6,6 +6,7 @@ import streamlit as st
 import os
 import base64
 import urllib.parse
+import json
 
 def get_base64_image(image_path: str) -> str:
     """Helper to load local image as base64 for HTML embedding."""
@@ -329,19 +330,115 @@ def render_poster_panel(image_bytes):
     </div>
     """, unsafe_allow_html=True)
 
-def generate_platform_url(platform: str, content: str) -> str:
-    """Mock URL builder."""
+def render_smart_share_button(platform: str, content: str):
+    """
+    Renders a branded smart button that copies text and opens the native platform in one click.
+    """
     plat_lower = platform.lower()
+    encoded_msg = urllib.parse.quote(content)
+    
+    # Defaults
+    bg_color = "#333333"
+    svg_icon = ""
+    url = "#"
+    
     if "whatsapp" in plat_lower:
-        encoded_msg = urllib.parse.quote(content)
-        return f"https://web.whatsapp.com/send?text={encoded_msg}"
-    elif "linkedin" in plat_lower:
-        return "https://www.linkedin.com"
+        bg_color = "#25D366"
+        url = f"https://api.whatsapp.com/send?text={encoded_msg}"
+        svg_icon = '<svg viewBox="0 0 24 24" width="20" height="20"><path d="M17.47 16.53c-.32.9-1.8 1.62-2.52 1.76-.6.12-1.39.22-4.14-1-3.23-1.44-5.26-4.9-5.42-5.14-.15-.24-1.29-1.81-1.29-3.46s.85-2.48 1.15-2.82c.26-.29.69-.37.99-.37.1 0 .19 0 .28.01.27.02.63-.09.91.64.3.75 1.01 2.61 1.1 2.82.09.21.16.47.03.74-.12.28-.19.45-.39.69-.21.24-.45.54-.62.72-.18.19-.39.4-.17.78.22.38 1.01 1.75 2.15 2.8 1.48 1.36 2.8 1.83 3.19 2.01.38.18.6.15.82-.1.22-.25.96-1.16 1.22-1.55.26-.39.52-.33.88-.2.37.13 2.3 1.13 2.7 1.33.39.2.66.3.75.46.09.16.09.93-.23 1.83M12.02 2C6.49 2 2 6.49 2 12.02c0 1.77.46 3.5 1.34 5.03L2 22l5.1-1.33c1.47.8 3.14 1.22 4.9 1.22 5.53 0 10.02-4.49 10.02-10.02C22 6.49 17.55 2 12.02 2z" fill="#FFFFFF"/></svg>'
     elif "facebook" in plat_lower:
-        return "https://www.facebook.com"
+        bg_color = "#1877F2"
+        url = f"https://www.facebook.com/sharer/sharer.php?u=https://bayer.com&quote={encoded_msg}"
+        svg_icon = '<svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.35L15.9 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z" fill="#FFFFFF"/></svg>'
     elif "instagram" in plat_lower:
-        return "https://www.instagram.com"
-    return "#"
+        bg_color = "#E1306C"
+        url = "https://www.instagram.com"
+        svg_icon = '<svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.22.41.56.22.95.48 1.38.91.43.43.69.82.91 1.38.16.42.36 1.05.41 2.22.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.22-.22.56-.48.95-.91 1.38-.43.43-.82.69-1.38.91-.42.16-1.05.36-2.22.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.22-.41-.56-.22-.95-.48-1.38-.91-.43-.43-.69-.82-.91-1.38-.16-.42-.36-1.05-.41-2.22C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.22.22-.56.48-.95.91-1.38.43-.43.82-.69 1.38-.91.42-.16 1.05-.36 2.22-.41 1.27-.06 1.65-.07 4.85-.07M12 0C8.74 0 8.33.01 7.05.07 5.77.13 4.9.33 4.14.63c-.8.3-1.47.7-2.14 1.37-.67.67-1.07 1.34-1.37 2.14-.3.76-.5 1.63-.56 2.91C.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.28.26 2.15.56 2.91.3.8.7 1.47 1.37 2.14.67.67 1.34 1.07 2.14 1.37.76.3 1.63.5 2.91.56 1.28.06 1.69.07 4.95.07s3.67-.01 4.95-.07c1.28-.06 2.15-.26 2.91-.56.8-.3 1.47-.7 2.14-1.37.67-.67 1.07-1.34 1.37-2.14.3-.76.5-1.63.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.28-.26-2.15-.56-2.91-.3-.8-.7-1.47-1.37-2.14-.67-.67-1.34-1.07-2.14-1.37-.76-.3-1.63-.5-2.91-.56C15.67.01 15.26 0 12 0zm0 5.84A6.16 6.16 0 1018.16 12 6.16 6.16 0 0012 5.84zm0 10.16A4 4 0 1116 12a4 4 0 01-4 4zm6.4-9.67a1.44 1.44 0 11-2.88 0 1.44 1.44 0 012.88 0z" fill="#FFFFFF"/></svg>'
+    elif "linkedin" in plat_lower:
+        bg_color = "#0A66C2"
+        url = f"https://www.linkedin.com/shareArticle?mini=true&url=https://bayer.com&title=Bayer%20Campaign&summary={encoded_msg}"
+        svg_icon = '<svg viewBox="0 0 24 24" width="20" height="20"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.27c-.97 0-1.75-.79-1.75-1.76s.78-1.76 1.75-1.76 1.75.79 1.75 1.76-.78 1.76-1.75 1.76zm13.5 12.27h-3v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.15 1.45-2.15 2.95v5.7h-3v-11h2.88v1.5h.04c.4-.76 1.38-1.56 2.84-1.56 3.04 0 3.6 2 3.6 4.6v6.46z" fill="#FFFFFF"/></svg>'
+    
+    # Safe JSON string for the JS payload
+    safe_content = json.dumps(content)
+    
+    html_code = f"""
+    <div id="btn-container" style="
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        background-color: {bg_color}; 
+        color: white; 
+        padding: 10px 15px; 
+        border-radius: 6px; 
+        cursor: pointer; 
+        font-family: 'Inter', sans-serif; 
+        font-weight: 600; 
+        font-size: 14px; 
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+        transition: transform 0.1s ease, box-shadow 0.1s ease;
+        user-select: none;
+        margin-top: 10px;
+    " 
+    onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.15)';" 
+    onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)';"
+    onclick="handleSmartClick()">
+        <div style="display: flex; align-items: center; gap: 8px;">
+            {svg_icon}
+            <span>Open {platform.title()}</span>
+        </div>
+    </div>
+    
+    <div id="toast" style="
+        visibility: hidden;
+        min-width: 200px;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        border-radius: 4px;
+        padding: 8px;
+        position: fixed;
+        z-index: 1;
+        left: 50%;
+        bottom: 10px;
+        transform: translateX(-50%);
+        font-family: sans-serif;
+        font-size: 12px;
+        opacity: 0;
+        transition: opacity 0.3s, visibility 0.3s;
+    ">Caption copied! Opening...</div>
+
+    <script>
+        function handleSmartClick() {{
+            const content = {safe_content};
+            const url = "{url}";
+            
+            // Try clipboard
+            navigator.clipboard.writeText(content).then(() => {{
+                showToast();
+                setTimeout(() => {{
+                    window.open(url, '_blank');
+                }}, 800);
+            }}).catch(err => {{
+                console.error("Clipboard failed", err);
+                // Still open URL if clipboard fails
+                window.open(url, '_blank');
+            }});
+        }}
+        
+        function showToast() {{
+            const toast = document.getElementById("toast");
+            toast.style.visibility = "visible";
+            toast.style.opacity = "1";
+            setTimeout(() => {{
+                toast.style.visibility = "hidden";
+                toast.style.opacity = "0";
+            }}, 2000);
+        }}
+    </script>
+    """
+    import streamlit.components.v1 as components
+    components.html(html_code, height=60)
 
 def render_asset_card(platform: str, post_content: str, lang: str):
     """
@@ -366,11 +463,5 @@ def render_asset_card(platform: str, post_content: str, lang: str):
     </div>
     """, unsafe_allow_html=True)
     
-    # Action Footer using Streamlit columns to align buttons tightly
-    col1, col2 = st.columns(2)
-    with col1:
-        with st.popover("📄 Copy", use_container_width=True):
-            st.code(post_content, language="markdown")
-    with col2:
-        url = generate_platform_url(platform, post_content)
-        st.link_button(f"{icon} Open {platform.title()}", url, use_container_width=True)
+    # Action Footer using Smart Button
+    render_smart_share_button(platform, post_content)
