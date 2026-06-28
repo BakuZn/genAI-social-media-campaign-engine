@@ -9,6 +9,7 @@ import time
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 
 import streamlit as st
+import streamlit.components.v1 as components
 from ui.components import (
     apply_bayer_theme, 
     render_compact_header, 
@@ -186,6 +187,12 @@ def main():
                         campaign_results = generate_campaign_cached(selected_event, platforms, languages, image_bytes)
                         
                         status.update(label="Campaign Assets Generated Successfully", state="complete", expanded=False)
+                        
+                        st.markdown("<div id='campaign-results-start'></div>", unsafe_allow_html=True)
+                        components.html(
+                            "<script>window.parent.document.getElementById('campaign-results-start').scrollIntoView({behavior: 'smooth'});</script>",
+                            height=0
+                        )
                         
                         # Render output grids
                         for lang in languages:

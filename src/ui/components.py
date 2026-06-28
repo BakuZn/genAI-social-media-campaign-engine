@@ -186,31 +186,55 @@ def render_compact_header():
     b64_sangam = get_base64_image(sangam_logo_path)
     b64_seminis = get_base64_image(seminis_logo_path)
     
-    img_bayer = f'<img src="data:image/jpeg;base64,{b64_bayer}" style="height: 110px; margin-right: 20px;">' if b64_bayer else ''
-    img_sangam = f'<img src="data:image/jpeg;base64,{b64_sangam}" style="height: 165px; border-radius: 8px;">' if b64_sangam else ''
-    img_seminis = f'<img src="data:image/png;base64,{b64_seminis}" style="height: 110px; border-radius: 4px;">' if b64_seminis else ''
+    img_bayer = f'<img src="data:image/jpeg;base64,{b64_bayer}" class="nav-logo-bayer">' if b64_bayer else ''
+    img_sangam = f'<img src="data:image/jpeg;base64,{b64_sangam}" class="nav-logo-sangam">' if b64_sangam else ''
+    img_seminis = f'<img src="data:image/png;base64,{b64_seminis}" class="nav-logo-seminis">' if b64_seminis else ''
 
     st.markdown(f"""
-    <div style="background-color: white; padding: 0 30px; height: 190px; display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid #003E96; position: fixed; top: 0; left: 0; width: 100%; z-index: 999999; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+    <style>
+        .custom-nav-bar {{
+            background-color: white; padding: 0 30px; display: flex; align-items: center; justify-content: space-between; 
+            border-bottom: 2px solid #003E96; position: fixed; top: 0; left: 0; width: 100%; z-index: 999999; box-shadow: 0 2px 5px rgba(0,0,0,0.05); height: 190px;
+        }}
+        .nav-logo-bayer {{ height: 110px; margin-right: 20px; }}
+        .nav-logo-sangam {{ height: 165px; border-radius: 8px; }}
+        .nav-logo-seminis {{ height: 110px; border-radius: 4px; }}
+        .nav-left, .nav-center, .nav-right {{ display: flex; align-items: center; flex: 1; }}
+        .nav-center {{ justify-content: center; }}
+        .nav-right {{ justify-content: flex-end; }}
+        .nav-spacer {{ height: 210px; }}
+        
+        @media (max-width: 768px) {{
+            .custom-nav-bar {{ flex-direction: column; height: auto; padding: 10px; gap: 10px; position: static; }}
+            .nav-left, .nav-center, .nav-right {{ flex: auto; justify-content: center; width: 100%; }}
+            .nav-logo-bayer, .nav-logo-sangam, .nav-logo-seminis {{ height: 60px; margin: 0; margin-bottom: 5px; }}
+            .nav-left {{ flex-direction: column; text-align: center; }}
+            .nav-title-text {{ font-size: 16px !important; margin-bottom: 5px; }}
+            .nav-spacer {{ display: none; }}
+            .nav-divider {{ display: none; }}
+        }}
+    </style>
+    
+    <div class="custom-nav-bar">
         <!-- Left Section -->
-        <div style="display: flex; align-items: center; flex: 1;">
+        <div class="nav-left">
             {img_bayer}
-            <div style="width: 1px; height: 80px; background: #E2E8F0; margin-right: 20px;"></div>
+            <div class="nav-divider" style="width: 1px; height: 80px; background: #E2E8F0; margin-right: 20px;"></div>
             <div>
-                <div style="color: #003E96; font-size: 22px; font-weight: 700; letter-spacing: 0.5px; margin-bottom: 5px;">Sangam 2.0 Campaign Workspace</div>
+                <div class="nav-title-text" style="color: #003E96; font-size: 22px; font-weight: 700; letter-spacing: 0.5px; margin-bottom: 5px;">Sangam 2.0 Campaign Workspace</div>
                 <span style="background-color: #5CB531; color: white; padding: 4px 10px; border-radius: 4px; font-size: 11px; font-weight: bold; text-transform: uppercase;">Production</span>
             </div>
         </div>
         <!-- Center Section (Sangam Logo) -->
-        <div style="display: flex; justify-content: center; align-items: center; flex: 1;">
+        <div class="nav-center">
             {img_sangam}
         </div>
         <!-- Right Section (Seminis Logo) -->
-        <div style="display: flex; justify-content: flex-end; align-items: center; flex: 1;">
+        <div class="nav-right">
             {img_seminis}
         </div>
     </div>
-    <div style="height: 210px;"></div>
+    <div class="nav-spacer"></div>
     """, unsafe_allow_html=True)
 
 def render_dashboard_kpis(event, num_channels, num_langs):
